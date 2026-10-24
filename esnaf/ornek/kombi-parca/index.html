@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Örnek Kombi Servisi · Keçiören</title>
+<meta name="description" content="Örnek Kombi Servisi: Keçiören kombi arıza, bakım ve montaj servisi. Arıza kaydı bırakın, sizi arayalım.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Manrope:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --zemin:#EFEDE9; --yuzey:#FAF8F5; --metin:#191C20; --soluk:#575C63; --cizgi:#D4D1CB;
+  --koyu:#15181D; --koyu2:#1F242B; --acik:#EFF1F4; --acik-soluk:#B4BAC3;
+  --marka:#C65430;
+  --alev-mavi:#2F6DB5; --alev-turuncu:#E08A3C; --alev-kirmizi:#C14D2A;
+  --yaricap:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+html,body{overflow-x:clip}
+body{margin:0;background:var(--zemin);color:var(--metin);font:400 17px/1.65 'Manrope',system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--marka);outline-offset:3px;border-radius:6px}
+.kap{max-width:1180px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:'Archivo','Manrope',sans-serif;line-height:1.04;margin:0}
+h2{font-size:clamp(32px,4.2vw,50px);font-weight:900;letter-spacing:-.01em;text-transform:uppercase}
+.serit{font:500 13px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase}
+.dugme{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 26px;border-radius:10px;font:700 16px 'Manrope',sans-serif;text-decoration:none;border:2px solid var(--marka);cursor:pointer}
+.dugme.dolu{background:var(--marka);color:#fff}
+.dugme.bos{background:transparent;color:var(--marka)}
+.dugme.beyaz{border-color:#fff;color:#fff;background:rgba(255,255,255,.08);backdrop-filter:blur(4px)}
+.dugme:hover{filter:brightness(1.08)}
+
+.demo{position:fixed;left:0;right:0;top:0;z-index:40;background:var(--koyu);color:#E6E9EE;font-size:13.5px;text-align:center;padding:7px 14px}
+.demo+.ust{top:34px}
+
+/* ======= nav ======= */
+.ust{position:fixed;left:0;right:0;top:0;z-index:30;transition:background .3s,box-shadow .3s}
+.ust .ic{display:flex;justify-content:space-between;align-items:center;max-width:1180px;margin:0 auto;padding:16px 22px}
+.logo{font:900 20px 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.01em;text-decoration:none;color:#fff;transition:color .3s;display:flex;align-items:center;gap:9px}
+.logo svg{width:17px;height:22px;flex:none}
+.ust nav{display:flex;gap:26px;align-items:center}
+.ust nav a{text-decoration:none;font-weight:700;font-size:15px;color:#fff;transition:color .3s}
+.ust .cta{padding:11px 20px;font-size:15px;border-color:#fff;color:#fff;background:rgba(255,255,255,.1);border-radius:10px}
+.ust.dolu{background:rgba(239,237,233,.93);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(25,28,32,.08)}
+.ust.dolu .logo,.ust.dolu nav a{color:var(--metin)}
+.ust.dolu .cta{border-color:var(--marka);color:#fff;background:var(--marka)}
+@media (max-width:900px){.ust nav{display:none}}
+
+/* ======= hero ======= */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero .icerik{position:relative;width:100%;padding:150px 22px 56px}
+.hero .serit{color:var(--acik-soluk)}
+.hero h1{font-size:clamp(46px,8vw,108px);font-weight:900;letter-spacing:-.015em;text-transform:uppercase;margin:16px 0 18px;max-width:17ch;text-wrap:balance}
+.hero p.alt{font-size:clamp(18px,2vw,22px);max-width:40ch;color:var(--acik);margin:0 0 30px}
+.dugmeler{display:flex;flex-wrap:wrap;gap:14px}
+.hero .bilgi{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:34px;font-size:15.5px;color:var(--acik-soluk)}
+.hero .bilgi b{color:#fff}
+.asagi{position:absolute;right:34px;bottom:34px;width:46px;height:72px;border:2px solid rgba(255,255,255,.5);border-radius:999px;display:flex;justify-content:center;padding-top:12px}
+.asagi i{width:4px;height:10px;border-radius:2px;background:#fff;animation:in 1.8s ease-in-out infinite}
+@keyframes in{0%{transform:translateY(0);opacity:1}70%{transform:translateY(26px);opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.asagi i{animation:none}}
+@media (max-width:900px){.asagi{display:none}}
+
+/* ======= kaydırmalı giriş: kombi kaydırdıkça açılır ======= */
+/* --e ekran yanar · --d düğme döner · --f alev tutuşur · --s petek + ortam ısınır (varsayılan 1 = JS yoksa kombi açık) */
+.kaydirmali{display:block;height:420vh;min-height:0;align-items:stretch;overflow:visible} /* overflow hidden yapışkan sahneyi bozar */
+.kaydirmali .sahne{position:sticky;top:0;height:100svh;overflow:hidden;background:var(--koyu)}
+.cizim .sahne{background:linear-gradient(180deg,#1E2630 0%,#141921 58%,#10141A 100%)}
+.kaydirmali video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform}
+.kaydirmali .sabitgorsel{display:none;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.sahne .sicak{position:absolute;inset:0;opacity:var(--s,1);background:
+  radial-gradient(75% 62% at 50% 64%,rgba(224,138,60,.17),rgba(193,77,42,.05) 52%,rgba(0,0,0,0) 76%),
+  linear-gradient(180deg,rgba(38,27,18,.32),rgba(24,16,10,.5))}
+.kgrup{position:absolute;right:7vw;top:50%;transform:translateY(-55%);display:flex;align-items:flex-end;filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+.kombi{position:relative;width:clamp(168px,22vw,264px);aspect-ratio:10/13;background:linear-gradient(180deg,#F7F5F1 0%,#E8E5DF 70%,#D8D4CD 100%);border-radius:20px;box-shadow:inset 0 1px 0 #fff,inset 0 -3px 8px rgba(0,0,0,.08)}
+.ekran{position:absolute;left:12%;top:11%;width:48%;height:16%;background:#0A0E13;border-radius:9px;box-shadow:inset 0 0 0 2px #262D36;display:flex;align-items:center;justify-content:center;gap:9%}
+.ekran .isi{font:500 clamp(19px,2.2vw,27px)/1 'IBM Plex Mono',monospace;color:#A9DCFF;opacity:calc(.1 + var(--e,1)*.9);text-shadow:0 0 16px rgba(123,193,255,.65)}
+.ekran .ef{width:16%;max-width:16px;opacity:var(--f,1)}
+.ekran .ef svg{width:100%;height:auto;display:block}
+.dugmek{position:absolute;right:11%;top:10.5%;width:18%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 30%,#F1EEE9,#C7C3BB);box-shadow:0 3px 9px rgba(0,0,0,.28),inset 0 1px 0 #fff;transform:rotate(calc(-42deg + var(--d,1)*168deg))}
+.dugmek i{position:absolute;left:50%;top:8%;width:11%;height:28%;margin-left:-5.5%;border-radius:4px;background:var(--marka)}
+.izgara{position:absolute;left:11%;right:11%;bottom:8%;height:30%;background:#0E1218;border-radius:12px;box-shadow:inset 0 0 0 2px #262D36;display:flex;align-items:flex-end;justify-content:center;gap:8%;padding:7% 13%;overflow:hidden}
+.izgara .a{width:24%;transform-origin:50% 100%;transform:scaleY(var(--f,1));opacity:clamp(0,calc(var(--f,1)*2.5),1)}
+.izgara .a:nth-child(2){width:30%}
+.izgara .a svg{width:100%;height:auto;display:block;filter:drop-shadow(0 0 10px rgba(96,156,222,.75))}
+.boru{width:clamp(24px,4vw,56px);height:9px;align-self:flex-end;margin-bottom:24px;background:#3A414B;position:relative}
+.boru::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--alev-kirmizi),var(--alev-turuncu));opacity:var(--s,1)}
+.kpetek{display:flex;gap:clamp(5px,.7vw,9px);align-items:flex-end}
+.kpetek i{width:clamp(13px,1.7vw,21px);height:clamp(96px,12vw,148px);border-radius:7px 7px 4px 4px;background:#39414C;position:relative;overflow:hidden}
+.kpetek i::after{content:'';position:absolute;inset:0;border-radius:inherit;background:linear-gradient(180deg,var(--alev-turuncu),var(--alev-kirmizi));opacity:clamp(0,calc(var(--s,1)*9 - var(--i)),1)}
+@media (max-width:760px){
+  .kgrup{right:auto;left:50%;top:27%;transform:translate(-50%,-50%)}
+  .kombi{width:34vw}
+  .kpetek i{width:3.7vw;height:21vw}
+  .boru{width:6vw;margin-bottom:12px}
+}
+.kaydirmali .kusak{position:absolute;inset:0;display:flex;opacity:0;visibility:hidden}
+.kaydirmali .kusak.bas{align-items:flex-end;opacity:1;visibility:visible}
+.kaydirmali .kusak.bas::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(16,20,26,.9) 0%,rgba(16,20,26,.52) 42%,rgba(16,20,26,0) 72%);opacity:var(--k,1)}
+.kaydirmali .kusak.bas .icerik{position:relative}
+.kaydirmali h1{font-size:clamp(40px,6vw,84px);max-width:10ch}
+.kaydirmali h1,.kaydirmali p.alt{text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.35)}
+/* orta yazılar — video: ortada; çizim: masaüstünde solda (kombi sağda), telefonda altta */
+.kaydirmali .kusak.orta{align-items:center;justify-content:center;text-align:center;padding:0 22px;color:#fff}
+.kaydirmali .kusak.orta::before{content:'';position:absolute;inset:0;background:radial-gradient(62% 54% at 50% 50%,rgba(21,24,29,.68),rgba(21,24,29,0) 72%);opacity:var(--k,0)}
+.kaydirmali .kusak.orta>div{position:relative;max-width:780px}
+.cizim .kusak.orta{justify-content:flex-start;text-align:left;padding-left:calc(22px + max(0px,(100vw - 1136px)/2))}
+.cizim .kusak.orta::before{background:linear-gradient(90deg,rgba(13,17,22,.55),rgba(13,17,22,0) 58%)}
+.cizim .kusak.orta>div{max-width:480px}
+@media (min-width:761px){.cizim .kusak.bas .icerik{padding-right:min(44vw,620px)}}
+@media (max-width:760px){
+  .kaydirmali .kusak.bas .icerik{padding-bottom:120px} /* alt bar bilgi satırını örtmesin */
+  .cizim .kusak.orta{align-items:flex-end;justify-content:center;text-align:center;padding:0 22px 15vh}
+  .cizim .kusak.orta::before{background:linear-gradient(to top,rgba(13,17,22,.75),rgba(13,17,22,0) 58%)}
+}
+.kaydirmali .buyuk{font:900 clamp(30px,4.6vw,56px)/1.08 'Archivo','Manrope',sans-serif;text-transform:uppercase;letter-spacing:-.01em;margin:14px 0 0;text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.4);text-wrap:balance}
+.kaydirmali .kusak.orta .serit{color:var(--acik-soluk);text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.kaydirmali .kusak.orta .dugme{margin-top:24px}
+.kaydirmali .asagi{bottom:26px}
+/* sabit: yalnız JS çalışmazsa (yedek — videoda kapak karesi, çizimde kombi açık tek ekran) */
+.kaydirmali.sabit{height:auto;min-height:100svh}
+.kaydirmali.sabit .sahne{position:relative;height:auto;min-height:100svh;display:flex;align-items:flex-end}
+.kaydirmali.sabit video{display:none}
+.kaydirmali.sabit .sabitgorsel{display:block}
+.kaydirmali.sabit .kusak.orta{display:none}
+.kaydirmali.sabit .kusak.bas{position:relative;inset:auto;width:100%;opacity:1;visibility:visible}
+
+/* ======= sections ======= */
+section.blok{padding:92px 0}
+.giris{color:var(--soluk);max-width:54ch;margin:14px 0 40px;font-size:18px}
+.gorun{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.gorun.geldi{opacity:1;transform:none}
+
+/* stats band */
+.bant{background:var(--koyu);color:var(--acik);padding:56px 0}
+.bant .ic{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px;max-width:1180px;margin:0 auto;padding:0 22px}
+.bant .h{border-left:3px solid var(--marka);padding-left:20px}
+.bant .n{font:900 clamp(38px,4.4vw,56px)/1 'Archivo',sans-serif}
+.bant .a{color:var(--acik-soluk);font-size:15px;margin-top:8px}
+
+/* hizmetler */
+.hizmetler{display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:22px}
+.hizmet{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:var(--yaricap);padding:30px 26px;display:flex;flex-direction:column;gap:14px}
+.hizmet .ikon{width:52px;height:52px;border-radius:12px;background:var(--koyu);display:flex;align-items:center;justify-content:center;flex:none}
+.hizmet .ikon svg{width:26px;height:26px}
+.hizmet h3{font-size:23px;font-weight:700;font-family:'Manrope',sans-serif}
+.hizmet p{margin:0;color:var(--soluk)}
+.hizmet .alt{display:flex;align-items:center;gap:8px;font:500 13px 'IBM Plex Mono',monospace;color:var(--soluk);margin-top:auto;padding-top:12px;border-top:1px solid var(--cizgi)}
+.hizmet .alt b{color:var(--marka);font-weight:500}
+
+/* markalar */
+.markalar{background:var(--yuzey);border-top:1px solid var(--cizgi);border-bottom:1px solid var(--cizgi);padding:26px 0}
+.markalar .ic{display:flex;flex-wrap:wrap;gap:10px 10px;align-items:center;max-width:1180px;margin:0 auto;padding:0 22px}
+.markalar .b{font:500 13px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--soluk);margin-right:12px}
+.markalar span{display:inline-block;padding:8px 15px;border:1px solid var(--cizgi);border-radius:999px;font-weight:700;font-size:14.5px;background:var(--zemin)}
+
+/* steps */
+.adimlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0;border-top:2px solid var(--metin)}
+.adim{padding:30px 26px 30px 0;border-bottom:1px solid var(--cizgi)}
+.adim .no{font:500 14px 'IBM Plex Mono',monospace;color:var(--marka)}
+.adim h3{font-size:24px;margin:10px 0 10px;font-family:'Manrope',sans-serif;font-weight:700}
+.adim p{margin:0;color:var(--soluk)}
+
+/* reviews */
+.yorumlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.yorum{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:var(--yaricap);padding:28px;display:flex;flex-direction:column;gap:14px}
+.yorum .yildiz{color:#E8A13A;letter-spacing:3px;font-size:17px}
+.yorum p{margin:0;font-size:16.5px}
+.yorum .kim{margin-top:auto;padding-top:6px;font-weight:700;font-size:15px;color:var(--soluk)}
+.ynot{margin-top:22px;font-size:14px;color:var(--soluk)}
+
+/* faq */
+.sss{max-width:820px}
+.sss details{border-bottom:1px solid var(--cizgi)}
+.sss summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;font:700 19px 'Manrope',sans-serif}
+.sss summary::-webkit-details-marker{display:none}
+.sss summary::after{content:'+';font:500 26px 'IBM Plex Mono',monospace;color:var(--marka);transition:transform .25s}
+.sss details[open] summary::after{transform:rotate(45deg)}
+.sss .c{padding:0 0 22px;color:var(--soluk);max-width:60ch}
+
+/* hours + map */
+.ikili{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;align-items:start}
+.saatler{width:100%;border-collapse:collapse;font:500 15px 'IBM Plex Mono',monospace}
+.saatler td{padding:12px 0;border-bottom:1px solid var(--cizgi)}
+.saatler td:last-child{text-align:right}
+.saatler tr.bugun td{color:var(--marka);font-weight:700}
+.harita{border-radius:var(--yaricap);overflow:hidden;background:var(--yuzey);border:1px solid var(--cizgi)}
+.harita iframe{display:block;width:100%;height:320px;border:0}
+.harita div{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+@media (max-width:860px){.ikili{grid-template-columns:1fr}}
+
+/* form */
+.formblok{background:var(--koyu);color:var(--acik);border-radius:22px;padding:clamp(30px,5vw,60px)}
+.formblok .giris{color:var(--acik-soluk)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+label{display:flex;flex-direction:column;gap:8px;font-weight:700;font-size:15px}
+.tam{grid-column:1/-1}
+input,textarea{font:400 16px 'Manrope',sans-serif;padding:14px;border-radius:10px;border:1px solid #434B57;background:#242B35;color:#fff}
+textarea{min-height:92px;resize:vertical}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+legend{font-weight:700;font-size:15px;margin-bottom:10px}
+.cipler{display:flex;flex-wrap:wrap;gap:8px}
+.cipler input{position:absolute;opacity:0;pointer-events:none}
+.cipler span{display:inline-block;padding:10px 15px;border-radius:999px;border:1px solid #58616D;font-weight:500;font-size:15px;cursor:pointer}
+.cipler input:checked+span{background:var(--marka);border-color:var(--marka);color:#fff}
+.cipler input:focus-visible+span{outline:3px solid #fff;outline-offset:2px}
+form .dugme{justify-self:start}
+.tamam{display:none;font-size:19px}
+.tamam.acik{display:block}
+@media (max-width:760px){form{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:var(--koyu);color:var(--acik-soluk);margin-top:92px;padding:56px 0 120px;font-size:15px}
+footer .kap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:34px}
+footer b{color:#fff;font-size:17px;display:block;margin-bottom:10px}
+footer a{color:var(--acik)}
+footer .alt{grid-column:1/-1;border-top:1px solid #2A313B;padding-top:22px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.altbar{display:none}
+@media (max-width:760px){
+  .altbar{display:flex;gap:10px;position:fixed;left:12px;right:12px;bottom:12px;z-index:25}
+  .altbar .dugme{flex:1;box-shadow:0 6px 18px rgba(21,24,29,.3)}
+  .altbar .bos{background:var(--yuzey);flex:0 0 auto}
+  .hero .serit{font-size:11px;letter-spacing:.08em}
+}
+</style>
+</head>
+<body>
+<div class="demo">Bu sayfa Örnek Kombi Servisi için hazırlanmış bir örnektir. Form şu an gerçek bir talep göndermez.</div>
+
+
+
+<header class="ust" id="ust">
+  <div class="ic">
+    <a class="logo" href="#"><svg viewBox="0 0 20 26" fill="none" aria-hidden="true"><path d="M10 1C11 6 16 8.5 16 15a6 6 0 0 1-12 0C4 10.5 6.5 9 7.5 5.5 8.8 7.5 10.4 8.6 10.6 11 12 9.8 10.5 4 10 1Z" fill="var(--alev-turuncu)"/></svg>Örnek Teknik</a>
+    <nav>
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#nasil">Nasıl işler</a>
+      <a href="#yorumlar">Yorumlar</a>
+      <a href="#sss">SSS</a>
+      <a href="#konum">Konum</a>
+    </nav>
+    <a class="dugme cta" href="#ariza">Arıza kaydı bırak</a>
+  </div>
+</header>
+
+
+<main>
+
+<section class="hero kaydirmali sabit" id="khero">
+  <div class="sahne">
+    <video data-src="hero-video.mp4" poster="hero-video-poster.jpg" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+    <img class="sabitgorsel" src="hero-video-poster.jpg" alt="" loading="lazy">
+    <div class="kusak bas" data-a="0" data-b="0.30">
+  <div class="kap icerik">
+    <div class="serit">Kombi arıza · bakım · montaj · Keçiören</div>
+    <h1>Örnek Teknik</h1>
+    <p class="alt">Kombiniz yanmıyorsa ya da bakım zamanı geldiyse arayın; gününü ve saatini birlikte ayarlayalım.</p>
+    <div class="dugmeler">
+      <a class="dugme dolu" href="tel:05550000000">Hemen ara</a>
+      <a class="dugme beyaz" href="#ariza">Arıza kaydı bırak</a>
+    </div>
+    <div class="bilgi">
+      <span><b>★ 4,8</b> · Google'da 86 yorum</span>
+      <span><b>Keçiören</b></span>
+      <span><b>0555 000 00 00</b></span>
+    </div>
+  </div>
+</div>
+    
+    
+    <div class="kusak orta" data-a="0.38" data-b="0.64"><div><div class="serit">İşin içi</div><p class="buyuk">Kombinin içini biz biliriz.</p></div></div>
+    
+    <div class="kusak orta" data-a="0.72" data-b="1"><div><div class="serit">Bakım</div><p class="buyuk">Her parçasına bakarız.</p><a class="dugme dolu" href="#ariza">Arıza kaydı bırak</a></div></div>
+    
+    <div class="asagi" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+
+<div class="bant">
+  <div class="ic">
+    <div class="h"><div class="n" data-sayi="4.8" data-ondalik="1">0</div><div class="a">Google puanı</div></div>
+    <div class="h"><div class="n" data-sayi="86">0</div><div class="a">Google yorumu</div></div>
+    <div class="h"><div class="n" data-sayi="12">0</div><div class="a">Baktığımız marka</div></div>
+    <div class="h"><div class="n" style="font-size:clamp(26px,3vw,38px)">Keçiören</div><div class="a">Ankara</div></div>
+  </div>
+</div>
+
+<section class="blok" id="hizmetler">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Hizmetler</div>
+    <h2>Ne iş yapıyoruz</h2>
+    <p class="giris">Dört işin dördü de kendi ustamızla. Fiyat, işe başlamadan söylenir ve onayınız alınır.</p>
+    <div class="hizmetler">
+      
+      
+      <article class="hizmet">
+        <div class="ikon"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4.5 4.5 0 0 0-6 5.6L3 17.6V21h3.4l5.7-5.7a4.5 4.5 0 0 0 5.6-6l-3 3-2.8-.7-.7-2.8 3-3z"/></svg></div>
+        <h3>Arıza onarımı</h3>
+        <p>Yanmıyor, basınç düşüyor, su akıtıyor… Usta sorunu yerinde bulur, çoğu arızayı aynı ziyarette giderir. Parça gerekiyorsa fiyatı önce söyler.</p>
+        <div class="alt">Yerinde süre: <b>30–60 dk</b></div>
+      </article>
+      
+      <article class="hizmet">
+        <div class="ikon"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/><circle cx="12" cy="12" r="3.2"/></svg></div>
+        <h3>Yıllık bakım</h3>
+        <p>Kış gelmeden temizlik ve kontrol. Bakımlı kombi daha az gaz yakar, kışın ortasında sizi yarı yolda bırakmaz.</p>
+        <div class="alt">Yerinde süre: <b>~45 dk</b></div>
+      </article>
+      
+      <article class="hizmet">
+        <div class="ikon"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A3C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2.5" width="14" height="19" rx="2"/><circle cx="12" cy="9" r="2.6"/><path d="M8.5 17h7"/></svg></div>
+        <h3>Kombi montajı</h3>
+        <p>Eski kombinin sökümü, yenisinin takılması ve gaz açılışı için gereken işlemler. Marka seçerken fiyat ve daire büyüklüğüne göre yol gösteririz.</p>
+        <div class="alt">Yerinde süre: <b>Yarım gün</b></div>
+      </article>
+      
+      <article class="hizmet">
+        <div class="ikon"><svg viewBox="0 0 24 24" fill="none" stroke="#E08A3C" stroke-width="2" stroke-linecap="round"><path d="M4 4v16M9.3 4v16M14.6 4v16M20 4v16"/></svg></div>
+        <h3>Petek temizliği</h3>
+        <p>Petekler alttan ısınıp üstte soğuk kalıyorsa içi çamurlanmış demektir. Makineyle yıkıyoruz; petekler yeniden eşit ısıtıyor.</p>
+        <div class="alt">Yerinde süre: <b>2–3 saat</b></div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+
+<div class="markalar">
+  <div class="ic">
+    <span class="b">Baktığımız markalar</span>
+    <span>Vaillant</span><span>Baymak</span><span>Demirdöküm</span><span>ECA</span><span>Bosch</span><span>Buderus</span><span>Viessmann</span><span>Airfel</span><span>Ferroli</span><span>Protherm</span><span>Baxi</span><span>Alarko</span>
+  </div>
+</div>
+
+
+<section class="blok" id="nasil">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Nasıl işler</div>
+    <h2>Üç adımda hallediyoruz</h2>
+    <div class="adimlar" style="margin-top:40px">
+      <div class="adim"><div class="no">01</div><h3>Ulaşın</h3><p>Arayın ya da arıza kaydı bırakın. Sorunu bir iki cümleyle anlatmanız yeter; hata kodu görüyorsanız yazın.</p></div>
+      <div class="adim"><div class="no">02</div><h3>Saat veriyoruz</h3><p>Sizi arayıp günü ve saati birlikte belirliyoruz. Usta gelmeden önce telefonla haber verir.</p></div>
+      <div class="adim"><div class="no">03</div><h3>Usta geliyor</h3><p>Sorunu yerinde bulur, fiyatı işe başlamadan söyler. Onay vermeden hiçbir işlem yapılmaz.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="blok" id="yorumlar" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Yorumlar</div>
+    <h2>Gelenler ne diyor</h2>
+    <div class="yorumlar" style="margin-top:40px">
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Kombi akşam arıza verdi, ertesi sabah geldiler. Fiyatı işe başlamadan söylediler, söyledikleri neyse onu aldılar."</p>
+        <div class="kim">Hüseyin K.</div>
+      </div>
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Petek temizliği yaptırdık, arka odadaki petek yıllardır ısınmıyordu, şimdi hepsi aynı ısıtıyor."</p>
+        <div class="kim">Fatma D.</div>
+      </div>
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Bakım için aradım, telefonda gün verdiler, geldikleri saate de uydular. Temiz çalışıyorlar."</p>
+        <div class="kim">Serkan A.</div>
+      </div>
+      
+    </div>
+    <p class="ynot">Yorumlar örnektir; gerçek sitede Google yorumlarınız gösterilir.</p>
+  </div>
+</section>
+
+
+<section class="blok" id="sss" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">SSS</div>
+    <h2>Sık sorulanlar</h2>
+    <div class="sss" style="margin-top:28px">
+      <details><summary>Fiyatı ne zaman öğrenirim?</summary><div class="c">Usta sorunu görmeden kesin fiyat söylenmez; telefonda ancak yaklaşık söyleriz. Yerinde bakar, işçilik ve parça fiyatını işe başlamadan söyler, onayınızı alır.</div></details>
+      <details><summary>Aynı gün gelebiliyor musunuz?</summary><div class="c">Çoğu gün evet. Sabah saatlerinde ulaşırsanız genelde aynı güne sıra verebiliyoruz; yoğun kış günlerinde ertesi güne kalabilir.</div></details>
+      <details><summary>Bakımı ne zaman yaptırmalıyım?</summary><div class="c">En uygunu sonbahar, kombi kışın yüklenmeden önce. Yılda bir bakım yeterli. Bakımlı kombi daha az gaz yakar ve kışın ortasında arıza çıkarma ihtimali düşer.</div></details>
+      <details><summary>Hangi markalara bakıyorsunuz?</summary><div class="c">Yukarıdaki listede yazan markaların hepsine. Listede göremediğiniz bir marka varsa arayıp sorun; büyük ihtimalle ona da bakıyoruzdur.</div></details>
+      <details><summary>Garanti veriyor musunuz?</summary><div class="c">Taktığımız parçalar ve işçiliğimiz garantilidir; süresi fişinizin üzerine yazılır. Garanti süresi içinde aynı arıza tekrarlarsa ücret alınmaz.</div></details>
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="konum" style="padding-top:0">
+  <div class="kap ikili">
+    <div>
+      <h2>Çalışma saatleri</h2>
+      <table class="saatler" style="margin-top:26px">
+        <tr data-gun="0"><td>Pazartesi</td><td>08:00–21:00</td></tr><tr data-gun="1"><td>Salı</td><td>08:00–21:00</td></tr><tr data-gun="2"><td>Çarşamba</td><td>08:00–21:00</td></tr><tr data-gun="3"><td>Perşembe</td><td>08:00–21:00</td></tr><tr data-gun="4"><td>Cuma</td><td>08:00–21:00</td></tr><tr data-gun="5"><td>Cumartesi</td><td>08:00–21:00</td></tr><tr data-gun="6"><td>Pazar</td><td>10:00–18:00</td></tr>
+      </table>
+    </div>
+    <div>
+      <h2>Hizmet bölgesi</h2>
+      <div class="harita" style="margin-top:26px">
+        <iframe title="Örnek Kombi Servisi harita" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Ke%C3%A7i%C3%B6ren%2C%20Ankara&output=embed"></iframe>
+        <div><span>Keçiören / Ankara · Keçiören, Etlik, Ovacık, Bağlum, Pursaklar</span><a class="dugme bos" href="https://www.google.com/maps/dir/?api=1&destination=Ke%C3%A7i%C3%B6ren%2C%20Ankara">Yol tarifi al</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="ariza" style="padding-top:0">
+  <div class="kap">
+    <div class="formblok">
+      <div class="serit" style="color:var(--acik-soluk)">Arıza kaydı</div>
+      <h2>Arıza kaydı bırakın</h2>
+      <p class="giris">Formu doldurun, sizi arayıp saat verelim. Acilse beklemeyin, doğrudan arayın: <a href="tel:05550000000" style="color:#fff">0555 000 00 00</a>.</p>
+      <form id="form" novalidate>
+        <label>Adınız<input name="ad" autocomplete="name" required></label>
+        <label>Telefonunuz<input name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        <label class="tam">Semt / mahalle<input name="semt" autocomplete="address-level3"></label>
+        
+        <fieldset class="tam"><legend>Kombinizin markası</legend><div class="cipler">
+          <label><input type="radio" name="marka" value="Vaillant"><span>Vaillant</span></label><label><input type="radio" name="marka" value="Baymak"><span>Baymak</span></label><label><input type="radio" name="marka" value="Demirdöküm"><span>Demirdöküm</span></label><label><input type="radio" name="marka" value="ECA"><span>ECA</span></label><label><input type="radio" name="marka" value="Bosch"><span>Bosch</span></label><label><input type="radio" name="marka" value="Buderus"><span>Buderus</span></label><label><input type="radio" name="marka" value="Viessmann"><span>Viessmann</span></label><label><input type="radio" name="marka" value="Airfel"><span>Airfel</span></label>
+          <label><input type="radio" name="marka" value="Bilmiyorum"><span>Bilmiyorum</span></label>
+        </div></fieldset>
+        
+        <fieldset class="tam"><legend>Sorun ne?</legend><div class="cipler">
+          <label><input type="radio" name="sorun" value="Yanmıyor"><span>Yanmıyor</span></label><label><input type="radio" name="sorun" value="Basınç düşüyor"><span>Basınç düşüyor</span></label><label><input type="radio" name="sorun" value="Su akıtıyor"><span>Su akıtıyor</span></label><label><input type="radio" name="sorun" value="Petekler ısınmıyor"><span>Petekler ısınmıyor</span></label><label><input type="radio" name="sorun" value="Ses yapıyor"><span>Ses yapıyor</span></label><label><input type="radio" name="sorun" value="Bakım istiyorum"><span>Bakım istiyorum</span></label><label><input type="radio" name="sorun" value="Montaj"><span>Montaj</span></label><label><input type="radio" name="sorun" value="Diğer"><span>Diğer</span></label>
+        </div></fieldset>
+        <fieldset><legend>Ne zaman uygun?</legend><div class="cipler">
+          <label><input type="radio" name="zaman" value="Bugün"><span>Bugün</span></label><label><input type="radio" name="zaman" value="Yarın"><span>Yarın</span></label><label><input type="radio" name="zaman" value="Bu hafta"><span>Bu hafta</span></label>
+        </div></fieldset>
+        <label class="tam">Not (isteğe bağlı)<textarea name="not" placeholder="Ekranda hata kodu görüyorsanız yazın (ör. F28)"></textarea></label>
+        <button class="dugme dolu tam" type="submit">Arıza kaydı gönder</button>
+        <p class="tamam tam" id="tamam" role="status">Kaydınız alındı. Sizi arayıp saat vereceğiz.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="kap">
+    <div><b>Örnek Kombi Servisi</b>Keçiören / Ankara<br><a href="tel:05550000000">0555 000 00 00</a></div>
+    <div><b>Hizmetler</b>Arıza onarımı<br>Yıllık bakım<br>Kombi montajı<br>Petek temizliği</div>
+    <div><b>Saatler</b>Pazartesi: 08:00–21:00<br>Salı: 08:00–21:00<br>Çarşamba: 08:00–21:00<br>Perşembe: 08:00–21:00<br>Cuma: 08:00–21:00<br>Cumartesi: 08:00–21:00<br>Pazar: 10:00–18:00</div>
+    <div class="alt"><span>© Örnek Kombi Servisi</span><span>Site: <a href="https://instagram.com/esnaf_site">Esnaf Site</a></span></div>
+  </div>
+</footer>
+
+<nav class="altbar" aria-label="Hızlı iletişim">
+  <a class="dugme dolu" href="tel:05550000000">Hemen ara</a>
+  <a class="dugme bos" href="https://wa.me/905550000000" aria-label="WhatsApp">WhatsApp</a>
+</nav>
+
+<script>
+(function(){
+  var azalt=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // bugünü işaretle
+  var g=(new Date().getDay()+6)%7, r=document.querySelector('.saatler tr[data-gun="'+g+'"]'); if(r) r.className='bugun';
+
+  // kaydırınca dolan üst şerit (giriş bölümü bitince dolar)
+  var ust=document.getElementById('ust'), hero=document.querySelector('.hero');
+  var ustGuncelle=function(){
+    var esik=hero?Math.max(40,hero.offsetHeight-innerHeight*.4):40;
+    ust.classList.toggle('dolu', scrollY>esik);
+  };
+  addEventListener('scroll', ustGuncelle, {passive:true});
+  addEventListener('resize', ustGuncelle); ustGuncelle();
+
+  // ===== kaydırmalı giriş: video varsa gerçek çekim sarılır, yoksa çizim kombi açılır =====
+  (function(){
+    var sec=document.getElementById('khero'); if(!sec) return;
+    var video=sec.querySelector('video');
+    var sahne=sec.querySelector('.sahne'), isi=sec.querySelector('.isi');
+    var kusaklar=[].map.call(sec.querySelectorAll('.kusak'),function(el){
+      return {el:el, a:+el.dataset.a, b:+el.dataset.b, son:-1};
+    });
+    // Kapı yok: telefonda da çalışır (Emre, 22.10.2026 — ziyaretçilerin çoğu mobil).
+    // Hareket-azalt dinlenmez: sahne yalnız kullanıcı kaydırınca ilerler, kendiliğinden değil.
+    // "sabit" sınıfı yalnız JS çalışmazsa kalır (videoda kapak karesi, çizimde kombi açık).
+    var sabitMi=function(){return false};
+
+    var sure=10, hedef=0, gorunen=0, sonCizilen=-1, sonIsi='';
+    var aktif=false, ekranda=true, calisiyor=false, sonTs=0;
+    var seekMesgul=false, bekleyen=-1, yuklendi=false;
+    var esikCiz=video?0.034:0.0015, esikDur=video?0.003:0.0006;
+
+    // --- video modu ---
+    function kaynakYukle(){
+      if(yuklendi) return; yuklendi=true;
+      var src=video.dataset.src;
+      var bagla=function(u){video.preload='auto';video.src=u;video.load()};
+      // blob olarak çek: bazı sunucular parça isteğini desteklemez, kaydırma takılır
+      fetch(src).then(function(r){if(!r.ok)throw 0;return r.blob()})
+        .then(function(b){bagla(URL.createObjectURL(b))})
+        .catch(function(){bagla(src)}); // yerel dosyada fetch çalışmaz, doğrudan bağla
+    }
+    if(video){
+      video.addEventListener('loadedmetadata',function(){
+        if(video.duration) sure=video.duration;
+        sonCizilen=-1; uyandir();
+      });
+      video.addEventListener('seeking',function(){seekMesgul=true});
+      video.addEventListener('seeked',function(){
+        seekMesgul=false;
+        if(bekleyen>=0){var t=bekleyen;bekleyen=-1;zamanYaz(t)}
+      });
+      video.addEventListener('error',function(){seekMesgul=false});
+    }
+    function zamanYaz(t){
+      if(video.readyState<1) return;
+      if(seekMesgul){bekleyen=t;return}
+      try{video.currentTime=t}catch(e){}
+    }
+    // --- çizim modu ---
+    function kes(a,b,x){return Math.min(1,Math.max(0,(x-a)/(b-a)))}
+    function sahneCiz(p){
+      sahne.style.setProperty('--e',kes(0.05,0.15,p).toFixed(3));  // ekran yanar
+      sahne.style.setProperty('--d',kes(0.13,0.40,p).toFixed(3));  // düğme döner
+      sahne.style.setProperty('--f',kes(0.33,0.55,p).toFixed(3));  // alev tutuşur
+      sahne.style.setProperty('--s',kes(0.44,0.86,p).toFixed(3));  // petek + ortam ısınır
+      var t=p<0.05?'--':(15+Math.round(7*kes(0.17,0.74,p)))+'°';
+      if(t!==sonIsi){sonIsi=t;isi.textContent=t}
+    }
+    function yaz(x){if(video)zamanYaz(x);else sahneCiz(x)}
+    function ilerleme(){
+      var r=sec.getBoundingClientRect(), h=r.height-innerHeight;
+      if(h<=0) return 0;
+      return Math.min(1,Math.max(0,-r.top/h));
+    }
+    function ss(a,b,x){x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)}
+    function kusakGuncelle(p){
+      for(var i=0;i<kusaklar.length;i++){
+        var k=kusaklar[i], f=Math.min(0.06,(k.b-k.a)/3);
+        var g=(i===0?1:ss(k.a,k.a+f,p))*(i===kusaklar.length-1?1:1-ss(k.b-f,k.b,p));
+        if(Math.abs(g-k.son)>0.01||(g===0&&k.son!==0)||(g===1&&k.son!==1)){
+          k.son=g;
+          k.el.style.opacity=g.toFixed(3);
+          k.el.style.setProperty('--k',g.toFixed(3));
+          k.el.style.visibility=g<0.01?'hidden':'visible';
+        }
+      }
+    }
+    function adim(ts){
+      if(!calisiyor) return;
+      var dt=sonTs?Math.min(ts-sonTs,100):16.7; sonTs=ts;
+      var p=ilerleme();
+      kusakGuncelle(p);
+      hedef=video?p*Math.max(0,sure-0.08):p;
+      gorunen+=(hedef-gorunen)*(1-Math.pow(1-0.16,dt/16.667));
+      if(Math.abs(hedef-gorunen)<esikDur) gorunen=hedef;
+      if(Math.abs(gorunen-sonCizilen)>esikCiz||(gorunen===hedef&&sonCizilen!==gorunen)){
+        sonCizilen=gorunen; yaz(gorunen);
+      }
+      if(gorunen===hedef){calisiyor=false;sonTs=0;return} // dinlen, kaydırma uyandırır
+      requestAnimationFrame(adim);
+    }
+    function uyandir(){
+      if(!calisiyor&&aktif&&ekranda){calisiyor=true;sonTs=0;requestAnimationFrame(adim)}
+    }
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(es){
+        es.forEach(function(e){ekranda=e.isIntersecting; if(ekranda)uyandir()});
+      },{rootMargin:'120px'}).observe(sec);
+    }
+    function uygula(){
+      var sb=sabitMi();
+      sec.classList.toggle('sabit',sb);
+      aktif=!sb;
+      if(!sb){
+        if(video){kaynakYukle()}
+        else{gorunen=hedef=ilerleme();sahneCiz(gorunen);kusakGuncelle(gorunen)}
+        sonCizilen=-1;uyandir();
+      }
+      ustGuncelle();
+    }
+    addEventListener('scroll',uyandir,{passive:true});
+    addEventListener('resize',function(){sonCizilen=-1;uyandir()});
+    uygula();
+  })();
+
+  // kaydırdıkça belirme + sayaçlar
+  var sayiYaz=function(el,k){
+    var hedef=parseFloat(el.dataset.sayi), ond=+(el.dataset.ondalik||0);
+    el.textContent=(hedef*k).toFixed(ond).replace('.',',');
+  };
+  if(!azalt && 'IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('geldi');io.unobserve(e.target)}})},{threshold:.1});
+    [].forEach.call(document.querySelectorAll('section.blok .kap, .bant .h, .hizmet'),function(el,i){el.classList.add('gorun');if(el.classList.contains('hizmet'))el.style.transitionDelay=(i%4*90)+'ms';io.observe(el)});
+    var so=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting)return; so.unobserve(e.target);
+      var el=e.target, t0=null;
+      var adim=function(t){if(!t0)t0=t;var k=Math.min((t-t0)/1200,1);k=1-Math.pow(1-k,3);
+        sayiYaz(el,k); if(k<1)requestAnimationFrame(adim)};
+      requestAnimationFrame(adim);
+    })},{threshold:.6});
+    [].forEach.call(document.querySelectorAll('[data-sayi]'),function(el){so.observe(el)});
+  } else {
+    [].forEach.call(document.querySelectorAll('[data-sayi]'),function(el){sayiYaz(el,1)});
+  }
+
+  // form
+  var f=document.getElementById('form'), ok=document.getElementById('tamam'), DEMO=true, URL2="";
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ad=f.ad.value.trim(), tel=f.telefon.value.replace(/\D/g,'');
+    if(!ad){f.ad.focus();return} if(tel.length<10){f.telefon.focus();return}
+    var sec=function(n){var x=f.querySelector('[name='+n+']:checked');return x?x.value:''};
+    var v={ad:ad,telefon:f.telefon.value,semt:f.semt?f.semt.value:'',marka:sec('marka'),sorun:sec('sorun'),zaman:sec('zaman'),not:f.not.value};
+    var bitir=function(){[].forEach.call(f.querySelectorAll('label,fieldset,button'),function(x){x.style.display='none'});ok.className='tamam tam acik';};
+    if(DEMO||!URL2){bitir();return}
+    fetch(URL2,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(v)}).then(bitir).catch(bitir);
+  });
+})();
+</script>
+</body>
+</html>
