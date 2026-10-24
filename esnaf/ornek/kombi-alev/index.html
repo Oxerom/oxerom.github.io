@@ -35,7 +35,7 @@ h2{font-size:clamp(32px,4.2vw,50px);font-weight:900;letter-spacing:-.01em;text-t
 .dugme:hover{filter:brightness(1.08)}
 
 .demo{position:fixed;left:0;right:0;top:0;z-index:40;background:var(--koyu);color:#E6E9EE;font-size:13.5px;text-align:center;padding:7px 14px}
-.demo+.ust{top:34px}
+.demo~.ust{top:var(--demo-h,34px)}
 
 /* ======= nav ======= */
 .ust{position:fixed;left:0;right:0;top:0;z-index:30;transition:background .3s,box-shadow .3s}
@@ -231,6 +231,7 @@ footer .alt{grid-column:1/-1;border-top:1px solid #2A313B;padding-top:22px;displ
 </head>
 <body>
 <div class="demo">Bu sayfa Örnek Kombi Servisi için hazırlanmış bir örnektir. Form şu an gerçek bir talep göndermez.</div>
+<script>(function(){var d=document.querySelector(".demo");function o(){document.documentElement.style.setProperty("--demo-h",d.offsetHeight+"px")}o();addEventListener("resize",o)})()</script>
 
 
 
