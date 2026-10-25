@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Örnek siteler · Esnaf Site</title>
+<meta name="description" content="Kombi servisleri için örnek web siteleri.">
+<meta property="og:title" content="Kombi servisleri için 4 örnek site">
+<meta property="og:description" content="Birine dokunun, örnek site açılır. Beğendiğinizin numarasını bize yazın.">
+<meta property="og:image" content="https://oxerom.github.io/esnaf/ornek/kapak-4.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --beton:#e7ebee;      /* sayfa zemini: soğuk beton grisi */
+  --murekkep:#121b25;   /* yazı, örnek sitelerin lacivert-siyahı */
+  --kor:#cf532c;        /* örnek sitelerdeki düğme turuncusu */
+  --kart:#ffffff;
+  --soluk:#5d6875;
+  --cizgi:#d3d9de;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--beton);color:var(--murekkep);font:500 16px/1.55 Manrope,system-ui,sans-serif}
+a{color:inherit}
+.sar{max-width:1120px;margin:0 auto;padding:0 16px}
+header{padding:22px 0 0}
+.marka{font:800 19px/1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;text-decoration:none}
+.marka i{color:var(--kor);font-style:normal}
+.giris{padding:34px 0 26px;max-width:640px}
+.ust-yazi{font:700 12.5px/1 Manrope,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--kor);margin:0 0 14px}
+h1{font:800 clamp(34px,8.5vw,60px)/1.02 "Bricolage Grotesque",sans-serif;letter-spacing:-.035em;margin:0 0 16px}
+.giris p{margin:0;color:#2f3a46;font-size:17px;max-width:34em}
+
+.liste{list-style:none;margin:0;padding:0;display:grid;gap:18px;grid-template-columns:1fr}
+.ornek{position:relative;background:var(--kart);border-radius:22px;padding:16px 16px 18px 16px;display:grid;
+  grid-template-columns:auto 1fr;gap:14px 16px;align-items:start;box-shadow:0 1px 0 var(--cizgi),0 18px 40px -28px rgba(18,27,37,.45)}
+.no{grid-row:1/3;font:800 112px/.78 "Bricolage Grotesque",sans-serif;letter-spacing:-.06em;color:var(--murekkep);
+  font-variant-numeric:tabular-nums;padding-top:6px;min-width:.62em}
+.telefon{display:block;width:100%;max-width:190px;aspect-ratio:480/966;border-radius:22px;overflow:hidden;
+  border:5px solid var(--murekkep);background:var(--murekkep);transition:transform .25s ease}
+.telefon img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.yazi h2{font:700 19px/1.25 "Bricolage Grotesque",sans-serif;letter-spacing:-.01em;margin:2px 0 4px}
+.yazi p{margin:0 0 12px;color:var(--soluk);font-size:15px}
+.ac{display:inline-flex;align-items:center;gap:8px;background:var(--kor);color:#fff;text-decoration:none;
+  font-weight:700;font-size:15.5px;padding:12px 18px;border-radius:12px;min-height:46px}
+.ac:hover{background:#b8461f}
+.ac svg{width:16px;height:16px}
+.ornek:hover .telefon{transform:translateY(-3px)}
+a:focus-visible{outline:3px solid var(--kor);outline-offset:3px;border-radius:12px}
+
+.sonra{margin:44px 0 0;padding:26px 0 0;border-top:2px solid var(--murekkep);display:grid;gap:18px}
+.sonra h2{font:800 26px/1.1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;margin:0}
+.adimlar{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:a}
+.adimlar li{counter-increment:a;display:grid;grid-template-columns:34px 1fr;gap:10px;font-size:16px}
+.adimlar li::before{content:counter(a);font:800 22px/1.15 "Bricolage Grotesque",sans-serif;color:var(--kor)}
+footer{margin:40px 0 0;padding:22px 0 34px;color:var(--soluk);font-size:13.5px;border-top:1px solid var(--cizgi)}
+footer p{margin:0 0 6px}
+
+@media (min-width:560px){
+  .ornek{grid-template-columns:auto 190px 1fr}
+  .no{grid-row:auto}
+  .yazi{align-self:end}
+}
+@media (min-width:900px){
+  .liste{grid-template-columns:repeat(4,1fr)}
+  .ornek{grid-template-columns:1fr;padding:18px;align-content:start}
+  .no{font-size:84px;padding:4px 0 0;min-width:0}
+  .telefon{max-width:none}
+  .sonra{grid-template-columns:280px 1fr;align-items:start}
+  .adimlar{grid-template-columns:repeat(3,1fr);gap:22px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="sar">
+  <header><a class="marka" href="https://www.instagram.com/esnaf_site/">esnaf site<i>.</i></a></header>
+
+  <section class="giris">
+    <p class="ust-yazi">Kombi servisleri</p>
+    <h1>4 örnek site, hangisini beğendiniz?</h1>
+    <p>Dördünde de sayfanın içi aynı, açılıştaki görüntü değişiyor. Birine dokunun, örnek site açılır.
+      Beğendiğinizin numarasını bize mesajla yazmanız yeterli.</p>
+  </section>
+
+  <ol class="liste">
+    <li class="ornek">
+      <span class="no" aria-hidden="true">1</span>
+      <a class="telefon" href="kombi-alev/" aria-label="Örnek 1'i aç"><img src="kapak-1.jpg" width="480" height="966" alt="Örnek 1: açılışta alev videosu olan kombi servisi sitesi" loading="eager"></a>
+      <div class="yazi">
+        <h2>Alev</h2>
+        <p>Açılışta mavi alev videosu oynar.</p>
+        <a class="ac" href="kombi-alev/">Örnek 1'i aç <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </li>
+    <li class="ornek">
+      <span class="no" aria-hidden="true">2</span>
+      <a class="telefon" href="kombi-kis/" aria-label="Örnek 2'yi aç"><img src="kapak-2.jpg" width="480" height="966" alt="Örnek 2: açılışta buzlu cam videosu olan kombi servisi sitesi" loading="lazy"></a>
+      <div class="yazi">
+        <h2>Kış</h2>
+        <p>Açılışta camda buz çiçekleri videosu oynar.</p>
+        <a class="ac" href="kombi-kis/">Örnek 2'yi aç <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </li>
+    <li class="ornek">
+      <span class="no" aria-hidden="true">3</span>
+      <a class="telefon" href="kombi-parca/" aria-label="Örnek 3'ü aç"><img src="kapak-3.jpg" width="480" height="966" alt="Örnek 3: açılışta kombi gövdesi videosu olan kombi servisi sitesi" loading="lazy"></a>
+      <div class="yazi">
+        <h2>Kombi</h2>
+        <p>Açılışta kombinin kendisi görünür, sade ve koyu.</p>
+        <a class="ac" href="kombi-parca/">Örnek 3'ü aç <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </li>
+    <li class="ornek">
+      <span class="no" aria-hidden="true">4</span>
+      <a class="telefon" href="kombi-cizim/" aria-label="Örnek 4'ü aç"><img src="kapak-4.jpg" width="480" height="966" alt="Örnek 4: açılışta kombi ve petek çizimi olan kombi servisi sitesi" loading="lazy"></a>
+      <div class="yazi">
+        <h2>Çizim</h2>
+        <p>Açılışta kombi ve petek çizimi hareket eder. Video yok, en hızlı açılan bu.</p>
+        <a class="ac" href="kombi-cizim/">Örnek 4'ü aç <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </li>
+  </ol>
+
+  <section class="sonra">
+    <h2>Seçince ne olur?</h2>
+    <ol class="adimlar">
+      <li>Beğendiğiniz örneğin numarasını bize yazarsınız.</li>
+      <li>Aynı tasarımı sizin firma adınız, çalıştığınız semtler ve Google yorumlarınızla ücretsiz hazırlarız.</li>
+      <li>Bakarsınız. Beğenirseniz kurulumu konuşuruz, beğenmezseniz ödeme yok.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>Örneklerdeki firma adı ve telefon numarası gerçek değildir.</p>
+    <p>Esnaf Site · <a href="https://www.instagram.com/esnaf_site/">instagram.com/esnaf_site</a></p>
+  </footer>
+</div>
+</body>
+</html>
