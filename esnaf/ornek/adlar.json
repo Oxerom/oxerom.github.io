@@ -1,4 +1,9 @@
 {
+"adn-teknik-pendik": {
+"c": "İstanbul",
+"f": "Adn Teknik",
+"s": "Pendik"
+},
 "akbaslar-beyaz-esya-cankaya": {
 "c": "Ankara",
 "f": "Akbaşlar Beyaz Eşya",
@@ -29,6 +34,16 @@
 "f": "Ayraç Teknik Kombi & Elektrik",
 "s": "Pursaklar"
 },
+"boyar-teknik-kombi-bakim-beypazari": {
+"c": "Ankara",
+"f": "Boyar Teknik Kombi Bakım",
+"s": "Beypazarı"
+},
+"cagri-grup-kombi-klima-teknik-pendik": {
+"c": "İstanbul",
+"f": "Çağrı Grup Kombi Klima Teknik",
+"s": "Pendik"
+},
 "dmr-kombi-teknik-servisi-sincan": {
 "c": "Ankara",
 "f": "Dmr Kombi Teknik Servisi",
@@ -38,6 +53,11 @@
 "c": "Ankara",
 "f": "Doğan Kardeşler Tesisat",
 "s": "Pursaklar"
+},
+"dursun-teknik-bagcilar": {
+"c": "İstanbul",
+"f": "Dursun Teknik",
+"s": "Bağcılar"
 },
 "duru-kombi-beyaz-esya-etimesgut": {
 "c": "Ankara",
@@ -49,10 +69,25 @@
 "f": "Efeler Sıhhi Tesisat",
 "s": "Etimesgut"
 },
+"er-dem-kombi-bakim-beypazari": {
+"c": "Ankara",
+"f": "Er&dem Kombi Bakım",
+"s": "Beypazarı"
+},
+"erciyas-teknik-kombi-mamak": {
+"c": "Ankara",
+"f": "Erciyas Teknik Kombi",
+"s": "Mamak"
+},
 "eryaman-kombi-etimesgut": {
 "c": "Ankara",
 "f": "Eryaman Kombi",
 "s": "Etimesgut"
+},
+"esenyurt-kombi-servisi-esenyurt": {
+"c": "İstanbul",
+"f": "Esenyurt Kombi Servisi",
+"s": "Esenyurt"
 },
 "ferhat-kombi-hastanesi-cankaya": {
 "c": "Ankara",
@@ -79,6 +114,11 @@
 "f": "Gölbaşı Lutes Kombi Servis",
 "s": "Gölbaşı"
 },
+"guven-teknik-servis-beyaz-esya-kucukcekmece": {
+"c": "İstanbul",
+"f": "Güven Teknik Servis Beyaz Eşya",
+"s": "Küçükçekmece"
+},
 "hakan-teknik-hizmetler-cankaya": {
 "c": "Ankara",
 "f": "Hakan Teknik Hizmetler",
@@ -99,10 +139,25 @@
 "f": "Hedef Kombi Teknik Servis",
 "s": "Mamak"
 },
+"huseyingazi-kombi-altindag": {
+"c": "Ankara",
+"f": "Hüseyingazi Kombi",
+"s": "Altındağ"
+},
+"is-teknik-kombi-servisi": {
+"c": "İstanbul",
+"f": "İs-Teknik Kombi Servisi",
+"s": ""
+},
 "isiyel-teknik-kombi-pursaklar": {
 "c": "Ankara",
 "f": "Isıyel Teknik-Kombi",
 "s": "Pursaklar"
+},
+"istiklal-kombi-teknik-servisi-umraniye": {
+"c": "İstanbul",
+"f": "İstiklal Kombi Teknik Servisi",
+"s": "Ümraniye"
 },
 "kar-kombi-sofben-servisi-mamak": {
 "c": "Ankara",
@@ -134,6 +189,11 @@
 "f": "Kırkkonaklar Çilingir Elektrik",
 "s": "Çankaya"
 },
+"kombi-montaji-recep-usta-zeytinburnu": {
+"c": "İstanbul",
+"f": "Kombi Montaji Recep Usta",
+"s": "Zeytinburnu"
+},
 "kombi-tamir-bakim-servisi-pursaklar": {
 "c": "Ankara",
 "f": "Kombi Tamir & Bakım Servisi",
@@ -144,25 +204,65 @@
 "f": "Kombi Teknik Servis",
 "s": "Keçiören"
 },
+"liya-teknik-kombi-klima-isitma-cankaya": {
+"c": "Ankara",
+"f": "Liya Teknik Kombi Klima Isıtma",
+"s": "Çankaya"
+},
+"mamak-kombi-bakim-mamak": {
+"c": "Ankara",
+"f": "Mamak Kombi Bakım",
+"s": "Mamak"
+},
+"mrv-teknik-kombi-klima-servisi-pendik": {
+"c": "İstanbul",
+"f": "Mrv Teknık Kombı Klıma Servısı",
+"s": "Pendik"
+},
 "mtn-kombi-servisi-kecioren": {
 "c": "Ankara",
 "f": "MTN Kombi Servisi",
 "s": "Keçiören"
+},
+"mupel-klima-kombi-servisi-umraniye": {
+"c": "İstanbul",
+"f": "Mupel Klima & Kombi Servisi",
+"s": "Ümraniye"
+},
+"nur-is-isitma-sistemleri-kombi-bahcelievler": {
+"c": "İstanbul",
+"f": "Nur-İş Isıtma Sistemleri Kombi",
+"s": "Bahçelievler"
 },
 "oz-er-teknik-beyaz-esya-kombi-golbasi": {
 "c": "Ankara",
 "f": "Öz-Er Teknik Beyaz Eşya Kombi",
 "s": "Gölbaşı"
 },
+"pendik-hs-kombi-klima-servisi-pendik": {
+"c": "İstanbul",
+"f": "Pendik HS Kombi Klima Servisi",
+"s": "Pendik"
+},
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
 "f": "Platen Kombi Servis",
 "s": "Etimesgut"
 },
+"polatli-kombi-bakim-tamir-polatli": {
+"c": "Ankara",
+"f": "Polatlı Kombi Bakım Tamir",
+"s": "Polatlı"
+},
 "safak-teknik-kombi-klima-kazan-cankaya": {
 "c": "Ankara",
 "f": "Şafak Teknik Kombi Klima Kazan",
 "s": "Çankaya"
+},
+"sahin-isiteknik-kombi-bakim-pendik": {
+"c": "İstanbul",
+"f": "Şahin Isıteknik Kombi Bakım",
+"s": "Pendik"
 },
 "sasa-teknik-servis-kombi-yenimahalle": {
 "c": "Ankara",
@@ -173,6 +273,11 @@
 "c": "Ankara",
 "f": "Sincan Ata Teknik Kombi",
 "s": "Sincan"
+},
+"sirinevler-er-ka-teknik-kombi-bahcelievler": {
+"c": "İstanbul",
+"f": "Şirinevler Er-Ka Teknik Kombi",
+"s": "Bahçelievler"
 },
 "soyer-sogutma-mamak": {
 "c": "Ankara",
@@ -189,6 +294,11 @@
 "f": "Ulusoy Teknik Beyaz Eşya Kombi",
 "s": "Çankaya"
 },
+"uzman-teknik-pendik": {
+"c": "İstanbul",
+"f": "Uzman Teknik",
+"s": "Pendik"
+},
 "yildirim-kombi-tesisat-cankaya": {
 "c": "Ankara",
 "f": "Yıldırım Kombi Tesisat",
@@ -198,6 +308,11 @@
 "c": "Antalya",
 "f": "Yıldırım Tesisat",
 "s": "Antalya (tüm ilçeler)"
+},
+"yildiz-teknik-esenyurt-kombi-esenyurt": {
+"c": "İstanbul",
+"f": "Yıldız Teknik Esenyurt Kombi",
+"s": "Esenyurt"
 },
 "zafer-sihhi-tesisat-cankaya": {
 "c": "Ankara",
