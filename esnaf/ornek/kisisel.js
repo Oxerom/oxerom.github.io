@@ -1,5 +1,6 @@
 /* Linkteki firma anahtarını (?k=) okuyup sayfaya firmanın adını ve ilçesini yazar (Emre, 26.10.2026).
-   adlar.json'u panel yazar: {"anahtar": {"f": "Firma adı", "s": "İlçe"}}. Anahtar listede yoksa
+   adlar.json'u panel yazar: {"anahtar": {"f": "Firma adı", "s": "İlçe", "c": "Şehir"}}.
+   Şehir yoksa Ankara sayılır (ilk müşteriler Ankara; 27.10.2026'dan beri başka şehirler de var). Anahtar listede yoksa
    ondan ad çıkarılır (Türkçe harfler kaybolur ama sayfa yine firmanın adını gösterir).
    Galeri sayfası anahtarı 4 örnek linkine de ekler. */
 (function () {
@@ -11,10 +12,10 @@
   function tahmin(a) {
     return a.split("-").filter(Boolean).map(function (w) { return w.charAt(0).toUpperCase() + w.slice(1); }).join(" ");
   }
-  function koy(f, s) {
-    f = (f || "").slice(0, 60); s = (s || "").slice(0, 30);
+  function koy(f, s, c) {
+    f = (f || "").slice(0, 60); s = (s || "").slice(0, 30); c = (c || "").slice(0, 30);
     if (!f) return;
-    if (galeri) galeriYaz(f); else demoYaz(f, s);
+    if (galeri) galeriYaz(f); else demoYaz(f, s, c);
   }
 
   function galeriYaz(f) {
@@ -57,22 +58,29 @@
     });
   }
 
-  function demoYaz(f, s) {
-    var esler = [["Örnek Kombi Servisi", f], ["Örnek Teknik", f]];
-    if (s) esler.push(["Keçiören / Ankara · Keçiören, Etlik, Ovacık, Bağlum, Pursaklar", s + " / Ankara"], ["Keçiören", s]);
+  function demoYaz(f, s, c) {
+    c = c || "Ankara";
+    var yerAd = s || (c !== "Ankara" ? c : "");          // ilçe yoksa şehrin adı yazılır
+    var tam = s ? s + " / " + c : c;
+    var esler = [];
+    // yer adları firma adından ÖNCE: "Keçiören Kombi" gibi bir firma adı ilçeyle değişmesin
+    if (yerAd) esler.push(["Keçiören / Ankara · Keçiören, Etlik, Ovacık, Bağlum, Pursaklar", tam],
+                          ["Keçiören / Ankara", tam], ["Keçiören", yerAd]);
+    esler.push(["Örnek Kombi Servisi", f], ["Örnek Teknik", f]);
     var yuru = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT), d, liste = [];
     while ((d = yuru.nextNode())) liste.push(d);
     liste.forEach(function (n) {
       if (n.parentNode && /^(SCRIPT|STYLE)$/.test(n.parentNode.nodeName)) return;
       var t = n.nodeValue, y = t;
-      esler.forEach(function (e) { y = y.split(e[0]).join(e[1]); });
+      if (c !== "Ankara" && t.trim() === "Ankara") y = t.replace("Ankara", c);   // haritanın yanındaki şehir yazısı
+      else esler.forEach(function (e) { y = y.split(e[0]).join(e[1]); });
       if (y !== t) n.nodeValue = y;
     });
-    document.title = f + (s ? " · " + s : "");
+    document.title = f + (yerAd ? " · " + yerAd : "");
     var demo = document.querySelector(".demo");
     if (demo) demo.textContent = "Bu tasarım " + f + " için hazırlandı. Telefon, yorumlar ve form şimdilik örnek.";
-    if (s) {
-      var yer = encodeURIComponent(s + ", Ankara");
+    if (yerAd) {
+      var yer = encodeURIComponent(s ? s + ", " + c : c);
       document.querySelectorAll("iframe[src*='google.com/maps'], a[href*='google.com/maps']").forEach(function (e) {
         var at = e.tagName === "IFRAME" ? "src" : "href";
         e.setAttribute(at, e.getAttribute(at).replace(/Ke%C3%A7i%C3%B6ren%2C%20Ankara/g, yer));
@@ -89,5 +97,5 @@
   fetch(kok + "adlar.json", { cache: "no-store" })
     .then(function (r) { return r.ok ? r.json() : {}; })
     .catch(function () { return {}; })
-    .then(function (m) { var x = m[k]; if (x) koy(x.f, x.s); else koy(tahmin(k), ""); });
+    .then(function (m) { var x = m[k]; if (x) koy(x.f, x.s, x.c); else koy(tahmin(k), "", ""); });
 })();
