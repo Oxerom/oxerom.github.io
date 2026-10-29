@@ -19,6 +19,11 @@
 "f": "Alkuş Su Tesisatı",
 "s": "Üsküdar"
 },
+"anadolu-teknik-sultanbeyli": {
+"c": "İstanbul",
+"f": "Anadolu Teknik",
+"s": "Sultanbeyli"
+},
 "ankara-kombi-bakim-tamir-etimesgut": {
 "c": "Ankara",
 "f": "Ankara Kombi Bakım Tamir",
@@ -34,25 +39,65 @@
 "f": "Asil Su Tesisatı ve Dogalgaz",
 "s": "Çankaya"
 },
+"ataser-klima-kombi-atasehir": {
+"c": "İstanbul",
+"f": "Ataser Klima Kombi",
+"s": "Ataşehir"
+},
+"ats-teknik-kombi-servisi-sultanbeyli": {
+"c": "İstanbul",
+"f": "Ats Teknik Kombi Servisi",
+"s": "Sultanbeyli"
+},
+"aydinli-kombi-servisi-tuzla": {
+"c": "İstanbul",
+"f": "Aydınlı Kombi Servisi",
+"s": "Tuzla"
+},
 "ayrac-teknik-kombi-elektrik-pursaklar": {
 "c": "Ankara",
 "f": "Ayraç Teknik Kombi & Elektrik",
 "s": "Pursaklar"
+},
+"bilgi-teknik-kombi-atasehir": {
+"c": "İstanbul",
+"f": "Bilgi Teknik | Kombi",
+"s": "Ataşehir"
 },
 "boyar-teknik-kombi-bakim-beypazari": {
 "c": "Ankara",
 "f": "Boyar Teknik Kombi Bakım",
 "s": "Beypazarı"
 },
+"bozkurt-kombi-klima-servis-eyupsultan": {
+"c": "İstanbul",
+"f": "Bozkurt Kombi Klima Servis",
+"s": "Eyüpsultan"
+},
 "cagri-grup-kombi-klima-teknik-pendik": {
 "c": "İstanbul",
 "f": "Çağrı Grup Kombi Klima Teknik",
 "s": "Pendik"
 },
+"cagri-teknik-kombi-arza-sisli": {
+"c": "İstanbul",
+"f": "Çağrı Teknık Kombi Arza",
+"s": "Şişli"
+},
 "cavus-ticaret-sultangazi": {
 "c": "İstanbul",
 "f": "Çavuş Ticaret",
 "s": "Sultangazi"
+},
+"cekmekoy-kombi-petek-temizleme-cekmekoy": {
+"c": "İstanbul",
+"f": "Çekmeköy Kombi Petek Temizleme",
+"s": "Çekmeköy"
+},
+"ceylan-kombi-sisli": {
+"c": "İstanbul",
+"f": "Ceylan Kombi",
+"s": "Şişli"
 },
 "detay-teknik-kombi-servisi-gaziosmanpasa": {
 "c": "İstanbul",
@@ -124,6 +169,11 @@
 "f": "Esenyurt Kombi Servisi",
 "s": "Esenyurt"
 },
+"fatih-merkez-klima-kombi-fatih": {
+"c": "İstanbul",
+"f": "Fatih Merkez Klima Kombi",
+"s": "Fatih"
+},
 "ferhat-kombi-hastanesi-cankaya": {
 "c": "Ankara",
 "f": "Ferhat Kombi Hastanesi",
@@ -153,6 +203,11 @@
 "c": "Ankara",
 "f": "Gölbaşı Lutes Kombi Servis",
 "s": "Gölbaşı"
+},
+"gulec-teknik-kombi-klima-sultanbeyli": {
+"c": "İstanbul",
+"f": "Güleç Teknik Kombi Klima",
+"s": "Sultanbeyli"
 },
 "guven-teknik-servis-beyaz-esya-kucukcekmece": {
 "c": "İstanbul",
@@ -204,6 +259,11 @@
 "f": "İstiklal Kombi Teknik Servisi",
 "s": "Ümraniye"
 },
+"jet-teknik-servis-beyaz-esya-sariyer": {
+"c": "İstanbul",
+"f": "JET Teknik Servis | Beyaz Eşya",
+"s": "Sarıyer"
+},
 "kar-kombi-sofben-servisi-mamak": {
 "c": "Ankara",
 "f": "Kar Kombi & Şofben Servisi",
@@ -234,10 +294,30 @@
 "f": "Kırkkonaklar Çilingir Elektrik",
 "s": "Çankaya"
 },
+"kombi-beyaz-esya-servisi-fatih": {
+"c": "İstanbul",
+"f": "Kombi Beyaz Eşya Servisi",
+"s": "Fatih"
+},
+"kombi-klima-teknik-servisi-kagithane": {
+"c": "İstanbul",
+"f": "Kombi Klima Teknik Servisi",
+"s": "Kağıthane"
+},
 "kombi-montaji-recep-usta-zeytinburnu": {
 "c": "İstanbul",
 "f": "Kombi Montaji Recep Usta",
 "s": "Zeytinburnu"
+},
+"kombi-servis-sisli": {
+"c": "İstanbul",
+"f": "Kombi Servis",
+"s": "Şişli"
+},
+"kombi-servisi-goktug-teknik-eyupsultan": {
+"c": "İstanbul",
+"f": "Kombi Servisi Göktuğ Teknik",
+"s": "Eyüpsultan"
 },
 "kombi-tamir-bakim-servisi-pursaklar": {
 "c": "Ankara",
@@ -248,6 +328,11 @@
 "c": "Ankara",
 "f": "Kombi Teknik Servis",
 "s": "Keçiören"
+},
+"kombici-teknik-sisli": {
+"c": "İstanbul",
+"f": "Kombici Teknik",
+"s": "Şişli"
 },
 "liya-teknik-kombi-klima-isitma-cankaya": {
 "c": "Ankara",
@@ -263,6 +348,11 @@
 "c": "Ankara",
 "f": "Mamak Kombi Bakım",
 "s": "Mamak"
+},
+"mavi-teknik-fatih": {
+"c": "İstanbul",
+"f": "Mavi Teknik",
+"s": "Fatih"
 },
 "mrv-teknik-kombi-klima-servisi-pendik": {
 "c": "İstanbul",
@@ -294,6 +384,11 @@
 "f": "Özel Teknik Kombi Servisi",
 "s": "Sultangazi"
 },
+"parla-klima-arnavutkoy": {
+"c": "İstanbul",
+"f": "Parla Klima",
+"s": "Arnavutköy"
+},
 "pasa-isi-market-gaziosmanpasa": {
 "c": "İstanbul",
 "f": "Paşa Isı Market",
@@ -314,6 +409,11 @@
 "f": "Polatlı Kombi Bakım Tamir",
 "s": "Polatlı"
 },
+"poyraz-teknik-fatih-klima-fatih": {
+"c": "İstanbul",
+"f": "Poyraz Teknik Fatih Klima",
+"s": "Fatih"
+},
 "safak-teknik-kombi-klima-kazan-cankaya": {
 "c": "Ankara",
 "f": "Şafak Teknik Kombi Klima Kazan",
@@ -323,6 +423,16 @@
 "c": "İstanbul",
 "f": "Şahin Isıteknik Kombi Bakım",
 "s": "Pendik"
+},
+"sahin-kombi-servisi-kagithane": {
+"c": "İstanbul",
+"f": "Şahin Kombi Servisi",
+"s": "Kağıthane"
+},
+"sahin-tesisat-petek-temizleme-sisli": {
+"c": "İstanbul",
+"f": "Şahin Tesisat Petek Temizleme",
+"s": "Şişli"
 },
 "samet-kombi-servisi-kartal": {
 "c": "İstanbul",
@@ -334,10 +444,30 @@
 "f": "Sancak Kombi Bakım Teknik",
 "s": "Kartal"
 },
+"sancaktepe-beyaz-esya-klima-sancaktepe": {
+"c": "İstanbul",
+"f": "Sancaktepe Beyaz Eşya Klima",
+"s": "Sancaktepe"
+},
+"sancaktepe-kombi-servisi-sancaktepe": {
+"c": "İstanbul",
+"f": "Sancaktepe Kombi Servisi |",
+"s": "Sancaktepe"
+},
+"sancaktepe-kombi-tamir-bakim-sancaktepe": {
+"c": "İstanbul",
+"f": "Sancaktepe Kombi Tamir Bakim",
+"s": "Sancaktepe"
+},
 "sasa-teknik-servis-kombi-yenimahalle": {
 "c": "Ankara",
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
+},
+"seymen-teknik-kombi-servisi-sisli": {
+"c": "İstanbul",
+"f": "Seymen Teknik Kombi Servisi",
+"s": "Şişli"
 },
 "sincan-ata-teknik-kombi-sincan": {
 "c": "Ankara",
@@ -349,15 +479,35 @@
 "f": "Şirinevler Er-Ka Teknik Kombi",
 "s": "Bahçelievler"
 },
+"sisli-kombi-klima-beyaz-esya-sisli": {
+"c": "İstanbul",
+"f": "Şişli Kombi Klima Beyaz Eşya",
+"s": "Şişli"
+},
 "soyer-sogutma-mamak": {
 "c": "Ankara",
 "f": "Soyer Soğutma",
 "s": "Mamak"
 },
+"tepe-klima-kombi-servisi-bayrampasa": {
+"c": "İstanbul",
+"f": "Tepe Klima Kombi Servisi",
+"s": "Bayrampaşa"
+},
 "ufuk-kombi-servisi-cankaya": {
 "c": "Ankara",
 "f": "Ufuk Kombi Servisi",
 "s": "Çankaya"
+},
+"ugur-teknik-kombi-zeytinburnu": {
+"c": "İstanbul",
+"f": "Uğur Teknik Kombi",
+"s": "Zeytinburnu"
+},
+"uludag-teknik-kombi-servisi-esenler": {
+"c": "İstanbul",
+"f": "Uludağ Teknik Kombi Servisi",
+"s": "Esenler"
 },
 "ulusoy-teknik-beyaz-esya-kombi-cankaya": {
 "c": "Ankara",
@@ -369,10 +519,20 @@
 "f": "Üsküdar Kombi",
 "s": "Üsküdar"
 },
+"uzman-kombi-klima-cekmekoy": {
+"c": "İstanbul",
+"f": "Uzman Kombi Klima",
+"s": "Çekmeköy"
+},
 "uzman-teknik-pendik": {
 "c": "İstanbul",
 "f": "Uzman Teknik",
 "s": "Pendik"
+},
+"vural-isitma-kombi-servisi-kagithane": {
+"c": "İstanbul",
+"f": "Vural Isıtma Kombi Servisi",
+"s": "Kağıthane"
 },
 "yildirim-kombi-tesisat-cankaya": {
 "c": "Ankara",
