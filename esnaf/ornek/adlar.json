@@ -1,4 +1,9 @@
 {
+"a-r-m-teknik-klima-kombi-karabaglar": {
+"c": "İzmir",
+"f": "A.r.m Teknik Klima Kombi",
+"s": "Karabağlar"
+},
 "adn-teknik-pendik": {
 "c": "İstanbul",
 "f": "Adn Teknik",
@@ -59,10 +64,30 @@
 "f": "Ayraç Teknik Kombi & Elektrik",
 "s": "Pursaklar"
 },
+"azra-teknik-klima-servisi-bayrakli": {
+"c": "İzmir",
+"f": "Azra Teknik- Klima Servisi-",
+"s": "Bayraklı"
+},
+"besiktas-teknik-tesisat-kombi-besiktas": {
+"c": "İstanbul",
+"f": "Beşiktaş Teknik Tesisat Kombi",
+"s": "Beşiktaş"
+},
+"beyaz-esya-kombi-klima-beykoz": {
+"c": "İstanbul",
+"f": "Beyaz Eşya | Kombi | Klima",
+"s": "Beykoz"
+},
 "bilgi-teknik-kombi-atasehir": {
 "c": "İstanbul",
 "f": "Bilgi Teknik | Kombi",
 "s": "Ataşehir"
+},
+"bornova-teknik-destek-merkezi-bornova": {
+"c": "İzmir",
+"f": "Bornova Teknik Destek Merkezi:",
+"s": "Bornova"
 },
 "boyar-teknik-kombi-bakim-beypazari": {
 "c": "Ankara",
@@ -74,6 +99,16 @@
 "f": "Bozkurt Kombi Klima Servis",
 "s": "Eyüpsultan"
 },
+"buca-kombi-dogalgaz-klima-buca": {
+"c": "İzmir",
+"f": "Buca Kombi Doğalgaz Klima",
+"s": "Buca"
+},
+"buca-kombi-klima-servisi-buca": {
+"c": "İzmir",
+"f": "Buca Kombi Klima Servisi",
+"s": "Buca"
+},
 "cagri-grup-kombi-klima-teknik-pendik": {
 "c": "İstanbul",
 "f": "Çağrı Grup Kombi Klima Teknik",
@@ -83,6 +118,11 @@
 "c": "İstanbul",
 "f": "Çağrı Teknık Kombi Arza",
 "s": "Şişli"
+},
+"cakir-beyaz-esya-kombi-teknik-silivri": {
+"c": "İstanbul",
+"f": "Çakır Beyaz Eşya Kombi Teknik",
+"s": "Silivri"
 },
 "cavus-ticaret-sultangazi": {
 "c": "İstanbul",
@@ -124,6 +164,11 @@
 "f": "Doğan Kardeşler Tesisat",
 "s": "Pursaklar"
 },
+"dogan-teknik-servis-kombi-buca": {
+"c": "İzmir",
+"f": "Doğan Teknik Servis- Kombi",
+"s": "Buca"
+},
 "dursun-teknik-bagcilar": {
 "c": "İstanbul",
 "f": "Dursun Teknik",
@@ -149,6 +194,11 @@
 "f": "Er&dem Kombi Bakım",
 "s": "Beypazarı"
 },
+"erce-teknik-beyaz-esya-kombi-yenimahalle": {
+"c": "İstanbul",
+"f": "Erce Teknik Beyaz Eşya Kombi",
+"s": "yenimahalle"
+},
 "erciyas-teknik-kombi-mamak": {
 "c": "Ankara",
 "f": "Erciyas Teknik Kombi",
@@ -168,6 +218,11 @@
 "c": "İstanbul",
 "f": "Esenyurt Kombi Servisi",
 "s": "Esenyurt"
+},
+"etkili-klima-kombi-servisi-karsiyaka": {
+"c": "İzmir",
+"f": "Etkili Klima--Kombi Servisi",
+"s": "Karşıyaka"
 },
 "fatih-merkez-klima-kombi-fatih": {
 "c": "İstanbul",
@@ -194,6 +249,11 @@
 "f": "Garanti Kombi",
 "s": "Yenimahalle"
 },
+"gokturk-kombi-klima-servisi-bakirkoy": {
+"c": "İstanbul",
+"f": "Göktürk Kombi Klima Servisi",
+"s": "Bakırköy"
+},
 "golbasi-kombi-klima-servisi-golbasi": {
 "c": "Ankara",
 "f": "Gölbaşı Kombi Klima Servisi",
@@ -208,6 +268,11 @@
 "c": "İstanbul",
 "f": "Güleç Teknik Kombi Klima",
 "s": "Sultanbeyli"
+},
+"guler-teknik-kombi-besiktas": {
+"c": "İstanbul",
+"f": "Güler Teknik Kombi",
+"s": "Beşiktaş"
 },
 "guven-teknik-servis-beyaz-esya-kucukcekmece": {
 "c": "İstanbul",
@@ -259,6 +324,16 @@
 "f": "İstiklal Kombi Teknik Servisi",
 "s": "Ümraniye"
 },
+"izmir-b-m-klima-kombi-teknik-bayrakli": {
+"c": "İzmir",
+"f": "İzmir B&m Klima Kombi Teknik",
+"s": "Bayraklı"
+},
+"izmir-kombi-bakim-tamir-bornova": {
+"c": "İzmir",
+"f": "İzmir Kombi Bakım Tamir",
+"s": "Bornova"
+},
 "jet-teknik-servis-beyaz-esya-sariyer": {
 "c": "İstanbul",
 "f": "JET Teknik Servis | Beyaz Eşya",
@@ -269,10 +344,20 @@
 "f": "Kar Kombi & Şofben Servisi",
 "s": "Mamak"
 },
+"karabaglar-karaogul-hirdavat-karabaglar": {
+"c": "İzmir",
+"f": "Karabağlar Karaoğul Hırdavat",
+"s": "Karabağlar"
+},
 "karakoc-isitma-sogutma-mamak": {
 "c": "Ankara",
 "f": "Karakoç Isıtma Soğutma",
 "s": "Mamak"
+},
+"karsiyaka-klima-servisi-karsiyaka": {
+"c": "İzmir",
+"f": "Karşıyaka Klima Servisi",
+"s": "Karşıyaka"
 },
 "kartal-teknik-kombi-servisi-kecioren": {
 "c": "Ankara",
@@ -319,6 +404,11 @@
 "f": "Kombi Servisi Göktuğ Teknik",
 "s": "Eyüpsultan"
 },
+"kombi-servisi-selim-usta-silivri": {
+"c": "İstanbul",
+"f": "Kombi Servisi Selim Usta",
+"s": "Silivri"
+},
 "kombi-tamir-bakim-servisi-pursaklar": {
 "c": "Ankara",
 "f": "Kombi Tamir & Bakım Servisi",
@@ -333,6 +423,11 @@
 "c": "İstanbul",
 "f": "Kombici Teknik",
 "s": "Şişli"
+},
+"konak-kombi-servisi-pence-konak": {
+"c": "İzmir",
+"f": "Konak Kombi Servisi | Pençe",
+"s": "Konak"
 },
 "liya-teknik-kombi-klima-isitma-cankaya": {
 "c": "Ankara",
@@ -383,6 +478,16 @@
 "c": "İstanbul",
 "f": "Özel Teknik Kombi Servisi",
 "s": "Sultangazi"
+},
+"ozgun-teknik-kombi-karsiyaka": {
+"c": "İzmir",
+"f": "Özgün Teknik-Kombi",
+"s": "Karşıyaka"
+},
+"ozturk-servis-buca": {
+"c": "İzmir",
+"f": "Öztürk Servis",
+"s": "Buca"
 },
 "parla-klima-arnavutkoy": {
 "c": "İstanbul",
@@ -464,10 +569,25 @@
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
 },
+"servisform-kombi-klima-servisi-karsiyaka": {
+"c": "İzmir",
+"f": "Servisform Kombi-Klima Servisi",
+"s": "Karşıyaka"
+},
 "seymen-teknik-kombi-servisi-sisli": {
 "c": "İstanbul",
 "f": "Seymen Teknik Kombi Servisi",
 "s": "Şişli"
+},
+"silivri-kaplan-teknik-kombi-silivri": {
+"c": "İstanbul",
+"f": "Silivri Kaplan Teknik Kombi",
+"s": "Silivri"
+},
+"silivri-kombi-servis-tamir-silivri": {
+"c": "İstanbul",
+"f": "Silivri Kombi Servis Tamir",
+"s": "Silivri"
 },
 "sincan-ata-teknik-kombi-sincan": {
 "c": "Ankara",
@@ -528,6 +648,21 @@
 "c": "İstanbul",
 "f": "Uzman Teknik",
 "s": "Pendik"
+},
+"vaillant-beyoglu-kombi-servisi-beyoglu": {
+"c": "İstanbul",
+"f": "Vaillant Beyoğlu Kombi Servisi",
+"s": "Beyoğlu"
+},
+"varol-teknik-kombi-klima-karsiyaka": {
+"c": "İzmir",
+"f": "Varol Teknik Kombi Klima",
+"s": "Karşıyaka"
+},
+"volkan-teknik-kombi-buyukcekmece": {
+"c": "İstanbul",
+"f": "Volkan Teknik Kombi",
+"s": "Büyükçekmece"
 },
 "vural-isitma-kombi-servisi-kagithane": {
 "c": "İstanbul",
