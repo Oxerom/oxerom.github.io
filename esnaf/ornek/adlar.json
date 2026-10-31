@@ -69,6 +69,11 @@
 "f": "Azra Teknik- Klima Servisi-",
 "s": "Bayraklı"
 },
+"b-c-s-izmir-teknik-klima-balcova": {
+"c": "İzmir",
+"f": "B.c.s İzmir Teknik Klima",
+"s": "Balçova"
+},
 "besiktas-teknik-tesisat-kombi-besiktas": {
 "c": "İstanbul",
 "f": "Beşiktaş Teknik Tesisat Kombi",
@@ -109,6 +114,16 @@
 "f": "Buca Kombi Klima Servisi",
 "s": "Buca"
 },
+"bulut-teknik-beyaz-esya-kombi-menderes": {
+"c": "İzmir",
+"f": "Bulut Teknik Beyaz Eşya Kombi",
+"s": "Menderes"
+},
+"cagatay-teknik-kombi-klima-narlidere": {
+"c": "İzmir",
+"f": "Çağatay Teknik -kombi&klima",
+"s": "Narlıdere"
+},
 "cagri-grup-kombi-klima-teknik-pendik": {
 "c": "İstanbul",
 "f": "Çağrı Grup Kombi Klima Teknik",
@@ -138,6 +153,11 @@
 "c": "İstanbul",
 "f": "Ceylan Kombi",
 "s": "Şişli"
+},
+"deniz-iklimlendirme-klima-menemen": {
+"c": "İzmir",
+"f": "Deniz İklimlendirme & Klima",
+"s": "Menemen"
 },
 "detay-teknik-kombi-servisi-gaziosmanpasa": {
 "c": "İstanbul",
@@ -248,6 +268,11 @@
 "c": "Ankara",
 "f": "Garanti Kombi",
 "s": "Yenimahalle"
+},
+"gaziemir-sarnic-kombi-servisi-gaziemir": {
+"c": "İzmir",
+"f": "Gaziemir Sarnıç Kombi Servisi",
+"s": "Gaziemir"
 },
 "gokturk-kombi-klima-servisi-bakirkoy": {
 "c": "İstanbul",
@@ -449,6 +474,11 @@
 "f": "Mavi Teknik",
 "s": "Fatih"
 },
+"menderes-elektrik-menderes": {
+"c": "İzmir",
+"f": "Menderes Elektrik",
+"s": "Menderes"
+},
 "mrv-teknik-kombi-klima-servisi-pendik": {
 "c": "İstanbul",
 "f": "Mrv Teknık Kombı Klıma Servısı",
@@ -539,6 +569,11 @@
 "f": "Şahin Tesisat Petek Temizleme",
 "s": "Şişli"
 },
+"saldin-klima-kombi-servisi-gaziemir": {
+"c": "İzmir",
+"f": "Saldin Klima Kombi Servisi",
+"s": "Gaziemir"
+},
 "samet-kombi-servisi-kartal": {
 "c": "İstanbul",
 "f": "Samet Kombi Servisi",
@@ -568,6 +603,16 @@
 "c": "Ankara",
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
+},
+"seferihisar-dogalgaz-seferihisar": {
+"c": "İzmir",
+"f": "Seferihisar Doğalgaz",
+"s": "Seferihisar"
+},
+"seferihisar-klima-kombi-seferihisar": {
+"c": "İzmir",
+"f": "Seferihisar Klima-Kombi",
+"s": "Seferihisar"
 },
 "servisform-kombi-klima-servisi-karsiyaka": {
 "c": "İzmir",
