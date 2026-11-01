@@ -9,6 +9,11 @@
 "f": "Adn Teknik",
 "s": "Pendik"
 },
+"ahsen-teknik-servis-osmangazi": {
+"c": "Bursa",
+"f": "Ahsen Teknik Servis",
+"s": "Osmangazi̇"
+},
 "akbaslar-beyaz-esya-cankaya": {
 "c": "Ankara",
 "f": "Akbaşlar Beyaz Eşya",
@@ -34,10 +39,20 @@
 "f": "Ankara Kombi Bakım Tamir",
 "s": "Etimesgut"
 },
+"artun-teknik-kombi-klima-gebze": {
+"c": "Kocaeli",
+"f": "Artun Teknik Kombi Klima",
+"s": "Gebze"
+},
 "arya-teknik-beyaz-esya-kombi-etimesgut": {
 "c": "Ankara",
 "f": "Arya Teknik Beyaz Eşya Kombi",
 "s": "Etimesgut"
+},
+"asaf-teknik-beyaz-esya-korfez": {
+"c": "Kocaeli",
+"f": "Asaf Teknik Beyaz Eşya",
+"s": "Körfez"
 },
 "asil-su-tesisati-ve-dogalgaz-cankaya": {
 "c": "Ankara",
@@ -74,6 +89,11 @@
 "f": "B.c.s İzmir Teknik Klima",
 "s": "Balçova"
 },
+"baymak-demirdokum-airfel-eca-golcuk": {
+"c": "Kocaeli",
+"f": "Baymak Demirdöküm Airfel Eca",
+"s": "Gölcük"
+},
 "besiktas-teknik-tesisat-kombi-besiktas": {
 "c": "İstanbul",
 "f": "Beşiktaş Teknik Tesisat Kombi",
@@ -88,6 +108,11 @@
 "c": "İstanbul",
 "f": "Bilgi Teknik | Kombi",
 "s": "Ataşehir"
+},
+"bodur-kombi-golcuk": {
+"c": "Kocaeli",
+"f": "Bodur Kombi",
+"s": "Gölcük"
 },
 "bornova-teknik-destek-merkezi-bornova": {
 "c": "İzmir",
@@ -154,10 +179,20 @@
 "f": "Ceylan Kombi",
 "s": "Şişli"
 },
+"demirdokum-baymak-airfel-kombi-golcuk": {
+"c": "Kocaeli",
+"f": "Demirdöküm Baymak Airfel Kombi",
+"s": "Gölcük"
+},
 "deniz-iklimlendirme-klima-menemen": {
 "c": "İzmir",
 "f": "Deniz İklimlendirme & Klima",
 "s": "Menemen"
+},
+"deniz-teknik-kombi-klima-darica": {
+"c": "Kocaeli",
+"f": "Deniz Teknik Kombi Klima",
+"s": "Darıca"
 },
 "detay-teknik-kombi-servisi-gaziosmanpasa": {
 "c": "İstanbul",
@@ -273,6 +308,21 @@
 "c": "İzmir",
 "f": "Gaziemir Sarnıç Kombi Servisi",
 "s": "Gaziemir"
+},
+"gebze-kardesler-kombi-klima-gebze": {
+"c": "Kocaeli",
+"f": "Gebze Kardeşler Kombi Klima",
+"s": "Gebze"
+},
+"gebze-kombi-petek-bakim-gebze": {
+"c": "Kocaeli",
+"f": "Gebze Kombi Petek Bakım",
+"s": "Gebze"
+},
+"gemlik-sihhi-tesisat-gemli-k": {
+"c": "Bursa",
+"f": "Gemlik Sıhhi Tesisat",
+"s": "Gemli̇k"
 },
 "gokturk-kombi-klima-servisi-bakirkoy": {
 "c": "İstanbul",
@@ -404,6 +454,11 @@
 "f": "Kırkkonaklar Çilingir Elektrik",
 "s": "Çankaya"
 },
+"kocaeli-kombi-klima-servisi-izmit": {
+"c": "Kocaeli",
+"f": "Kocaeli Kombi Klima Servisi",
+"s": "İzmit"
+},
 "kombi-beyaz-esya-servisi-fatih": {
 "c": "İstanbul",
 "f": "Kombi Beyaz Eşya Servisi",
@@ -439,6 +494,11 @@
 "f": "Kombi Tamir & Bakım Servisi",
 "s": "Pursaklar"
 },
+"kombi-tamir-bakim-teknik-mudanya": {
+"c": "Bursa",
+"f": "Kombi Tamir Bakım Teknik",
+"s": "Mudanya"
+},
 "kombi-teknik-servis-kecioren": {
 "c": "Ankara",
 "f": "Kombi Teknik Servis",
@@ -453,6 +513,16 @@
 "c": "İzmir",
 "f": "Konak Kombi Servisi | Pençe",
 "s": "Konak"
+},
+"korfez-teknik-servis-derince": {
+"c": "Kocaeli",
+"f": "Körfez Teknik Servis",
+"s": "Derince"
+},
+"kuloglu-kombi-bakimi-izmit": {
+"c": "Kocaeli",
+"f": "Kuloğlu Kombi Bakımı",
+"s": "İzmit"
 },
 "liya-teknik-kombi-klima-isitma-cankaya": {
 "c": "Ankara",
@@ -469,15 +539,30 @@
 "f": "Mamak Kombi Bakım",
 "s": "Mamak"
 },
+"mavi-su-teknik-kombi-kestel": {
+"c": "Bursa",
+"f": "Mavi-Su Teknik Kombi",
+"s": "Kestel"
+},
 "mavi-teknik-fatih": {
 "c": "İstanbul",
 "f": "Mavi Teknik",
 "s": "Fatih"
 },
+"mavi-teknik-ni-lufer": {
+"c": "Bursa",
+"f": "Mavi Teknik",
+"s": "Ni̇lüfer"
+},
 "menderes-elektrik-menderes": {
 "c": "İzmir",
 "f": "Menderes Elektrik",
 "s": "Menderes"
+},
+"mir-teknik-bursa-kombi-klima-osmangazi": {
+"c": "Bursa",
+"f": "Mir Teknik Bursa Kombi Klima",
+"s": "Osmangazi̇"
 },
 "mrv-teknik-kombi-klima-servisi-pendik": {
 "c": "İstanbul",
@@ -498,6 +583,11 @@
 "c": "İstanbul",
 "f": "Nur-İş Isıtma Sistemleri Kombi",
 "s": "Bahçelievler"
+},
+"ongiz-tic-kombi-klima-servisi-osmangazi": {
+"c": "Bursa",
+"f": "Öngiz Tic Kombi Klima Servisi",
+"s": "Osmangazi̇"
 },
 "oz-er-teknik-beyaz-esya-kombi-golbasi": {
 "c": "Ankara",
@@ -538,6 +628,11 @@
 "c": "Ankara",
 "f": "Platen Kombi Servis",
 "s": "Etimesgut"
+},
+"polat-teknik-beyaz-esya-golcuk": {
+"c": "Kocaeli",
+"f": "Polat Teknik- Beyaz Eşya",
+"s": "Gölcük"
 },
 "polatli-kombi-bakim-tamir-polatli": {
 "c": "Ankara",
@@ -604,6 +699,11 @@
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
 },
+"sefa-kombi-darica": {
+"c": "Kocaeli",
+"f": "Sefa Kombi",
+"s": "Darıca"
+},
 "seferihisar-dogalgaz-seferihisar": {
 "c": "İzmir",
 "f": "Seferihisar Doğalgaz",
@@ -649,6 +749,11 @@
 "f": "Şişli Kombi Klima Beyaz Eşya",
 "s": "Şişli"
 },
+"sonmez-isi-kombi-teknik-servis-yildirim": {
+"c": "Bursa",
+"f": "Sönmez Isı Kombi Teknik Servis",
+"s": "Yıldırım"
+},
 "soyer-sogutma-mamak": {
 "c": "Ankara",
 "f": "Soyer Soğutma",
@@ -693,6 +798,11 @@
 "c": "İstanbul",
 "f": "Uzman Teknik",
 "s": "Pendik"
+},
+"uzman-teknik-yildirim": {
+"c": "Bursa",
+"f": "Uzman Teknik",
+"s": "Yıldırım"
 },
 "vaillant-beyoglu-kombi-servisi-beyoglu": {
 "c": "İstanbul",
