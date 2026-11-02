@@ -69,6 +69,11 @@
 "f": "Ats Teknik Kombi Servisi",
 "s": "Sultanbeyli"
 },
+"ayaz-muhendislik-kartepe": {
+"c": "Kocaeli",
+"f": "Ayaz Mühendislik",
+"s": "Kartepe"
+},
 "aydinli-kombi-servisi-tuzla": {
 "c": "İstanbul",
 "f": "Aydınlı Kombi Servisi",
@@ -169,10 +174,25 @@
 "f": "Çavuş Ticaret",
 "s": "Sultangazi"
 },
+"cayirova-kombi-deniz-teknik-cayirova": {
+"c": "Kocaeli",
+"f": "Çayırova Kombi Deniz Teknik",
+"s": "Çayırova"
+},
+"cayirova-kombi-servisi-ada-cayirova": {
+"c": "Kocaeli",
+"f": "Çayırova Kombi Servisi Ada",
+"s": "Çayırova"
+},
 "cekmekoy-kombi-petek-temizleme-cekmekoy": {
 "c": "İstanbul",
 "f": "Çekmeköy Kombi Petek Temizleme",
 "s": "Çekmeköy"
+},
+"celik-beyaz-esya-cayirova": {
+"c": "Kocaeli",
+"f": "Çelik Beyaz Eşya",
+"s": "Çayırova"
 },
 "ceylan-kombi-sisli": {
 "c": "İstanbul",
@@ -439,6 +459,11 @@
 "f": "Kartal Teknik Kombi Servisi",
 "s": "Keçiören"
 },
+"kartepe-kombi-klima-servisi-kartepe": {
+"c": "Kocaeli",
+"f": "Kartepe Kombi Klima Servisi",
+"s": "Kartepe"
+},
 "kecioren-kombi-servisi": {
 "c": "Ankara",
 "f": "Keçiören Kombi Servisi",
@@ -503,6 +528,11 @@
 "c": "Ankara",
 "f": "Kombi Teknik Servis",
 "s": "Keçiören"
+},
+"kombi-yedek-parca-cayirova": {
+"c": "Kocaeli",
+"f": "Kombi Yedek Parça",
+"s": "Çayırova"
 },
 "kombici-teknik-sisli": {
 "c": "İstanbul",
