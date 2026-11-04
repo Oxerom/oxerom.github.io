@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Örnek Pilates Stüdyosu · Çukurambar, Çankaya</title>
+<meta name="description" content="Örnek Pilates Stüdyosu: Çukurambar, Çankaya reformer ve mat pilates. Deneme dersi için formu doldurun.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Manrope:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --zemin:#EDEFEA; --yuzey:#F8F9F6; --metin:#1D2627; --soluk:#55605F; --ray:#A7B0AC;
+  --koyu:#141B1C; --koyu2:#1D2627; --acik:#EEF1EE; --acik-soluk:#B9C3C0;
+  --marka:#2F6B66;
+  --yay-hafif:#E3B22F; --yay-orta:#3D6FCF; --yay-yogun:#C8463A;
+  --yaricap:16px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+html,body{overflow-x:clip}
+body{margin:0;background:var(--zemin);color:var(--metin);font:400 17px/1.65 'Manrope',system-ui,sans-serif}
+a{color:inherit}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid var(--marka);outline-offset:3px;border-radius:6px}
+.kap{max-width:1180px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:'Bricolage Grotesque','Manrope',sans-serif;line-height:1.05;margin:0}
+h2{font-size:clamp(32px,4.2vw,52px);font-weight:800;letter-spacing:-.015em}
+.serit{font:500 13px 'IBM Plex Mono',monospace;letter-spacing:.12em;text-transform:uppercase}
+.dugme{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 26px;border-radius:999px;font:700 16px 'Manrope',sans-serif;text-decoration:none;border:2px solid var(--marka);cursor:pointer}
+.dugme.dolu{background:var(--marka);color:#fff}
+.dugme.bos{background:transparent;color:var(--marka)}
+.dugme.beyaz{border-color:#fff;color:#fff;background:rgba(255,255,255,.08);backdrop-filter:blur(4px)}
+.dugme:hover{filter:brightness(1.1)}
+
+.demo{position:fixed;left:0;right:0;top:0;z-index:40;background:var(--koyu);color:#E8ECE9;font-size:13.5px;text-align:center;padding:7px 14px}
+.demo~.ust{top:var(--demo-h,34px)}
+
+/* ======= nav ======= */
+.ust{position:fixed;left:0;right:0;top:0;z-index:30;transition:background .3s,box-shadow .3s}
+.ust .ic{display:flex;justify-content:space-between;align-items:center;max-width:1180px;margin:0 auto;padding:16px 22px}
+.logo{font:800 21px 'Bricolage Grotesque',sans-serif;text-decoration:none;color:#fff;transition:color .3s}
+.ust nav{display:flex;gap:26px;align-items:center}
+.ust nav a{text-decoration:none;font-weight:700;font-size:15px;color:#fff;transition:color .3s}
+.ust .cta{padding:11px 20px;font-size:15px;border-color:#fff;color:#fff;background:rgba(255,255,255,.1)}
+.ust.dolu{background:rgba(238,240,235,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(29,38,39,.08)}
+.ust.dolu .logo,.ust.dolu nav a{color:var(--metin)}
+.ust.dolu .cta{border-color:var(--marka);color:#fff;background:var(--marka)}
+@media (max-width:900px){.ust nav{display:none}}
+
+/* ======= hero ======= */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.slaytlar{position:absolute;inset:0}
+.slaytlar .s{position:absolute;inset:0;opacity:0;transition:opacity 1.8s ease}
+.slaytlar .s.acik{opacity:1}
+.slaytlar img{width:100%;height:100%;object-fit:cover}
+.slaytlar .s:nth-child(odd) img{animation:kbA 14s ease-in-out infinite alternate}
+.slaytlar .s:nth-child(even) img{animation:kbB 14s ease-in-out infinite alternate}
+@keyframes kbA{from{transform:scale(1)}to{transform:scale(1.12) translate(-1.5%,1%)}}
+@keyframes kbB{from{transform:scale(1.12)}to{transform:scale(1) translate(1%,-1%)}}
+@media (prefers-reduced-motion:reduce){.slaytlar img{animation:none!important}.slaytlar .s{transition:none}}
+.hero .ortu{position:absolute;inset:0;background:linear-gradient(200deg,rgba(20,27,28,.25) 0%,rgba(20,27,28,.45) 45%,rgba(20,27,28,.86) 100%)}
+.hero .icerik{position:relative;width:100%;padding:150px 22px 56px}
+.hero .serit{color:var(--acik-soluk)}
+.hero h1{font-size:clamp(52px,9vw,124px);font-weight:800;letter-spacing:-.03em;margin:16px 0 18px;max-width:16ch;text-wrap:balance}
+.hero p.alt{font-size:clamp(18px,2vw,22px);max-width:36ch;color:var(--acik);margin:0 0 30px}
+.dugmeler{display:flex;flex-wrap:wrap;gap:14px}
+.hero .bilgi{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:34px;font-size:15.5px;color:var(--acik-soluk)}
+.hero .bilgi b{color:#fff}
+.asagi{position:absolute;right:34px;bottom:34px;width:46px;height:72px;border:2px solid rgba(255,255,255,.5);border-radius:999px;display:flex;justify-content:center;padding-top:12px}
+.asagi i{width:4px;height:10px;border-radius:2px;background:#fff;animation:in 1.8s ease-in-out infinite}
+@keyframes in{0%{transform:translateY(0);opacity:1}70%{transform:translateY(26px);opacity:0}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.asagi i{animation:none}}
+@media (max-width:900px){.asagi{display:none}}
+
+/* ======= kaydırmalı video hero ======= */
+.kaydirmali{display:block;height:420vh;min-height:0;align-items:stretch;overflow:visible} /* overflow hidden yapışkan sahneyi bozar */
+.kaydirmali .sahne{position:sticky;top:0;height:100svh;overflow:hidden;background:var(--koyu)}
+.kaydirmali video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:transform}
+.kaydirmali .kusak{position:absolute;inset:0;display:flex;opacity:0;visibility:hidden}
+.kaydirmali .kusak.bas{align-items:flex-end;opacity:1;visibility:visible}
+.kaydirmali .kusak.bas::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(20,27,28,.82) 0%,rgba(20,27,28,.45) 45%,rgba(20,27,28,0) 80%);opacity:var(--k,1)}
+.kaydirmali .kusak.bas .icerik{position:relative}
+.kaydirmali h1,.kaydirmali p.alt{text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.35)}
+.kaydirmali .kusak.orta{align-items:center;justify-content:center;text-align:center;padding:0 22px;color:#fff}
+.kaydirmali .kusak.orta::before{content:'';position:absolute;inset:0;background:radial-gradient(62% 54% at 50% 50%,rgba(20,27,28,.66),rgba(20,27,28,0) 72%);opacity:var(--k,0)}
+.kaydirmali .kusak.orta>div{position:relative;max-width:760px}
+.kaydirmali .buyuk{font:800 clamp(34px,5.2vw,66px)/1.08 'Bricolage Grotesque','Manrope',sans-serif;letter-spacing:-.02em;margin:14px 0 0;text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.4);text-wrap:balance}
+.kaydirmali .kusak.orta .serit{color:var(--acik-soluk);text-shadow:0 1px 6px rgba(0,0,0,.6)}
+.kaydirmali .kusak.orta .dugme{margin-top:30px}
+.kaydirmali .sabitgorsel{display:none}
+.kaydirmali .asagi{bottom:26px}
+/* sabit (telefon / dikey / hareket azalt / JS yok) → video yerine slaytlı giriş */
+.kaydirmali.sabit{height:auto;min-height:100svh}
+.kaydirmali.sabit .sahne{position:relative;height:auto;min-height:100svh;display:flex;align-items:flex-end}
+.kaydirmali.sabit video{display:none}
+.kaydirmali.sabit .sabitgorsel{display:block}
+.kaydirmali.sabit .kusak.orta{display:none}
+.kaydirmali.sabit .kusak.bas{position:relative;inset:auto;width:100%;opacity:1;visibility:visible}
+
+/* video girişte büyük başlık biraz küçülür: uzun işletme adları sığsın */
+.kaydirmali h1{font-size:clamp(44px,7vw,100px);max-width:12ch}
+
+/* ======= çizim giriş: kaydırdıkça reformer arabası kayar, yaylar gerilir ======= */
+/* --a araba kayar · --y yaylar sırayla yanar · --s stüdyo ışığı (varsayılan 1 = JS yoksa son hâli) */
+.cizim .sahne{background:linear-gradient(180deg,#202B2C 0%,#162021 58%,#111819 100%)}
+.cizim .isik{position:absolute;inset:0;opacity:var(--s,1);background:
+  radial-gradient(60% 55% at 72% 38%,rgba(255,222,176,.16),rgba(255,222,176,.04) 55%,rgba(0,0,0,0) 78%),
+  linear-gradient(180deg,rgba(255,240,220,.05),rgba(0,0,0,0))}
+.rgrup{position:absolute;right:5vw;top:50%;transform:translateY(-58%);width:clamp(320px,46vw,660px);filter:drop-shadow(0 26px 34px rgba(0,0,0,.45))}
+.rgrup svg{display:block;width:100%;height:auto;overflow:visible}
+.rgrup .araba2{transform:translateX(calc(var(--a,1) * 190px))}
+.rgrup .yaygrup{transform-box:view-box;transform-origin:82px 0;transform:scaleX(calc(1 + var(--a,1) * 2.7))}
+.rgrup .renkli{opacity:clamp(0,calc(var(--y,1) * 3 - var(--i)),1)}
+.yaycip{display:flex;justify-content:center;gap:10px;margin-top:22px;flex-wrap:wrap}
+.yaycip span{--on:clamp(0,calc(var(--y,1) * 3 - var(--i)),1);display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.18);font:500 12.5px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#C9D2CF;background:rgba(255,255,255,.04)}
+.yaycip i{width:10px;height:10px;border-radius:50%;background:var(--r);opacity:calc(.25 + var(--on) * .75);box-shadow:0 0 calc(var(--on) * 12px) var(--r)}
+.cizim .reformer{display:none}
+@media (max-width:760px){
+  .rgrup{right:auto;left:50%;top:27%;transform:translate(-50%,-50%);width:90vw}
+  .cizim .kusak.bas .dugme.beyaz{display:none} /* WhatsApp alt barda zaten var; çizime yer açılır */
+  .yaycip{margin-top:14px;gap:6px}
+  .yaycip span{padding:6px 10px;font-size:11px}
+}
+.cizim .kusak.orta{justify-content:flex-start;text-align:left;padding-left:calc(22px + max(0px,(100vw - 1136px)/2))}
+.cizim .kusak.orta::before{background:linear-gradient(90deg,rgba(17,24,25,.6),rgba(17,24,25,0) 58%)}
+.cizim .kusak.orta>div{max-width:470px}
+@media (min-width:761px){.cizim .kusak.bas .icerik{padding-right:min(46vw,640px)}}
+@media (max-width:760px){
+  .kaydirmali .kusak.bas .icerik{padding-bottom:110px} /* alt bar bilgi satırını örtmesin */
+  .cizim .kusak.orta{align-items:flex-end;justify-content:center;text-align:center;padding:0 22px 16vh}
+  .cizim .kusak.orta::before{background:linear-gradient(to top,rgba(17,24,25,.8),rgba(17,24,25,0) 58%)}
+}
+
+/* reformer rail signature */
+.reformer{position:relative;margin-top:44px;height:76px;max-width:620px}
+.reformer .ray{position:absolute;left:0;right:0;bottom:6px;height:5px;border-radius:3px;background:rgba(255,255,255,.35)}
+.reformer .ic{position:absolute;inset:0 0 12px 0;display:flex;align-items:center}
+.reformer .direk{width:12px;height:60px;border-radius:5px;background:#fff;flex:none}
+.reformer .yaylar{width:16%;height:44px;display:flex;flex-direction:column;justify-content:space-between;flex:none;animation:ger 1.8s cubic-bezier(.6,.05,.25,1) .5s forwards}
+.reformer .yaylar svg{display:block;width:100%;height:12px}
+.reformer .araba{width:min(210px,36%);height:52px;border-radius:10px;background:var(--marka);color:#fff;display:flex;align-items:center;justify-content:center;font:700 13px 'IBM Plex Mono',monospace;letter-spacing:.06em;flex:none;box-shadow:0 10px 24px rgba(0,0,0,.35)}
+@keyframes ger{to{width:46%}}
+@media (prefers-reduced-motion:reduce){.reformer .yaylar{animation:none;width:46%}}
+
+/* ======= sections ======= */
+section.blok{padding:92px 0}
+.giris{color:var(--soluk);max-width:52ch;margin:14px 0 40px;font-size:18px}
+.gorun{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.gorun.geldi{opacity:1;transform:none}
+
+/* stats band */
+.bant{background:var(--koyu);color:var(--acik);padding:56px 0}
+.bant .ic{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px;max-width:1180px;margin:0 auto;padding:0 22px}
+.bant .h{border-left:3px solid var(--marka);padding-left:20px}
+.bant .n{font:800 clamp(38px,4.4vw,56px)/1 'Bricolage Grotesque',sans-serif}
+.bant .a{color:var(--acik-soluk);font-size:15px;margin-top:8px}
+
+/* classes */
+.dersler{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.ders{background:var(--yuzey);border-radius:var(--yaricap);overflow:hidden;display:flex;flex-direction:column;border:1px solid #DDE2DD}
+.ders .foto{aspect-ratio:16/10;overflow:hidden}
+.ders .foto img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.ders:hover .foto img{transform:scale(1.05)}
+.ders .ic{padding:26px;display:flex;flex-direction:column;gap:12px;flex:1}
+.ders h3{font-size:27px;font-weight:700}
+.ders p{margin:0;color:var(--soluk)}
+.tempo{display:flex;align-items:center;gap:10px;font:500 13px 'IBM Plex Mono',monospace;margin-top:auto;padding-top:10px}
+.tempo i{display:block;width:26px;height:8px;border-radius:4px;background:#D5DAD6}
+.tempo i.on.h{background:var(--yay-hafif)} .tempo i.on.o{background:var(--yay-orta)} .tempo i.on.y{background:var(--yay-yogun)}
+
+/* steps */
+.adimlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0;border-top:2px solid var(--metin)}
+.adim{padding:30px 26px 30px 0;border-bottom:1px solid #CDD3CF}
+.adim .no{font:500 14px 'IBM Plex Mono',monospace;color:var(--marka)}
+.adim h3{font-size:24px;margin:10px 0 10px}
+.adim p{margin:0;color:var(--soluk)}
+
+/* gallery */
+.galeri{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.galeri .g{border-radius:var(--yaricap);overflow:hidden;aspect-ratio:4/3}
+.galeri .g.genis{grid-column:span 2;aspect-ratio:auto}
+.galeri img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.galeri .g:hover img{transform:scale(1.04)}
+@media (max-width:760px){.galeri{grid-template-columns:1fr 1fr}.galeri .g.genis{grid-column:span 2}}
+
+/* reviews */
+.yorumlar{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.yorum{background:var(--yuzey);border:1px solid #DDE2DD;border-radius:var(--yaricap);padding:28px;display:flex;flex-direction:column;gap:14px}
+.yorum .yildiz{color:#E8A13A;letter-spacing:3px;font-size:17px}
+.yorum p{margin:0;font-size:16.5px}
+.yorum .kim{margin-top:auto;padding-top:6px;font-weight:700;font-size:15px;color:var(--soluk)}
+.ynot{margin-top:22px;font-size:14px;color:var(--soluk)}
+
+/* first visit */
+.ilk{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));border-top:2px solid var(--metin)}
+.ilk div{padding:24px 22px 24px 0;border-bottom:1px solid #CDD3CF}
+.ilk b{display:block;font:500 13px 'IBM Plex Mono',monospace;text-transform:uppercase;letter-spacing:.06em;color:var(--soluk);margin-bottom:8px}
+
+/* faq */
+.sss{max-width:820px}
+.sss details{border-bottom:1px solid #CDD3CF}
+.sss summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 0;font:700 19px 'Manrope',sans-serif}
+.sss summary::-webkit-details-marker{display:none}
+.sss summary::after{content:'+';font:500 26px 'IBM Plex Mono',monospace;color:var(--marka);transition:transform .25s}
+.sss details[open] summary::after{transform:rotate(45deg)}
+.sss .c{padding:0 0 22px;color:var(--soluk);max-width:60ch}
+
+/* hours + map */
+.ikili{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;align-items:start}
+.saatler{width:100%;border-collapse:collapse;font:500 15px 'IBM Plex Mono',monospace}
+.saatler td{padding:12px 0;border-bottom:1px solid #CDD3CF}
+.saatler td:last-child{text-align:right}
+.saatler tr.bugun td{color:var(--marka);font-weight:700}
+.harita{border-radius:var(--yaricap);overflow:hidden;background:var(--yuzey);border:1px solid #DDE2DD}
+.harita iframe{display:block;width:100%;height:320px;border:0}
+.harita div{padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+@media (max-width:860px){.ikili{grid-template-columns:1fr}}
+
+/* form */
+.formblok{background:var(--koyu);color:var(--acik);border-radius:26px;padding:clamp(30px,5vw,60px)}
+.formblok .giris{color:var(--acik-soluk)}
+form{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+label{display:flex;flex-direction:column;gap:8px;font-weight:700;font-size:15px}
+.tam{grid-column:1/-1}
+input,textarea{font:400 16px 'Manrope',sans-serif;padding:14px;border-radius:10px;border:1px solid #4A5655;background:#242E2D;color:#fff}
+textarea{min-height:92px;resize:vertical}
+fieldset{border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+legend{font-weight:700;font-size:15px;margin-bottom:10px}
+.cipler{display:flex;flex-wrap:wrap;gap:8px}
+.cipler input{position:absolute;opacity:0;pointer-events:none}
+.cipler span{display:inline-block;padding:10px 15px;border-radius:999px;border:1px solid #5A6766;font-weight:500;font-size:15px;cursor:pointer}
+.cipler input:checked+span{background:var(--marka);border-color:var(--marka);color:#fff}
+.cipler input:focus-visible+span{outline:3px solid #fff;outline-offset:2px}
+form .dugme{justify-self:start}
+.tamam{display:none;font-size:19px}
+.tamam.acik{display:block}
+@media (max-width:760px){form{grid-template-columns:1fr}}
+
+/* footer */
+footer{background:var(--koyu);color:var(--acik-soluk);margin-top:92px;padding:56px 0 120px;font-size:15px}
+footer .kap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:34px}
+footer b{color:#fff;font-size:17px;display:block;margin-bottom:10px}
+footer a{color:var(--acik)}
+footer .alt{grid-column:1/-1;border-top:1px solid #2E3938;padding-top:22px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.altbar{display:none}
+@media (max-width:760px){
+  .altbar{display:flex;gap:10px;position:fixed;left:12px;right:12px;bottom:12px;z-index:25}
+  .altbar .dugme{flex:1;box-shadow:0 6px 18px rgba(20,27,28,.3)}
+  .altbar .bos{background:var(--yuzey);flex:0 0 auto}
+  .hero .serit{font-size:11px;letter-spacing:.08em}
+}
+</style>
+</head>
+<body>
+<div class="demo">Bu sayfa Örnek Pilates Stüdyosu için hazırlanmış bir örnektir. Form şu an gerçek bir talep göndermez.</div>
+<script>(function(){var d=document.querySelector(".demo");function o(){document.documentElement.style.setProperty("--demo-h",d.offsetHeight+"px")}o();addEventListener("resize",o)})()</script>
+
+<header class="ust" id="ust">
+  <div class="ic">
+    <a class="logo" href="#">Örnek Pilates</a>
+    <nav>
+      <a href="#dersler">Dersler</a>
+      <a href="#nasil">Nasıl işler</a>
+      <a href="#yorumlar">Yorumlar</a>
+      <a href="#sss">SSS</a>
+      <a href="#konum">Konum</a>
+    </nav>
+    <a class="dugme cta" href="#deneme">Deneme dersi al</a>
+  </div>
+</header>
+
+
+
+<main>
+
+
+
+
+<section class="hero kaydirmali sabit" id="khero">
+  <div class="sahne">
+    <video data-src="hero-video.mp4" poster="hero-video-poster.jpg" muted playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+    
+  <div class="slaytlar sabitgorsel" aria-hidden="true">
+    
+    <div class="s acik"><img src="hero-video-poster.jpg" alt="" loading="lazy"></div>
+    
+  </div>
+
+    <div class="ortu"></div>
+    <div class="kusak bas" data-a="0" data-b="0.30">
+  <div class="kap icerik">
+    <div class="serit">Reformer ve mat pilates · Çukurambar</div>
+    <h1>Örnek Pilates</h1>
+    <p class="alt">İlk dersiniz deneme dersi. Seviyenize birlikte bakıp size uygun grubu seçiyoruz.</p>
+    <div class="dugmeler">
+      <a class="dugme dolu" href="#deneme">Deneme dersi al</a>
+      <a class="dugme beyaz" href="https://wa.me/905550000000?text=Merhaba%2C%20deneme%20dersi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum.">WhatsApp'tan yazın</a>
+    </div>
+    <div class="bilgi">
+      <span><b>★ 4,9</b> · Google'da 120 yorum</span>
+      <span><b>Çukurambar</b>, Çankaya</span>
+    </div>
+    <div class="reformer" aria-hidden="true">
+      <div class="ray"></div>
+      <div class="ic">
+        <div class="direk"></div>
+        <div class="yaylar">
+          
+          <svg viewBox="0 0 200 14" preserveAspectRatio="none"><polyline fill="none" stroke="var(--yay-hafif)" stroke-width="3" vector-effect="non-scaling-stroke" points="0,7 6,1 14,13 22,1 30,13 38,1 46,13 54,1 62,13 70,1 78,13 86,1 94,13 102,1 110,13 118,1 126,13 134,1 142,13 150,1 158,13 166,1 174,13 182,1 190,13 196,7 200,7"/></svg>
+          
+          <svg viewBox="0 0 200 14" preserveAspectRatio="none"><polyline fill="none" stroke="var(--yay-orta)" stroke-width="3" vector-effect="non-scaling-stroke" points="0,7 6,1 14,13 22,1 30,13 38,1 46,13 54,1 62,13 70,1 78,13 86,1 94,13 102,1 110,13 118,1 126,13 134,1 142,13 150,1 158,13 166,1 174,13 182,1 190,13 196,7 200,7"/></svg>
+          
+          <svg viewBox="0 0 200 14" preserveAspectRatio="none"><polyline fill="none" stroke="var(--yay-yogun)" stroke-width="3" vector-effect="non-scaling-stroke" points="0,7 6,1 14,13 22,1 30,13 38,1 46,13 54,1 62,13 70,1 78,13 86,1 94,13 102,1 110,13 118,1 126,13 134,1 142,13 150,1 158,13 166,1 174,13 182,1 190,13 196,7 200,7"/></svg>
+          
+        </div>
+        <div class="araba">ÇUKURAMBAR</div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    <div class="kusak orta" data-a="0.38" data-b="0.64"><div><div class="serit">Stüdyo</div><p class="buyuk">Gelin, stüdyoyu görün.</p></div></div>
+    
+    <div class="kusak orta" data-a="0.72" data-b="1"><div><div class="serit">İlk adım</div><p class="buyuk">İlk dersiniz deneme dersi.</p><a class="dugme dolu" href="#deneme">Deneme dersi al</a></div></div>
+    
+
+    <div class="asagi" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+
+<div class="bant">
+  <div class="ic">
+    <div class="h"><div class="n" data-sayi="4.9" data-ondalik="1">0</div><div class="a">Google puanı</div></div>
+    <div class="h"><div class="n" data-sayi="120">0</div><div class="a">Google yorumu</div></div>
+    <div class="h"><div class="n" data-sayi="3">0</div><div class="a">Ders türü</div></div>
+    <div class="h"><div class="n" style="font-size:clamp(26px,3vw,38px)">Çukurambar</div><div class="a">Çankaya, Ankara</div></div>
+  </div>
+</div>
+
+<section class="blok" id="dersler">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Dersler</div>
+    <h2>Size uygun ders burada</h2>
+    <p class="giris">Yay direncini her derste seviyenize göre ayarlıyoruz. Yay renkleri derste gerçekten böyle: sarı hafif, mavi orta, kırmızı yoğun.</p>
+    <div class="dersler">
+      
+      <article class="ders">
+        <div class="foto"><img src="ders-reformer.jpg" alt="Reformer Pilates" loading="lazy"></div>
+        <div class="ic">
+          <h3>Reformer Pilates</h3>
+          <p>Reformer aletinde grup dersi.</p>
+          <div class="tempo"><i class="h on"></i><i class="o on"></i><i class="y "></i> Tempo: Orta</div>
+        </div>
+      </article>
+      
+      <article class="ders">
+        <div class="foto"><img src="ders-mat.jpg" alt="Mat Pilates" loading="lazy"></div>
+        <div class="ic">
+          <h3>Mat Pilates</h3>
+          <p>Alet yok; minder ve kendi vücut ağırlığınız.</p>
+          <div class="tempo"><i class="h on"></i><i class="o "></i><i class="y "></i> Tempo: Hafif</div>
+        </div>
+      </article>
+      
+      <article class="ders">
+        <div class="foto"><img src="ders-birebir.jpg" alt="Birebir ders" loading="lazy"></div>
+        <div class="ic">
+          <h3>Birebir ders</h3>
+          <p>Eğitmenle yalnız çalışırsınız. Eğitmen programı size göre kurar.</p>
+          <div class="tempo"><i class="h on"></i><i class="o on"></i><i class="y on"></i> Tempo: Yoğun</div>
+        </div>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="nasil" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Nasıl işler</div>
+    <h2>Üç adımda başlıyorsunuz</h2>
+    <div class="adimlar" style="margin-top:40px">
+      <div class="adim"><div class="no">01</div><h3>Formu doldurun</h3><p>Adınızı, telefonunuzu ve size uyan gün ve saatleri yazıyorsunuz. İki dakika sürer.</p></div>
+      <div class="adim"><div class="no">02</div><h3>Sizi arıyoruz</h3><p>Gün ve saati birlikte belirliyoruz. Daha önce pilates yapıp yapmadığınızı soruyoruz.</p></div>
+      <div class="adim"><div class="no">03</div><h3>Deneme dersine geliyorsunuz</h3><p>Dersten sonra seviyenize uygun grubu birlikte seçiyoruz.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="blok" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Stüdyo</div>
+    <h2>İçerisi böyle</h2>
+    <div class="galeri" style="margin-top:40px">
+      <div class="g genis"><img src="galeri-salon.jpg" alt="Örnek Pilates stüdyosundan bir kare" loading="lazy"></div><div class="g"><img src="galeri-studyo.jpg" alt="Örnek Pilates stüdyosundan bir kare" loading="lazy"></div><div class="g"><img src="galeri-yaylar.jpg" alt="Örnek Pilates stüdyosundan bir kare" loading="lazy"></div><div class="g"><img src="galeri-raf.jpg" alt="Örnek Pilates stüdyosundan bir kare" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="blok" id="yorumlar" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">Yorumlar</div>
+    <h2>Gelenler ne diyor</h2>
+    <div class="yorumlar" style="margin-top:40px">
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Belim ağrıyordu, eğitmen ilk derste hareketleri buna göre değiştirdi. Üç aydır haftada iki gün geliyorum."</p>
+        <div class="kim">Ayşe K.</div>
+      </div>
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Hiç pilates yapmamıştım. Deneme dersinde aleti baştan anlattılar, kendimi acemi gibi hissetmedim."</p>
+        <div class="kim">Zeynep T.</div>
+      </div>
+      
+      <div class="yorum">
+        <div class="yildiz" aria-label="5 yıldız">★★★★★</div>
+        <p>"Gruplar kalabalık değil, eğitmen herkesin duruşunu tek tek düzeltiyor."</p>
+        <div class="kim">Elif S.</div>
+      </div>
+      
+    </div>
+    <p class="ynot">Yorumlar örnektir; gerçek sitede stüdyonun Google yorumları gösterilir.</p>
+  </div>
+</section>
+
+
+<section class="blok" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">İlk gelişte</div>
+    <h2>Gelmeden bilin</h2>
+    <div class="ilk" style="margin-top:40px">
+      <div><b>Ne giymeli</b>Rahat bir kıyafet ve kaymaz çorap.</div>
+      <div><b>Ne zaman gelmeli</b>Dersten 10 dakika önce.</div>
+      <div><b>Bilmemiz gerekenler</b>Bel, boyun sorunu ya da hamilelik varsa formda yazın.</div>
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="sss" style="padding-top:0">
+  <div class="kap">
+    <div class="serit" style="color:var(--marka)">SSS</div>
+    <h2>Sık sorulanlar</h2>
+    <div class="sss" style="margin-top:28px">
+      <details><summary>Daha önce hiç pilates yapmadım, olur mu?</summary><div class="c">Olur. İlk ders zaten deneme dersi: seviyenize birlikte bakıyoruz ve size uygun gruptan başlıyorsunuz.</div></details>
+      <details><summary>Ne giymem gerekiyor?</summary><div class="c">Rahat bir spor kıyafet ve kaymaz çorap yeterli. Ayakkabıyla derse girilmiyor.</div></details>
+      <details><summary>Fiyatlar ne kadar?</summary><div class="c">Ders paketlerini ve güncel fiyatları WhatsApp'tan sorabilirsiniz; aynı gün cevap alırsınız.</div></details>
+      <details><summary>Bel ya da boyun rahatsızlığım var, katılabilir miyim?</summary><div class="c">Formda belirtin; deneme dersinde eğitmen durumunuza bakarak hangi derslerin uygun olduğunu söyler. Gerekirse önce doktorunuza danışın.</div></details>
+      <details><summary>Randevuyu nasıl alıyorum?</summary><div class="c">Aşağıdaki deneme dersi formunu doldurun, sizi arayıp gün ve saati birlikte belirleyelim. İsterseniz WhatsApp'tan da yazabilirsiniz.</div></details>
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="konum" style="padding-top:0">
+  <div class="kap ikili">
+    <div>
+      <h2>Açık olduğumuz saatler</h2>
+      <table class="saatler" style="margin-top:26px">
+        <tr data-gun="0"><td>Pazartesi</td><td>08:00–21:00</td></tr><tr data-gun="1"><td>Salı</td><td>08:00–21:00</td></tr><tr data-gun="2"><td>Çarşamba</td><td>08:00–21:00</td></tr><tr data-gun="3"><td>Perşembe</td><td>08:00–21:00</td></tr><tr data-gun="4"><td>Cuma</td><td>08:00–21:00</td></tr><tr data-gun="5"><td>Cumartesi</td><td>10:00–17:00</td></tr><tr data-gun="6"><td>Pazar</td><td>Kapalı</td></tr>
+      </table>
+      <p class="ynot">Saatler örnektir; gerçek sitede stüdyonun kendi saatleri yazar.</p>
+    </div>
+    <div>
+      <h2>Nasıl gelinir</h2>
+      <div class="harita" style="margin-top:26px">
+        <iframe title="Örnek Pilates Stüdyosu harita" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=%C3%87ukurambar%2C%20%C3%87ankaya%2C%20Ankara&output=embed"></iframe>
+        <div><span>Çukurambar, Çankaya / Ankara</span><a class="dugme bos" href="https://www.google.com/maps/dir/?api=1&destination=%C3%87ukurambar%2C%20%C3%87ankaya%2C%20Ankara">Yol tarifi al</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blok" id="deneme" style="padding-top:0">
+  <div class="kap">
+    <div class="formblok">
+      <div class="serit" style="color:var(--acik-soluk)">Deneme dersi</div>
+      <h2>Deneme dersi al</h2>
+      <p class="giris">Formu doldurun, sizi arayalım.</p>
+      <form id="form" novalidate>
+        <label>Adınız<input name="ad" autocomplete="name" required></label>
+        <label>Telefonunuz<input name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        <fieldset class="tam"><legend>Hangi günler uyar?</legend><div class="cipler">
+          <label><input type="checkbox" name="gun" value="Pzt"><span>Pzt</span></label><label><input type="checkbox" name="gun" value="Sal"><span>Sal</span></label><label><input type="checkbox" name="gun" value="Çar"><span>Çar</span></label><label><input type="checkbox" name="gun" value="Per"><span>Per</span></label><label><input type="checkbox" name="gun" value="Cum"><span>Cum</span></label><label><input type="checkbox" name="gun" value="Cmt"><span>Cmt</span></label><label><input type="checkbox" name="gun" value="Paz"><span>Paz</span></label>
+        </div></fieldset>
+        <fieldset><legend>Hangi saatler?</legend><div class="cipler">
+          <label><input type="checkbox" name="saat" value="Sabah"><span>Sabah</span></label><label><input type="checkbox" name="saat" value="Öğle"><span>Öğle</span></label><label><input type="checkbox" name="saat" value="Akşam"><span>Akşam</span></label>
+        </div></fieldset>
+        <fieldset><legend>Daha önce pilates yaptınız mı?</legend><div class="cipler">
+          <label><input type="radio" name="seviye" value="İlk kez"><span>İlk kez</span></label><label><input type="radio" name="seviye" value="Birkaç kez"><span>Birkaç kez</span></label><label><input type="radio" name="seviye" value="Düzenli"><span>Düzenli</span></label>
+        </div></fieldset>
+        <label class="tam">Not (isteğe bağlı)<textarea name="not" placeholder="Bilmemiz gereken bir sağlık durumu varsa yazın"></textarea></label>
+        <button class="dugme dolu tam" type="submit">Deneme dersi iste</button>
+        <p class="tamam tam" id="tamam" role="status">Talebiniz bize ulaştı. Sizi arayıp gün ve saati birlikte belirleyeceğiz.</p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="kap">
+    <div><b>Örnek Pilates Stüdyosu</b>Çukurambar, Çankaya / Ankara<br><a href="tel:05550000000">0555 000 00 00</a></div>
+    <div><b>Dersler</b>Reformer Pilates<br>Mat Pilates<br>Birebir ders</div>
+    <div><b>Saatler</b>Pazartesi: 08:00–21:00<br>Salı: 08:00–21:00<br>Çarşamba: 08:00–21:00<br>Perşembe: 08:00–21:00<br>Cuma: 08:00–21:00<br>Cumartesi: 10:00–17:00<br>Pazar: Kapalı</div>
+    <div class="alt"><span>© Örnek Pilates Stüdyosu</span><span>Site: <a href="https://instagram.com/esnaf_site">Esnaf Site</a></span></div>
+  </div>
+</footer>
+
+<nav class="altbar" aria-label="Hızlı iletişim">
+  <a class="dugme dolu" href="#deneme">Deneme dersi al</a>
+  <a class="dugme bos" href="https://wa.me/905550000000" aria-label="WhatsApp">WhatsApp</a>
+</nav>
+
+<script>
+(function(){
+  var azalt=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // bugünü işaretle
+  var g=(new Date().getDay()+6)%7, r=document.querySelector('.saatler tr[data-gun="'+g+'"]'); if(r) r.className='bugun';
+
+  // kaydırınca dolan üst şerit (giriş bölümü bitince dolar)
+  var ust=document.getElementById('ust'), hero=document.querySelector('.hero');
+  var ustGuncelle=function(){
+    var esik=hero?Math.max(40,hero.offsetHeight-innerHeight*.4):40;
+    ust.classList.toggle('dolu', scrollY>esik);
+  };
+  addEventListener('scroll', ustGuncelle, {passive:true});
+  addEventListener('resize', ustGuncelle); ustGuncelle();
+
+  // ===== kaydırmalı giriş: video varsa çekim sarılır, yoksa çizim reformer kayar =====
+  (function(){
+    var sec=document.getElementById('khero'); if(!sec) return;
+    var video=sec.querySelector('video'), sahne=sec.querySelector('.sahne');
+    var kusaklar=[].map.call(sec.querySelectorAll('.kusak'),function(el){
+      return {el:el, a:+el.dataset.a, b:+el.dataset.b, son:-1};
+    });
+    // Kapı yok: telefonda da çalışır (Emre, 22.10.2026 — ziyaretçilerin çoğu mobil).
+    // Hareket-azalt dinlenmez: sahne yalnız kullanıcı kaydırınca ilerler, kendiliğinden değil.
+    // "sabit" sınıfı yalnız JS çalışmazsa kalır (slaytlı / son hâl yedek giriş).
+    var sabitMi=function(){return false};
+
+    var sure=10, hedef=0, gorunen=0, sonCizilen=-1;
+    var aktif=false, ekranda=true, calisiyor=false, sonTs=0;
+    var seekMesgul=false, bekleyen=-1, yuklendi=false;
+    var esikCiz=video?0.034:0.0015, esikDur=video?0.003:0.0006;
+
+    // --- video modu ---
+    function kaynakYukle(){
+      if(yuklendi) return; yuklendi=true;
+      var src=video.dataset.src;
+      var bagla=function(u){video.preload='auto';video.src=u;video.load()};
+      // blob olarak çek: bazı sunucular parça isteğini desteklemez, kaydırma takılır
+      fetch(src).then(function(r){if(!r.ok)throw 0;return r.blob()})
+        .then(function(b){bagla(URL.createObjectURL(b))})
+        .catch(function(){bagla(src)}); // yerel dosyada fetch çalışmaz, doğrudan bağla
+    }
+    if(video){
+      video.addEventListener('loadedmetadata',function(){
+        if(video.duration) sure=video.duration;
+        sonCizilen=-1; uyandir();
+      });
+      video.addEventListener('seeking',function(){seekMesgul=true});
+      video.addEventListener('seeked',function(){
+        seekMesgul=false;
+        if(bekleyen>=0){var t=bekleyen;bekleyen=-1;zamanYaz(t)}
+      });
+      video.addEventListener('error',function(){seekMesgul=false});
+    }
+    function zamanYaz(t){
+      if(video.readyState<1) return;
+      if(seekMesgul){bekleyen=t;return}
+      try{video.currentTime=t}catch(e){}
+    }
+    // --- çizim modu ---
+    function kes(a,b,x){x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)}
+    function sahneCiz(p){
+      sahne.style.setProperty('--a',kes(0.06,0.52,p).toFixed(4));  // araba kayar, yaylar gerilir
+      sahne.style.setProperty('--y',kes(0.10,0.62,p).toFixed(4));  // yaylar sırayla yanar
+      sahne.style.setProperty('--s',kes(0.40,0.90,p).toFixed(4));  // stüdyo ışığı
+    }
+    function yaz(x){if(video)zamanYaz(x);else sahneCiz(x)}
+    function ilerleme(){
+      var r=sec.getBoundingClientRect(), h=r.height-innerHeight;
+      if(h<=0) return 0;
+      return Math.min(1,Math.max(0,-r.top/h));
+    }
+    function ss(a,b,x){x=Math.min(1,Math.max(0,(x-a)/(b-a)));return x*x*(3-2*x)}
+    function kusakGuncelle(p){
+      for(var i=0;i<kusaklar.length;i++){
+        var k=kusaklar[i], f=Math.min(0.06,(k.b-k.a)/3);
+        var g=(i===0?1:ss(k.a,k.a+f,p))*(i===kusaklar.length-1?1:1-ss(k.b-f,k.b,p));
+        if(Math.abs(g-k.son)>0.01||(g===0&&k.son!==0)||(g===1&&k.son!==1)){
+          k.son=g;
+          k.el.style.opacity=g.toFixed(3);
+          k.el.style.setProperty('--k',g.toFixed(3));
+          k.el.style.visibility=g<0.01?'hidden':'visible';
+        }
+      }
+    }
+    function adim(ts){
+      if(!calisiyor) return;
+      var dt=sonTs?Math.min(ts-sonTs,100):16.7; sonTs=ts;
+      var p=ilerleme();
+      kusakGuncelle(p);
+      hedef=video?p*Math.max(0,sure-0.08):p;
+      gorunen+=(hedef-gorunen)*(1-Math.pow(1-0.16,dt/16.667));
+      if(Math.abs(hedef-gorunen)<esikDur) gorunen=hedef;
+      if(Math.abs(gorunen-sonCizilen)>esikCiz||(gorunen===hedef&&sonCizilen!==gorunen)){
+        sonCizilen=gorunen; yaz(gorunen);
+      }
+      if(gorunen===hedef){calisiyor=false;sonTs=0;return} // dinlen, kaydırma uyandırır
+      requestAnimationFrame(adim);
+    }
+    function uyandir(){
+      if(!calisiyor&&aktif&&ekranda){calisiyor=true;sonTs=0;requestAnimationFrame(adim)}
+    }
+    if('IntersectionObserver' in window){
+      new IntersectionObserver(function(es){
+        es.forEach(function(e){ekranda=e.isIntersecting; if(ekranda)uyandir()});
+      },{rootMargin:'120px'}).observe(sec);
+    }
+    function uygula(){
+      var sb=sabitMi();
+      sec.classList.toggle('sabit',sb);
+      aktif=!sb;
+      if(!sb){
+        if(video){kaynakYukle()}
+        else{gorunen=hedef=ilerleme();sahneCiz(gorunen);kusakGuncelle(gorunen)}
+        sonCizilen=-1;uyandir();
+      }
+      ustGuncelle();
+    }
+    addEventListener('scroll',uyandir,{passive:true});
+    addEventListener('resize',function(){sonCizilen=-1;uyandir()});
+    uygula();
+  })();
+
+  // hero slayt geçişi
+  var s=document.querySelectorAll('.slaytlar .s');
+  if(s.length>1 && !azalt){var si=0;setInterval(function(){s[si].classList.remove('acik');si=(si+1)%s.length;s[si].classList.add('acik')},6000)}
+
+  // kaydırdıkça belirme + sayaçlar
+  var sayiYaz=function(el,k){
+    var hedef=parseFloat(el.dataset.sayi), ond=+(el.dataset.ondalik||0);
+    el.textContent=(hedef*k).toFixed(ond).replace('.',',');
+  };
+  if(!azalt && 'IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('geldi');io.unobserve(e.target)}})},{threshold:.1});
+    [].forEach.call(document.querySelectorAll('section.blok .kap, .bant .h, .ders'),function(el,i){el.classList.add('gorun');if(el.classList.contains('ders'))el.style.transitionDelay=(i%4*90)+'ms';io.observe(el)});
+    var so=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(!e.isIntersecting)return; so.unobserve(e.target);
+      var el=e.target, t0=null;
+      var adim=function(t){if(!t0)t0=t;var k=Math.min((t-t0)/1200,1);k=1-Math.pow(1-k,3);
+        sayiYaz(el,k); if(k<1)requestAnimationFrame(adim)};
+      requestAnimationFrame(adim);
+    })},{threshold:.6});
+    [].forEach.call(document.querySelectorAll('[data-sayi]'),function(el){so.observe(el)});
+  } else {
+    [].forEach.call(document.querySelectorAll('[data-sayi]'),function(el){sayiYaz(el,1)});
+  }
+
+  // form
+  var f=document.getElementById('form'), ok=document.getElementById('tamam'), DEMO=true, URL2="";
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var ad=f.ad.value.trim(), tel=f.telefon.value.replace(/\D/g,'');
+    if(!ad){f.ad.focus();return} if(tel.length<10){f.telefon.focus();return}
+    var v={ad:ad,telefon:f.telefon.value,gun:[].map.call(f.querySelectorAll('[name=gun]:checked'),function(x){return x.value}),
+      saat:[].map.call(f.querySelectorAll('[name=saat]:checked'),function(x){return x.value}),
+      seviye:(f.querySelector('[name=seviye]:checked')||{}).value||'',not:f.not.value};
+    var bitir=function(){[].forEach.call(f.querySelectorAll('label,fieldset,button'),function(x){x.style.display='none'});ok.className='tamam tam acik';};
+    if(DEMO||!URL2){bitir();return}
+    fetch(URL2,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(v)}).then(bitir).catch(bitir);
+  });
+})();
+</script>
+<script src="../kisisel.js"></script>
+</body>
+</html>
