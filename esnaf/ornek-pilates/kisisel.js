@@ -33,21 +33,19 @@
 
     // Küçük resimler: adı silinmiş kapak (kapak-N-bos.jpg, 400x805 ekranda çekildi, pilates-galeri.py --kapak)
     // + stüdyonun adı üstüne. Ölçüler o çekimden: logo x22 orta-y39.5 (21px); başlık x22, alt kenarı
-    // 1-3'te y242.5, 4'te (çizim) y434.5 (44px). Başlık alttan sabit: uzun ad yukarı doğru taşar
+    // dördünde de y242.5 (44px; 05.11.2026 çizim yerine video gelince 4 de aynı oldu). Başlık alttan sabit: uzun ad yukarı doğru taşar
     // (üstündeki küçük satır -bos kapakta zaten silik).
     var stil = document.createElement("style");
     stil.textContent =
       ".telefon{position:relative;container-type:inline-size}" +
       ".telefon .kad{position:absolute;color:#fff;font-family:'Bricolage Grotesque',Manrope,sans-serif;font-weight:800;pointer-events:none}" +
       ".telefon .kad.logo-ad{left:5.5%;top:4.9%;transform:translateY(-50%);max-width:52%;font-size:" + (f.length > 26 ? 3.6 : f.length > 16 ? 4.4 : 5.25) + "cqw;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}" +
-      ".telefon .kad.baslik{left:5.5%;bottom:69.9%;max-width:86%;font-size:" + (f.length > 26 ? 7 : f.length > 14 ? 8.5 : 11) + "cqw;line-height:1.05;letter-spacing:-.03em;text-wrap:balance;text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.35)}" +
-      ".telefon.cizimkapak .kad.baslik{bottom:46%}";
+      ".telefon .kad.baslik{left:5.5%;bottom:69.9%;max-width:86%;font-size:" + (f.length > 26 ? 7 : f.length > 14 ? 8.5 : 11) + "cqw;line-height:1.05;letter-spacing:-.03em;text-wrap:balance;text-shadow:0 1px 2px rgba(0,0,0,.5),0 4px 18px rgba(0,0,0,.35)}";
     document.head.appendChild(stil);
     document.querySelectorAll(".telefon").forEach(function (a) {
       var img = a.querySelector("img");
       var m = img && /kapak-(\d)\.jpg$/.exec(img.getAttribute("src"));
       if (!m) return;
-      if (m[1] === "4") a.classList.add("cizimkapak");
       img.src = img.getAttribute("src").replace(".jpg", "-bos.jpg");
       ["logo-ad", "baslik"].forEach(function (c) {
         var d = document.createElement("span");
