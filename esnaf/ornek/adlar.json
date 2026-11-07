@@ -709,6 +709,11 @@
 "f": "Lena Pilates Studio",
 "s": "Çankaya"
 },
+"lily-s-pilates-studio-sincan": {
+"c": "Ankara",
+"f": "Lily's Pilates Studio",
+"s": "Sincan"
+},
 "linya-pilates-studio-cankaya": {
 "c": "Ankara",
 "f": "Linya Pilates Studio",
@@ -718,6 +723,16 @@
 "c": "Ankara",
 "f": "Liya Teknik Kombi Klima Isıtma",
 "s": "Çankaya"
+},
+"lora-pilates-sincan": {
+"c": "Ankara",
+"f": "Lora Pilates",
+"s": "Sincan"
+},
+"lotus-pilates-studyo-kecioren": {
+"c": "Ankara",
+"f": "Lotus Pilates Stüdyo",
+"s": "Keçiören"
 },
 "maltepe-beyazesya-klima-kombi-maltepe": {
 "c": "İstanbul",
@@ -763,6 +778,11 @@
 "c": "Bursa",
 "f": "Mir Teknik Bursa Kombi Klima",
 "s": "Osmangazi̇"
+},
+"mona-pilates-studio-kecioren": {
+"c": "Ankara",
+"f": "Mona Pilates Studio",
+"s": "Keçiören"
 },
 "moonlightpilates-cankaya": {
 "c": "Ankara",
@@ -822,6 +842,11 @@
 "onset-pilates-aydinlikevler-kecioren": {
 "c": "Ankara",
 "f": "Onset Pilates Aydınlıkevler",
+"s": "Keçiören"
+},
+"onset-pilates-kecioren": {
+"c": "Ankara",
+"f": "Onset Pilates",
 "s": "Keçiören"
 },
 "oz-er-teknik-beyaz-esya-kombi-golbasi": {
@@ -884,6 +909,11 @@
 "f": "Pilates House",
 "s": "Çankaya"
 },
+"pilates-time-academy-etimesgut": {
+"c": "Ankara",
+"f": "Pilates Time Academy",
+"s": "Etimesgut"
+},
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
 "f": "Platen Kombi Servis",
@@ -893,6 +923,16 @@
 "c": "Kocaeli",
 "f": "Polat Teknik- Beyaz Eşya",
 "s": "Gölcük"
+},
+"polatli-fizyoterapist-selinay-polatli": {
+"c": "Ankara",
+"f": "Polatlı Fizyoterapist Selinay",
+"s": "Polatlı"
+},
+"polatli-fizyoterapist-sude-polatli": {
+"c": "Ankara",
+"f": "Polatlı Fizyoterapist Sude",
+"s": "Polatlı"
 },
 "polatli-kombi-bakim-tamir-polatli": {
 "c": "Ankara",
@@ -1078,6 +1118,11 @@
 "c": "Ankara",
 "f": "Theathletics Personal",
 "s": "Çankaya"
+},
+"tint-pilates-studio-etimesgut": {
+"c": "Ankara",
+"f": "Tint Pilates Studio",
+"s": "Etimesgut"
 },
 "trio-pilates-yoga-studio-etimesgut": {
 "c": "Ankara",
