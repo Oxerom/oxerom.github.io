@@ -39,6 +39,16 @@
 "f": "Anadolu Teknik",
 "s": "Sultanbeyli"
 },
+"angel-studio-pilates-pendik": {
+"c": "İstanbul",
+"f": "Angel Studio Pilates",
+"s": "Pendik"
+},
+"anka-pilates-studio-bahcelievler": {
+"c": "İstanbul",
+"f": "Anka Pilates Studio",
+"s": "Bahçelievler"
+},
 "ankara-kombi-bakim-tamir-etimesgut": {
 "c": "Ankara",
 "f": "Ankara Kombi Bakım Tamir",
@@ -159,6 +169,11 @@
 "f": "Bodur Kombi",
 "s": "Gölcük"
 },
+"bodymaps-pendik": {
+"c": "İstanbul",
+"f": "Bodymaps",
+"s": "Pendik"
+},
 "bordo-pilates-academy-cankaya": {
 "c": "Ankara",
 "f": "Bordo Pilates Academy",
@@ -168,6 +183,11 @@
 "c": "İzmir",
 "f": "Bornova Teknik Destek Merkezi:",
 "s": "Bornova"
+},
+"box-fit-pilates-bagcilar": {
+"c": "İstanbul",
+"f": "Box-Fit Pilates",
+"s": "Bağcılar"
 },
 "boyar-teknik-kombi-bakim-beypazari": {
 "c": "Ankara",
@@ -219,6 +239,11 @@
 "f": "Çakır Beyaz Eşya Kombi Teknik",
 "s": "Silivri"
 },
+"cans-pilates-studio-pendik": {
+"c": "İstanbul",
+"f": "Cans Pilates Studio",
+"s": "Pendik"
+},
 "cavus-ticaret-sultangazi": {
 "c": "İstanbul",
 "f": "Çavuş Ticaret",
@@ -263,6 +288,11 @@
 "c": "Kocaeli",
 "f": "Deniz Teknik Kombi Klima",
 "s": "Darıca"
+},
+"destina-pilates-umraniye": {
+"c": "İstanbul",
+"f": "Destina Pilates",
+"s": "Ümraniye"
 },
 "detay-teknik-kombi-servisi-gaziosmanpasa": {
 "c": "İstanbul",
@@ -314,6 +344,11 @@
 "f": "Duru Kombi Beyaz Eşya",
 "s": "Etimesgut"
 },
+"dynamic-pilates-bahcelievler-bahcelievler": {
+"c": "İstanbul",
+"f": "Dynamic Pilates Bahçelievler",
+"s": "Bahçelievler"
+},
 "e306-pilates-studio-yenimahalle": {
 "c": "Ankara",
 "f": "E306 Pilates Studio",
@@ -323,6 +358,11 @@
 "c": "Ankara",
 "f": "Ebruli Pilates Studıo",
 "s": "Çankaya"
+},
+"eda-hoca-ile-pilates-esenyurt": {
+"c": "İstanbul",
+"f": "Eda Hoca İle Pilates",
+"s": "Esenyurt"
 },
 "efeler-sihhi-tesisat-etimesgut": {
 "c": "Ankara",
@@ -338,6 +378,11 @@
 "c": "İstanbul",
 "f": "Emak Teknik Kombi Klima",
 "s": "Sultangazi"
+},
+"en-pilates-studio-esenyurt": {
+"c": "İstanbul",
+"f": "EN Pilates Studio",
+"s": "Esenyurt"
 },
 "er-dem-kombi-bakim-beypazari": {
 "c": "Ankara",
@@ -394,6 +439,11 @@
 "f": "Feza Kombi Servis Hizmetleri",
 "s": "Maltepe"
 },
+"fit-vibes-pilates-umraniye": {
+"c": "İstanbul",
+"f": "Fit Vibes Pilates",
+"s": "Ümraniye"
+},
 "fitclub-reformer-pilates-etimesgut": {
 "c": "Ankara",
 "f": "Fitclub Reformer Pilates",
@@ -409,10 +459,20 @@
 "f": "Fizyoflex Pilates Studio",
 "s": "Yenimahalle"
 },
+"fizyokaps-beylikduzu": {
+"c": "İstanbul",
+"f": "Fizyokaps",
+"s": "Beylikdüzü"
+},
 "fizyorenn-klinik-pilates-cankaya": {
 "c": "Ankara",
 "f": "Fizyorenn Klinik Pilates",
 "s": "Çankaya"
+},
+"fizyoterapist-hilal-sahin-pursaklar": {
+"c": "Ankara",
+"f": "Fizyoterapist Hilal Şahin",
+"s": "Pursaklar"
 },
 "flat-pilates-studio-cankaya": {
 "c": "Ankara",
@@ -443,6 +503,16 @@
 "c": "Ankara",
 "f": "Furkan Tesisat",
 "s": "Mamak"
+},
+"fzt-rumeysa-verep-beydilli-pursaklar": {
+"c": "Ankara",
+"f": "Fzt. Rümeysa Verep Beydilli",
+"s": "Pursaklar"
+},
+"galanthus-pilates-bagcilar": {
+"c": "İstanbul",
+"f": "Galanthus Pilates",
+"s": "Bağcılar"
 },
 "garanti-kombi-yenimahalle": {
 "c": "Ankara",
@@ -489,6 +559,11 @@
 "f": "Gölbaşı Lutes Kombi Servis",
 "s": "Gölbaşı"
 },
+"gonca-deniz-pilates-studyo-pendik": {
+"c": "İstanbul",
+"f": "Gonca Deniz Pilates Stüdyo",
+"s": "Pendik"
+},
 "gulec-teknik-kombi-klima-sultanbeyli": {
 "c": "İstanbul",
 "f": "Güleç Teknik Kombi Klima",
@@ -513,6 +588,11 @@
 "c": "Ankara",
 "f": "Hakan Usta Kombi Servis",
 "s": "Yenimahalle"
+},
+"harmoni-pilates-studio-pursaklar": {
+"c": "Ankara",
+"f": "Harmoni Pilates Studio",
+"s": "Pursaklar"
 },
 "has-dogalgaz-altindag-kombi-altindag": {
 "c": "Ankara",
@@ -729,6 +809,11 @@
 "f": "Lora Pilates",
 "s": "Sincan"
 },
+"lotus-pilates-studio-kucukcekmece": {
+"c": "İstanbul",
+"f": "Lotus Pilates Studio",
+"s": "Küçükçekmece"
+},
 "lotus-pilates-studyo-kecioren": {
 "c": "Ankara",
 "f": "Lotus Pilates Stüdyo",
@@ -774,20 +859,40 @@
 "f": "Menderes Elektrik",
 "s": "Menderes"
 },
+"merifiz-pilates-golbasi": {
+"c": "Ankara",
+"f": "Merifiz Pilates",
+"s": "Gölbaşı"
+},
 "mir-teknik-bursa-kombi-klima-osmangazi": {
 "c": "Bursa",
 "f": "Mir Teknik Bursa Kombi Klima",
 "s": "Osmangazi̇"
+},
+"mojo-pilates-and-wellness-bahcelievler": {
+"c": "İstanbul",
+"f": "Mojo Pilates And Wellness",
+"s": "Bahçelievler"
 },
 "mona-pilates-studio-kecioren": {
 "c": "Ankara",
 "f": "Mona Pilates Studio",
 "s": "Keçiören"
 },
+"moonlight-pilates-studio-pendik": {
+"c": "İstanbul",
+"f": "Moonlight Pilates Studio",
+"s": "Pendik"
+},
 "moonlightpilates-cankaya": {
 "c": "Ankara",
 "f": "Moonlightpilates",
 "s": "Çankaya"
+},
+"motion-pilates-studio-bagcilar": {
+"c": "İstanbul",
+"f": "Motion Pilates Studio",
+"s": "Bağcılar"
 },
 "mrv-teknik-kombi-klima-servisi-pendik": {
 "c": "İstanbul",
@@ -804,6 +909,11 @@
 "f": "Mupel Klima & Kombi Servisi",
 "s": "Ümraniye"
 },
+"n-fit-pilates-studio-pendik": {
+"c": "İstanbul",
+"f": "N-Fit Pilates Studio",
+"s": "Pendik"
+},
 "nb-fit-pilates-reformer-studio-cankaya": {
 "c": "Ankara",
 "f": "NB Fit Pilates-Reformer Studio",
@@ -819,10 +929,40 @@
 "f": "No 4 Pilates Studio",
 "s": "Mamak"
 },
+"nora-fizyoterapi-pilates-bagcilar": {
+"c": "İstanbul",
+"f": "Nora Fizyoterapi & Pilates",
+"s": "Bağcılar"
+},
+"nova-pilates-bahcelievler-bahcelievler": {
+"c": "İstanbul",
+"f": "Nova Pilates Bahçelievler",
+"s": "Bahçelievler"
+},
+"nova-pilates-kucukcekmece-kucukcekmece": {
+"c": "İstanbul",
+"f": "Nova Pilates Küçükçekmece",
+"s": "Küçükçekmece"
+},
+"nova-pilates-reformer-studio-kucukcekmece": {
+"c": "İstanbul",
+"f": "Nova Pilates Reformer Studio",
+"s": "Küçükçekmece"
+},
 "nur-is-isitma-sistemleri-kombi-bahcelievler": {
 "c": "İstanbul",
 "f": "Nur-İş Isıtma Sistemleri Kombi",
 "s": "Bahçelievler"
+},
+"nurgul-ozturk-pilates-studio-bahcelievler": {
+"c": "İstanbul",
+"f": "Nurgül Öztürk Pilates Studio",
+"s": "Bahçelievler"
+},
+"oksijen-pilates-studyosu-kucukcekmece": {
+"c": "İstanbul",
+"f": "Oksijen Pilates Stüdyosu",
+"s": "Küçükçekmece"
 },
 "ongiz-tic-kombi-klima-servisi-osmangazi": {
 "c": "Bursa",
@@ -894,6 +1034,16 @@
 "f": "Peony Pilates Studio",
 "s": "Çankaya"
 },
+"pera-point-pilates-umraniye": {
+"c": "İstanbul",
+"f": "Pera Point Pilates",
+"s": "Ümraniye"
+},
+"peren-pilates-studio-umraniye": {
+"c": "İstanbul",
+"f": "Peren Pilates Studıo",
+"s": "Ümraniye"
+},
 "physio-time-ems-reformer-cankaya": {
 "c": "Ankara",
 "f": "Physio Time EMS Reformer",
@@ -909,10 +1059,30 @@
 "f": "Pilates House",
 "s": "Çankaya"
 },
+"pilates-onetick-studio-umraniye": {
+"c": "İstanbul",
+"f": "Pilates Onetick Studio",
+"s": "Ümraniye"
+},
+"pilates-studio-ozlem-aydin-bahcelievler": {
+"c": "İstanbul",
+"f": "Pilates Studio Özlem Aydin",
+"s": "Bahçelievler"
+},
 "pilates-time-academy-etimesgut": {
 "c": "Ankara",
 "f": "Pilates Time Academy",
 "s": "Etimesgut"
+},
+"pilates-with-beyza-akgun-pendik": {
+"c": "İstanbul",
+"f": "Pilates With Beyza Akgün",
+"s": "Pendik"
+},
+"pilates-with-nagehan-bagcilar": {
+"c": "İstanbul",
+"f": "Pilates With Nagehan",
+"s": "Bağcılar"
 },
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
@@ -954,10 +1124,20 @@
 "f": "Pump Statıon Gym Pilates Gop",
 "s": "Çankaya"
 },
+"rabia-yildirim-pilates-studyo-pendik": {
+"c": "İstanbul",
+"f": "Rabia Yıldırım Pilates Stüdyo",
+"s": "Pendik"
+},
 "radiant-pilates-studio-etimesgut": {
 "c": "Ankara",
 "f": "Radiant Pilates Studio",
 "s": "Etimesgut"
+},
+"reviva-pilates-studio-golbasi": {
+"c": "Ankara",
+"f": "Reviva Pilates Studio",
+"s": "Gölbaşı"
 },
 "safak-teknik-kombi-klima-kazan-cankaya": {
 "c": "Ankara",
@@ -1049,6 +1229,11 @@
 "f": "Si Belle Pilates Stüdyosu",
 "s": "Mamak"
 },
+"sigma-pilates-studio-bahcelievler": {
+"c": "İstanbul",
+"f": "Sigma Pilates Studio",
+"s": "Bahçelievler"
+},
 "sihirli-cember-pilates-cankaya": {
 "c": "Ankara",
 "f": "Sihirli Çember Pilates",
@@ -1089,6 +1274,11 @@
 "f": "Şişli Kombi Klima Beyaz Eşya",
 "s": "Şişli"
 },
+"social-lab-pt-studio-bahcelievler": {
+"c": "İstanbul",
+"f": "Social Lab Pt Studio",
+"s": "Bahçelievler"
+},
 "sonmez-isi-kombi-teknik-servis-yildirim": {
 "c": "Bursa",
 "f": "Sönmez Isı Kombi Teknik Servis",
@@ -1104,6 +1294,16 @@
 "f": "Step Pilates",
 "s": "Çankaya"
 },
+"studio-raba-pilates-pendik": {
+"c": "İstanbul",
+"f": "Studio Raba Pilates",
+"s": "Pendik"
+},
+"teaser-pilates-umraniye": {
+"c": "İstanbul",
+"f": "Teaser Pilates",
+"s": "Ümraniye"
+},
 "tepe-klima-kombi-servisi-bayrampasa": {
 "c": "İstanbul",
 "f": "Tepe Klima Kombi Servisi",
@@ -1113,6 +1313,11 @@
 "c": "Ankara",
 "f": "The Straps Pilates Studio",
 "s": "Çankaya"
+},
+"the-studio-umraniye": {
+"c": "İstanbul",
+"f": "The Studio",
+"s": "Ümraniye"
 },
 "theathletics-personal-cankaya": {
 "c": "Ankara",
@@ -1199,6 +1404,11 @@
 "f": "Yağmur Pilates Stüdyo",
 "s": "Altındağ"
 },
+"yeni-bir-ben-pilates-golbasi": {
+"c": "Ankara",
+"f": "Yeni Bir Ben Pilates",
+"s": "Gölbaşı"
+},
 "yildirim-kombi-tesisat-cankaya": {
 "c": "Ankara",
 "f": "Yıldırım Kombi Tesisat",
@@ -1223,5 +1433,10 @@
 "c": "Ankara",
 "f": "ZG Pilates Studio",
 "s": "Çankaya"
+},
+"zoe-pilates-pendik": {
+"c": "İstanbul",
+"f": "Zoe Pilates",
+"s": "Pendik"
 }
 }
