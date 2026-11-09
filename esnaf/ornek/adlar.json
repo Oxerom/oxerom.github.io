@@ -34,6 +34,11 @@
 "f": "Alkuş Su Tesisatı",
 "s": "Üsküdar"
 },
+"alvin-pilates-studio-kartal": {
+"c": "İstanbul",
+"f": "Alvin Pilates Studio",
+"s": "Kartal"
+},
 "anadolu-teknik-sultanbeyli": {
 "c": "İstanbul",
 "f": "Anadolu Teknik",
@@ -274,6 +279,11 @@
 "f": "Ceylan Kombi",
 "s": "Şişli"
 },
+"core-pilates-kadikoy": {
+"c": "İstanbul",
+"f": "Core Pilates",
+"s": "Kadıköy"
+},
 "demirdokum-baymak-airfel-kombi-golcuk": {
 "c": "Kocaeli",
 "f": "Demirdöküm Baymak Airfel Kombi",
@@ -439,6 +449,11 @@
 "f": "Feza Kombi Servis Hizmetleri",
 "s": "Maltepe"
 },
+"fit-duo-pilates-kadikoy": {
+"c": "İstanbul",
+"f": "Fıt Duo Pılates",
+"s": "Kadıköy"
+},
 "fit-vibes-pilates-umraniye": {
 "c": "İstanbul",
 "f": "Fit Vibes Pilates",
@@ -478,6 +493,11 @@
 "c": "Ankara",
 "f": "Flat Pilates Studio",
 "s": "Çankaya"
+},
+"flextime-pilates-studio-sultangazi": {
+"c": "İstanbul",
+"f": "Flextime Pilates Studio",
+"s": "Sultangazi"
 },
 "flow-8-pilates-studio-kecioren": {
 "c": "Ankara",
@@ -538,6 +558,11 @@
 "c": "Bursa",
 "f": "Gemlik Sıhhi Tesisat",
 "s": "Gemli̇k"
+},
+"gep-pilates-studyo-uskudar": {
+"c": "İstanbul",
+"f": "Gep Pilates Stüdyo",
+"s": "Üsküdar"
 },
 "go-pilates-ankara-cukurambar-cankaya": {
 "c": "Ankara",
@@ -619,6 +644,11 @@
 "f": "Hera Pilates Studio",
 "s": "Etimesgut"
 },
+"hilal-mercan-pilates-gaziosmanpasa": {
+"c": "İstanbul",
+"f": "Hilal Mercan Pilates",
+"s": "Gaziosmanpaşa"
+},
 "huseyingazi-kombi-altindag": {
 "c": "Ankara",
 "f": "Hüseyingazi Kombi",
@@ -658,6 +688,11 @@
 "c": "İstanbul",
 "f": "JET Teknik Servis | Beyaz Eşya",
 "s": "Sarıyer"
+},
+"k-pilates-studio-uskudar": {
+"c": "İstanbul",
+"f": "K-Pılates Studıo",
+"s": "Üsküdar"
 },
 "kar-kombi-sofben-servisi-mamak": {
 "c": "Ankara",
@@ -789,6 +824,11 @@
 "f": "Lena Pilates Studio",
 "s": "Çankaya"
 },
+"leora-pilates-studio-kartal": {
+"c": "İstanbul",
+"f": "Leora Pilates Studio",
+"s": "Kartal"
+},
 "lily-s-pilates-studio-sincan": {
 "c": "Ankara",
 "f": "Lily's Pilates Studio",
@@ -798,6 +838,11 @@
 "c": "Ankara",
 "f": "Linya Pilates Studio",
 "s": "Çankaya"
+},
+"liya-pilates-sultangazi": {
+"c": "İstanbul",
+"f": "Liya Pilates",
+"s": "Sultangazi"
 },
 "liya-teknik-kombi-klima-isitma-cankaya": {
 "c": "Ankara",
@@ -884,6 +929,11 @@
 "f": "Moonlight Pilates Studio",
 "s": "Pendik"
 },
+"moonlight-pilates-studio-sultangazi": {
+"c": "İstanbul",
+"f": "Moonlight Pilates Studio",
+"s": "Sultangazi"
+},
 "moonlightpilates-cankaya": {
 "c": "Ankara",
 "f": "Moonlightpilates",
@@ -914,6 +964,11 @@
 "f": "N-Fit Pilates Studio",
 "s": "Pendik"
 },
+"nandita-pilates-studio-kadikoy": {
+"c": "İstanbul",
+"f": "Nandita Pilates Studio",
+"s": "Kadıköy"
+},
 "nb-fit-pilates-reformer-studio-cankaya": {
 "c": "Ankara",
 "f": "NB Fit Pilates-Reformer Studio",
@@ -923,6 +978,11 @@
 "c": "Ankara",
 "f": "New Body Pilates Studio",
 "s": "Çankaya"
+},
+"new-pilates-istanbul-uskudar": {
+"c": "İstanbul",
+"f": "New Pilates İstanbul",
+"s": "Üsküdar"
 },
 "no-4-pilates-studio-mamak": {
 "c": "Ankara",
@@ -1054,6 +1114,11 @@
 "f": "Pia Pilates Stüdyo",
 "s": "Altındağ"
 },
+"pilates-elif-gonulalan-uskudar": {
+"c": "İstanbul",
+"f": "Pilates Elif Gönülalan",
+"s": "Üsküdar"
+},
 "pilates-house-cankaya": {
 "c": "Ankara",
 "f": "Pilates House",
@@ -1134,10 +1199,20 @@
 "f": "Radiant Pilates Studio",
 "s": "Etimesgut"
 },
+"reform-pilates-studio-kartal": {
+"c": "İstanbul",
+"f": "Reform Pilates Studio",
+"s": "Kartal"
+},
 "reviva-pilates-studio-golbasi": {
 "c": "Ankara",
 "f": "Reviva Pilates Studio",
 "s": "Gölbaşı"
+},
+"row-pilates-maltepe-studio-maltepe": {
+"c": "İstanbul",
+"f": "Row Pilates Maltepe Studio",
+"s": "Maltepe"
 },
 "safak-teknik-kombi-klima-kazan-cankaya": {
 "c": "Ankara",
@@ -1218,6 +1293,11 @@
 "c": "İzmir",
 "f": "Servisform Kombi-Klima Servisi",
 "s": "Karşıyaka"
+},
+"seven-training-pilates-studio-maltepe": {
+"c": "İstanbul",
+"f": "Seven Training Pilates Studio",
+"s": "Maltepe"
 },
 "seymen-teknik-kombi-servisi-sisli": {
 "c": "İstanbul",
@@ -1329,6 +1409,11 @@
 "f": "Tint Pilates Studio",
 "s": "Etimesgut"
 },
+"tn-pilates-studio-kartal": {
+"c": "İstanbul",
+"f": "TN Pilates Studio",
+"s": "Kartal"
+},
 "trio-pilates-yoga-studio-etimesgut": {
 "c": "Ankara",
 "f": "Trio Pilates Yoga Studio",
@@ -1353,6 +1438,11 @@
 "c": "Ankara",
 "f": "Ulusoy Teknik Beyaz Eşya Kombi",
 "s": "Çankaya"
+},
+"unique-pilates-studio-gaziosmanpasa": {
+"c": "İstanbul",
+"f": "Unique Pilates Studio",
+"s": "Gaziosmanpaşa"
 },
 "uskudar-kombi-uskudar": {
 "c": "İstanbul",
@@ -1388,6 +1478,11 @@
 "c": "Ankara",
 "f": "Via Fizyo Ankara Etimesgut",
 "s": "Etimesgut"
+},
+"vie-fit-pilates-studio-eyupsultan": {
+"c": "İstanbul",
+"f": "Vie Fit Pilates Studio",
+"s": "Eyüpsultan"
 },
 "volkan-teknik-kombi-buyukcekmece": {
 "c": "İstanbul",
