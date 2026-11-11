@@ -9,6 +9,11 @@
 "f": "A.r.m Teknik Klima Kombi",
 "s": "Karabağlar"
 },
+"abs-pilates-studio-cekmekoy": {
+"c": "İstanbul",
+"f": "ABS Pilates Studio",
+"s": "Çekmeköy"
+},
 "adn-teknik-pendik": {
 "c": "İstanbul",
 "f": "Adn Teknik",
@@ -83,6 +88,11 @@
 "c": "Ankara",
 "f": "Art'y Pilates Stüdyo",
 "s": "Çankaya"
+},
+"artpoint-pilates-studio-cekmekoy": {
+"c": "İstanbul",
+"f": "Artpoint Pilates Studio",
+"s": "Çekmeköy"
 },
 "artun-teknik-kombi-klima-gebze": {
 "c": "Kocaeli",
@@ -173,6 +183,11 @@
 "c": "Ankara",
 "f": "Bedformer",
 "s": "Çankaya"
+},
+"berfin-yuce-pilates-tuzla": {
+"c": "İstanbul",
+"f": "Berfin Yüce Pilates",
+"s": "Tuzla"
 },
 "besiktas-teknik-tesisat-kombi-besiktas": {
 "c": "İstanbul",
@@ -459,6 +474,11 @@
 "f": "EN Pilates Studio",
 "s": "Esenyurt"
 },
+"eny-klinik-pilates-egzersiz-gungoren": {
+"c": "İstanbul",
+"f": "Eny Klinik Pilates Egzersiz",
+"s": "Güngören"
+},
 "er-dem-kombi-bakim-beypazari": {
 "c": "Ankara",
 "f": "Er&dem Kombi Bakım",
@@ -624,6 +644,11 @@
 "f": "Garanti Kombi",
 "s": "Yenimahalle"
 },
+"gatto-pilates-yoga-studio-tuzla": {
+"c": "İstanbul",
+"f": "Gatto Pilates & Yoga Studio",
+"s": "Tuzla"
+},
 "gaziemir-sarnic-kombi-servisi-gaziemir": {
 "c": "İzmir",
 "f": "Gaziemir Sarnıç Kombi Servisi",
@@ -698,6 +723,11 @@
 "c": "İstanbul",
 "f": "Güven Teknik Servis Beyaz Eşya",
 "s": "Küçükçekmece"
+},
+"hadimkoy-koc-gym-arnavutkoy": {
+"c": "İstanbul",
+"f": "Hadımköy Koç Gym",
+"s": "Arnavutköy"
 },
 "hakan-teknik-hizmetler-cankaya": {
 "c": "Ankara",
@@ -994,6 +1024,11 @@
 "f": "Marin Pilates Studio",
 "s": "Çankaya"
 },
+"mat-studio-pilates-bahcelievler": {
+"c": "İstanbul",
+"f": "Mat Studio Pilates",
+"s": "Bahçelievler"
+},
 "matgym-pilates-fatih": {
 "c": "İstanbul",
 "f": "Matgym & Pilates",
@@ -1254,6 +1289,11 @@
 "f": "Peren Pilates Studıo",
 "s": "Ümraniye"
 },
+"physio-cekmekoy": {
+"c": "İstanbul",
+"f": "Physıo",
+"s": "Çekmeköy"
+},
 "physio-time-ems-reformer-cankaya": {
 "c": "Ankara",
 "f": "Physio Time EMS Reformer",
@@ -1279,6 +1319,11 @@
 "f": "Pilates Onetick Studio",
 "s": "Ümraniye"
 },
+"pilates-oykum-arnavutkoy": {
+"c": "İstanbul",
+"f": "Pilates Öyküm",
+"s": "Arnavutköy"
+},
 "pilates-studio-ozlem-aydin-bahcelievler": {
 "c": "İstanbul",
 "f": "Pilates Studio Özlem Aydin",
@@ -1298,6 +1343,11 @@
 "c": "İstanbul",
 "f": "Pilates With Nagehan",
 "s": "Bağcılar"
+},
+"pilatesemy-bayrampasa": {
+"c": "İstanbul",
+"f": "Pilatesemy",
+"s": "Bayrampaşa"
 },
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
@@ -1434,6 +1484,11 @@
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
 },
+"sea-pilates-studio-cekmekoy-cekmekoy": {
+"c": "İstanbul",
+"f": "Sea Pilates Studio Çekmeköy",
+"s": "Çekmeköy"
+},
 "sefa-kombi-darica": {
 "c": "Kocaeli",
 "f": "Sefa Kombi",
@@ -1473,6 +1528,11 @@
 "c": "İstanbul",
 "f": "Seymen Teknik Kombi Servisi",
 "s": "Şişli"
+},
+"shine-pilates-studio-bayrampasa": {
+"c": "İstanbul",
+"f": "Shine Pilates Studio",
+"s": "Bayrampaşa"
 },
 "si-belle-pilates-studyosu-mamak": {
 "c": "Ankara",
@@ -1529,6 +1589,11 @@
 "f": "Social Lab Pt Studio",
 "s": "Bahçelievler"
 },
+"soho-fizyoterapi-pilates-tuzla": {
+"c": "İstanbul",
+"f": "Soho Fizyoterapi & Pilates",
+"s": "Tuzla"
+},
 "sonmez-isi-kombi-teknik-servis-yildirim": {
 "c": "Bursa",
 "f": "Sönmez Isı Kombi Teknik Servis",
@@ -1548,6 +1613,11 @@
 "c": "İstanbul",
 "f": "Studio 19 Pilates Kağıthane",
 "s": "Kağıthane"
+},
+"studio-punto-pilates-gungoren": {
+"c": "İstanbul",
+"f": "Studio Punto Pilates",
+"s": "Güngören"
 },
 "studio-raba-pilates-pendik": {
 "c": "İstanbul",
@@ -1723,6 +1793,11 @@
 "c": "Ankara",
 "f": "Zafer Sıhhi Tesisat",
 "s": "Çankaya"
+},
+"zero-pilates-studyo-gungoren": {
+"c": "İstanbul",
+"f": "Zero Pilates Stüdyo",
+"s": "Güngören"
 },
 "zg-pilates-studio-cankaya": {
 "c": "Ankara",
