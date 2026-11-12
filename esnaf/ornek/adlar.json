@@ -159,6 +159,11 @@
 "f": "B.c.s İzmir Teknik Klima",
 "s": "Balçova"
 },
+"bakirkoy-pilates-bakirkoy": {
+"c": "İstanbul",
+"f": "Bakırköy Pilates",
+"s": "Bakırköy"
+},
 "basaksehir-pilates-klinigi-basaksehir": {
 "c": "İstanbul",
 "f": "Başakşehir Pilates Kliniği",
@@ -183,6 +188,11 @@
 "c": "Ankara",
 "f": "Bedformer",
 "s": "Çankaya"
+},
+"beform-pilates-studio-levent-besiktas": {
+"c": "İstanbul",
+"f": "Beform Pilates Studio Levent",
+"s": "Beşiktaş"
 },
 "berfin-yuce-pilates-tuzla": {
 "c": "İstanbul",
@@ -223,6 +233,11 @@
 "c": "İstanbul",
 "f": "Bodymaps",
 "s": "Pendik"
+},
+"bonn-pilates-bakirkoy": {
+"c": "İstanbul",
+"f": "Bonn Pilates",
+"s": "Bakırköy"
 },
 "bordo-pilates-academy-cankaya": {
 "c": "Ankara",
@@ -519,10 +534,20 @@
 "f": "Eva Pilates Studio",
 "s": "Çankaya"
 },
+"eylemsi-pilates-studyosu-buyukcekmece": {
+"c": "İstanbul",
+"f": "Eylemsi Pilates Stüdyosu",
+"s": "Büyükçekmece"
+},
 "fatih-merkez-klima-kombi-fatih": {
 "c": "İstanbul",
 "f": "Fatih Merkez Klima Kombi",
 "s": "Fatih"
+},
+"fatma-isik-pilates-studio-catalca": {
+"c": "İstanbul",
+"f": "Fatma Işık Pilates Studio",
+"s": "Çatalca"
 },
 "ferhat-kombi-hastanesi-cankaya": {
 "c": "Ankara",
@@ -538,6 +563,11 @@
 "c": "İstanbul",
 "f": "Figo Pilates",
 "s": "Eyüpsultan"
+},
+"fit-body-training-pilates-buyukcekmece": {
+"c": "İstanbul",
+"f": "Fit Body Training Pilates",
+"s": "Büyükçekmece"
 },
 "fit-duo-pilates-kadikoy": {
 "c": "İstanbul",
@@ -774,6 +804,11 @@
 "f": "Hilal Mercan Pilates",
 "s": "Gaziosmanpaşa"
 },
+"his-pilates-besiktas": {
+"c": "İstanbul",
+"f": "His Pilates",
+"s": "Beşiktaş"
+},
 "huseyingazi-kombi-altindag": {
 "c": "Ankara",
 "f": "Hüseyingazi Kombi",
@@ -814,6 +849,11 @@
 "f": "İzmir Kombi Bakım Tamir",
 "s": "Bornova"
 },
+"jeida-pilates-beykoz": {
+"c": "İstanbul",
+"f": "Jeida Pilates",
+"s": "Beykoz"
+},
 "jet-teknik-servis-beyaz-esya-sariyer": {
 "c": "İstanbul",
 "f": "JET Teknik Servis | Beyaz Eşya",
@@ -823,6 +863,11 @@
 "c": "İstanbul",
 "f": "K-Pılates Studıo",
 "s": "Üsküdar"
+},
+"kaju-pilates-bakirkoy": {
+"c": "İstanbul",
+"f": "Kaju Pilates",
+"s": "Bakırköy"
 },
 "kar-kombi-sofben-servisi-mamak": {
 "c": "Ankara",
@@ -868,6 +913,11 @@
 "c": "Ankara",
 "f": "Kılıçlar Soğutma",
 "s": "Sincan"
+},
+"kintsugi-pilates-buyukcekmece-buyukcekmece": {
+"c": "İstanbul",
+"f": "Kintsugi Pilates Büyükçekmece",
+"s": "Büyükçekmece"
 },
 "kirkkonaklar-cilingir-elektrik-cankaya": {
 "c": "Ankara",
@@ -1124,6 +1174,11 @@
 "f": "Mrv Teknık Kombı Klıma Servısı",
 "s": "Pendik"
 },
+"mst-studio-pilates-buyukcekmece": {
+"c": "İstanbul",
+"f": "MST Studio Pilates",
+"s": "Büyükçekmece"
+},
 "mtn-kombi-servisi-kecioren": {
 "c": "Ankara",
 "f": "MTN Kombi Servisi",
@@ -1148,6 +1203,11 @@
 "c": "Ankara",
 "f": "NB Fit Pilates-Reformer Studio",
 "s": "Çankaya"
+},
+"nefes-pilates-besiktas": {
+"c": "İstanbul",
+"f": "Nefes Pilates",
+"s": "Beşiktaş"
 },
 "new-body-pilates-studio-cankaya": {
 "c": "Ankara",
@@ -1268,6 +1328,11 @@
 "c": "İstanbul",
 "f": "Paşa Isı Market",
 "s": "Gaziosmanpaşa"
+},
+"pelin-tek-studio-buyukcekmece": {
+"c": "İstanbul",
+"f": "Pelin Tek Studio",
+"s": "Büyükçekmece"
 },
 "pendik-hs-kombi-klima-servisi-pendik": {
 "c": "İstanbul",
@@ -1419,6 +1484,11 @@
 "f": "Reviva Pilates Studio",
 "s": "Gölbaşı"
 },
+"rouma-fitness-pilates-beyoglu": {
+"c": "İstanbul",
+"f": "Rouma Fitness Pilates",
+"s": "Beyoğlu"
+},
 "row-pilates-maltepe-studio-maltepe": {
 "c": "İstanbul",
 "f": "Row Pilates Maltepe Studio",
@@ -1443,6 +1513,11 @@
 "c": "İstanbul",
 "f": "Şahin Tesisat Petek Temizleme",
 "s": "Şişli"
+},
+"sakura-pilates-besiktas-besiktas": {
+"c": "İstanbul",
+"f": "Sakura Pilates Beşiktaş",
+"s": "Beşiktaş"
 },
 "saldin-klima-kombi-servisi-gaziemir": {
 "c": "İzmir",
@@ -1638,6 +1713,11 @@
 "c": "İstanbul",
 "f": "Tepe Klima Kombi Servisi",
 "s": "Bayrampaşa"
+},
+"the-movement-cihangir-beyoglu": {
+"c": "İstanbul",
+"f": "The Movement Cihangir",
+"s": "Beyoğlu"
 },
 "the-pap-studio-beylikduzu": {
 "c": "İstanbul",
