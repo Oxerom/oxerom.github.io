@@ -4,6 +4,11 @@
 "f": "360Thera",
 "s": "Zeytinburnu"
 },
+"3p-vip-reformer-studio-karsiyaka": {
+"c": "İzmir",
+"f": "3P Vip Reformer Studio",
+"s": "Karşıyaka"
+},
 "a-r-m-teknik-klima-kombi-karabaglar": {
 "c": "İzmir",
 "f": "A.r.m Teknik Klima Kombi",
@@ -39,6 +44,11 @@
 "f": "Alba Pilates Studio",
 "s": "Esenler"
 },
+"alissa-pilates-studio-menemen": {
+"c": "İzmir",
+"f": "Alissa Pilates Studio",
+"s": "Menemen"
+},
 "alka-pilates-studyo-mamak-mamak": {
 "c": "Ankara",
 "f": "Alka Pilates Stüdyo Mamak",
@@ -49,6 +59,11 @@
 "f": "Alkuş Su Tesisatı",
 "s": "Üsküdar"
 },
+"alsancak-pilates-studio-konak": {
+"c": "İzmir",
+"f": "Alsancak Pilates Studio",
+"s": "Konak"
+},
 "aluna-pilates-zeytinburnu": {
 "c": "İstanbul",
 "f": "Aluna Pilates",
@@ -58,6 +73,11 @@
 "c": "İstanbul",
 "f": "Alvin Pilates Studio",
 "s": "Kartal"
+},
+"amazon-pilates-studyo-buca": {
+"c": "İzmir",
+"f": "Amazon Pilates Stüdyo",
+"s": "Buca"
 },
 "anadolu-teknik-sultanbeyli": {
 "c": "İstanbul",
@@ -114,6 +134,11 @@
 "f": "Asaf Teknik Beyaz Eşya",
 "s": "Körfez"
 },
+"asi-pilates-studio-bornova-bornova": {
+"c": "İzmir",
+"f": "ASI Pilates Studıo Bornova",
+"s": "Bornova"
+},
 "asil-su-tesisati-ve-dogalgaz-cankaya": {
 "c": "Ankara",
 "f": "Asil Su Tesisatı ve Dogalgaz",
@@ -123,6 +148,11 @@
 "c": "Ankara",
 "f": "Asiya Pilates Studio",
 "s": "Yenimahalle"
+},
+"asu-sports-studio-gaziemir": {
+"c": "İzmir",
+"f": "Asu Sports Studio",
+"s": "Gaziemir"
 },
 "ataser-klima-kombi-atasehir": {
 "c": "İstanbul",
@@ -219,6 +249,11 @@
 "f": "Bilgi Teknik | Kombi",
 "s": "Ataşehir"
 },
+"bng-pilates-reformer-menemen": {
+"c": "İzmir",
+"f": "Bng Pilates Reformer",
+"s": "Menemen"
+},
 "bnk-pilates-studio-basaksehir": {
 "c": "İstanbul",
 "f": "BNK Pilates Studio",
@@ -243,6 +278,11 @@
 "c": "Ankara",
 "f": "Bordo Pilates Academy",
 "s": "Çankaya"
+},
+"bornova-reformer-pilates-bornova": {
+"c": "İzmir",
+"f": "Bornova Reformer Pilates",
+"s": "Bornova"
 },
 "bornova-teknik-destek-merkezi-bornova": {
 "c": "İzmir",
@@ -283,6 +323,11 @@
 "c": "İstanbul",
 "f": "Büşra Doğan Pilates Stüdyo",
 "s": "Kağıthane"
+},
+"buti-pilates-gaziemir-gaziemir": {
+"c": "İzmir",
+"f": "Buti Pilates Gaziemir",
+"s": "Gaziemir"
 },
 "cagatay-teknik-kombi-klima-narlidere": {
 "c": "İzmir",
@@ -353,6 +398,16 @@
 "c": "İstanbul",
 "f": "Core Pilates",
 "s": "Kadıköy"
+},
+"dd-pilates-studio-karabaglar": {
+"c": "İzmir",
+"f": "Dd Pılates Studıo",
+"s": "Karabağlar"
+},
+"dem-pilates-studio-torbali": {
+"c": "İzmir",
+"f": "DEM Pilates Studio",
+"s": "Torbalı"
 },
 "demirdokum-baymak-airfel-kombi-golcuk": {
 "c": "Kocaeli",
@@ -519,6 +574,11 @@
 "f": "Eryaman Kombi",
 "s": "Etimesgut"
 },
+"es-pilates-studio-torbali": {
+"c": "İzmir",
+"f": "Es Pilates Studio",
+"s": "Torbalı"
+},
 "esenyurt-kombi-servisi-esenyurt": {
 "c": "İstanbul",
 "f": "Esenyurt Kombi Servisi",
@@ -538,6 +598,11 @@
 "c": "İstanbul",
 "f": "Eylemsi Pilates Stüdyosu",
 "s": "Büyükçekmece"
+},
+"fast-up-pt-pilates-studio-bornova": {
+"c": "İzmir",
+"f": "Fast Up PT Pilates Studio",
+"s": "Bornova"
 },
 "fatih-merkez-klima-kombi-fatih": {
 "c": "İstanbul",
@@ -608,6 +673,11 @@
 "c": "İstanbul",
 "f": "Fizyolates Studio",
 "s": "Başakşehir"
+},
+"fizyorabia-pilates-torbali": {
+"c": "İzmir",
+"f": "Fizyorabia Pilates",
+"s": "Torbalı"
 },
 "fizyorenn-klinik-pilates-cankaya": {
 "c": "Ankara",
@@ -708,6 +778,11 @@
 "c": "İstanbul",
 "f": "Glow Pilates",
 "s": "Fatih"
+},
+"gmz-pilates-studio-menemen": {
+"c": "İzmir",
+"f": "GMZ Pilates Studio",
+"s": "Menemen"
 },
 "go-pilates-ankara-cukurambar-cankaya": {
 "c": "Ankara",
@@ -824,6 +899,11 @@
 "f": "İlke&ısıtma Kombi Kart Tamiri",
 "s": "Üsküdar"
 },
+"ilknur-ugur-cigli": {
+"c": "İzmir",
+"f": "İlknur Uğur",
+"s": "Çiğli"
+},
 "is-teknik-kombi-servisi": {
 "c": "İstanbul",
 "f": "İs-Teknik Kombi Servisi",
@@ -848,6 +928,11 @@
 "c": "İzmir",
 "f": "İzmir Kombi Bakım Tamir",
 "s": "Bornova"
+},
+"izmir-pilates-studio-konak": {
+"c": "İzmir",
+"f": "İzmir Pilates Studio",
+"s": "Konak"
 },
 "jeida-pilates-beykoz": {
 "c": "İstanbul",
@@ -887,6 +972,11 @@
 "karsiyaka-klima-servisi-karsiyaka": {
 "c": "İzmir",
 "f": "Karşıyaka Klima Servisi",
+"s": "Karşıyaka"
+},
+"karsiyaka-reformer-pilates-karsiyaka": {
+"c": "İzmir",
+"f": "Karşıyaka Reformer Pilates",
 "s": "Karşıyaka"
 },
 "kartal-teknik-kombi-servisi-kecioren": {
@@ -1014,6 +1104,11 @@
 "f": "Leora Pilates Studio",
 "s": "Kartal"
 },
+"lifeline-fizyoterapi-odemis": {
+"c": "İzmir",
+"f": "Lifeline Fizyoterapi",
+"s": "Ödemiş"
+},
 "lily-s-pilates-studio-sincan": {
 "c": "Ankara",
 "f": "Lily's Pilates Studio",
@@ -1053,6 +1148,11 @@
 "c": "Ankara",
 "f": "Lotus Pilates Stüdyo",
 "s": "Keçiören"
+},
+"luna-pilates-studio-buca": {
+"c": "İzmir",
+"f": "Luna Pilates Studio",
+"s": "Buca"
 },
 "maltepe-beyazesya-klima-kombi-maltepe": {
 "c": "İstanbul",
@@ -1104,6 +1204,11 @@
 "f": "Mega Pilates Studio",
 "s": "Yenimahalle"
 },
+"melsa-pilates-studio-menemen": {
+"c": "İzmir",
+"f": "Melsa Pılates Studıo",
+"s": "Menemen"
+},
 "mena-pilates-sariyer": {
 "c": "İstanbul",
 "f": "Mena Pilates",
@@ -1124,6 +1229,11 @@
 "f": "Mifit Fatih Pilates",
 "s": "Kıztaşı"
 },
+"mind-pilates-studyo-buca": {
+"c": "İzmir",
+"f": "Mind Pilates Stüdyo",
+"s": "Buca"
+},
 "mir-teknik-bursa-kombi-klima-osmangazi": {
 "c": "Bursa",
 "f": "Mir Teknik Bursa Kombi Klima",
@@ -1138,6 +1248,11 @@
 "c": "Ankara",
 "f": "Mona Pilates Studio",
 "s": "Keçiören"
+},
+"mona-reformer-pilates-studio-menemen": {
+"c": "İzmir",
+"f": "Mona Reformer Pilates Studio",
+"s": "Menemen"
 },
 "moonfit-studio-sancaktepe": {
 "c": "İstanbul",
@@ -1229,6 +1344,11 @@
 "f": "Nora Fizyoterapi & Pilates",
 "s": "Bağcılar"
 },
+"north-pilates-studio-gaziemir": {
+"c": "İzmir",
+"f": "North Pilates Studio",
+"s": "Gaziemir"
+},
 "nova-pilates-bahcelievler-bahcelievler": {
 "c": "İstanbul",
 "f": "Nova Pilates Bahçelievler",
@@ -1244,10 +1364,20 @@
 "f": "Nova Pilates Reformer Studio",
 "s": "Küçükçekmece"
 },
+"nova-pilates-studio-aysu-felek-bornova": {
+"c": "İzmir",
+"f": "Nova Pilates Studio Aysu Felek",
+"s": "Bornova"
+},
 "nova-pilates-veysel-karani-eyupsultan": {
 "c": "İstanbul",
 "f": "Nova Pilates Veysel Karani",
 "s": "Eyüpsultan"
+},
+"nua-reformer-pilates-studyosu-buca": {
+"c": "İzmir",
+"f": "Nua Reformer Pilates Stüdyosu",
+"s": "Buca"
 },
 "nur-is-isitma-sistemleri-kombi-bahcelievler": {
 "c": "İstanbul",
@@ -1319,6 +1449,11 @@
 "f": "Pamelia Pilates Stüdyo",
 "s": "Beylikdüzü"
 },
+"pan-yoga-reformer-studio-bornova": {
+"c": "İzmir",
+"f": "Pan Yoga & Reformer Studio",
+"s": "Bornova"
+},
 "parla-klima-arnavutkoy": {
 "c": "İstanbul",
 "f": "Parla Klima",
@@ -1328,6 +1463,11 @@
 "c": "İstanbul",
 "f": "Paşa Isı Market",
 "s": "Gaziosmanpaşa"
+},
+"pause-pilates-studio-buca": {
+"c": "İzmir",
+"f": "Pause Pilates Studio",
+"s": "Buca"
 },
 "pelin-tek-studio-buyukcekmece": {
 "c": "İstanbul",
@@ -1353,6 +1493,11 @@
 "c": "İstanbul",
 "f": "Peren Pilates Studıo",
 "s": "Ümraniye"
+},
+"performanss-reformer-pilates-karabaglar": {
+"c": "İzmir",
+"f": "Performanss Reformer Pilates",
+"s": "Karabağlar"
 },
 "physio-cekmekoy": {
 "c": "İstanbul",
@@ -1474,6 +1619,11 @@
 "f": "Reform Pilates Studio",
 "s": "Kartal"
 },
+"reformer-pilates-atakent-karsiyaka": {
+"c": "İzmir",
+"f": "Reformer Pilates Atakent",
+"s": "Karşıyaka"
+},
 "reformer-pilates-studyosu-basaksehir": {
 "c": "İstanbul",
 "f": "Reformer Pilates Stüdyosu",
@@ -1483,6 +1633,11 @@
 "c": "Ankara",
 "f": "Reviva Pilates Studio",
 "s": "Gölbaşı"
+},
+"ror-and-pilates-bayrakli": {
+"c": "İzmir",
+"f": "ROR And Pilates",
+"s": "Bayraklı"
 },
 "rouma-fitness-pilates-beyoglu": {
 "c": "İstanbul",
@@ -1659,6 +1814,11 @@
 "f": "Şişli Kombi Klima Beyaz Eşya",
 "s": "Şişli"
 },
+"slimlife-gaziemir-gaziemir": {
+"c": "İzmir",
+"f": "Slimlife Gaziemir",
+"s": "Gaziemir"
+},
 "social-lab-pt-studio-bahcelievler": {
 "c": "İstanbul",
 "f": "Social Lab Pt Studio",
@@ -1689,6 +1849,16 @@
 "f": "Studio 19 Pilates Kağıthane",
 "s": "Kağıthane"
 },
+"studio-23-pilates-karabaglar": {
+"c": "İzmir",
+"f": "Studio 23 Pilates",
+"s": "Karabağlar"
+},
+"studio-aslican-ozdim-torbali": {
+"c": "İzmir",
+"f": "Studio Aslıcan Özdim",
+"s": "Torbalı"
+},
 "studio-punto-pilates-gungoren": {
 "c": "İstanbul",
 "f": "Studio Punto Pilates",
@@ -1703,6 +1873,11 @@
 "c": "İstanbul",
 "f": "Studio Therapy Sport Club",
 "s": "Avcılar"
+},
+"studio-z-cigli": {
+"c": "İzmir",
+"f": "Studio Z",
+"s": "Çiğli"
 },
 "teaser-pilates-umraniye": {
 "c": "İstanbul",
@@ -1748,6 +1923,11 @@
 "c": "İstanbul",
 "f": "TN Pilates Studio",
 "s": "Kartal"
+},
+"today-sports-pilates-studyosu-gaziemir": {
+"c": "İzmir",
+"f": "Today Sports Pilates Stüdyosu",
+"s": "Gaziemir"
 },
 "trio-pilates-yoga-studio-etimesgut": {
 "c": "Ankara",
@@ -1873,6 +2053,11 @@
 "c": "Ankara",
 "f": "Zafer Sıhhi Tesisat",
 "s": "Çankaya"
+},
+"zenform-pilates-reformer-torbali": {
+"c": "İzmir",
+"f": "Zenform Pilates Reformer",
+"s": "Torbalı"
 },
 "zero-pilates-studyo-gungoren": {
 "c": "İstanbul",
