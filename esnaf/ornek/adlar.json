@@ -44,6 +44,11 @@
 "f": "Alba Pilates Studio",
 "s": "Esenler"
 },
+"aleyna-yilmazer-pilates-studyo-osmangazi": {
+"c": "Bursa",
+"f": "Aleyna Yılmazer Pilates Stüdyo",
+"s": "Osmangazi̇"
+},
 "alissa-pilates-studio-menemen": {
 "c": "İzmir",
 "f": "Alissa Pilates Studio",
@@ -104,6 +109,11 @@
 "f": "Ankyra Pilates",
 "s": "Etimesgut"
 },
+"armonia-pilates-ni-lufer": {
+"c": "Bursa",
+"f": "Armonia Pilates",
+"s": "Ni̇lüfer"
+},
 "art-y-pilates-studyo-cankaya": {
 "c": "Ankara",
 "f": "Art'y Pilates Stüdyo",
@@ -133,6 +143,11 @@
 "c": "Kocaeli",
 "f": "Asaf Teknik Beyaz Eşya",
 "s": "Körfez"
+},
+"asi-gym-bursa-pilates-studio-ni-lufer": {
+"c": "Bursa",
+"f": "Ası Gym Bursa Pılates Studıo",
+"s": "Ni̇lüfer"
 },
 "asi-pilates-studio-bornova-bornova": {
 "c": "İzmir",
@@ -229,6 +244,11 @@
 "f": "Berfin Yüce Pilates",
 "s": "Tuzla"
 },
+"besevler-pilates-ni-lufer": {
+"c": "Bursa",
+"f": "Beşevler Pilates",
+"s": "Ni̇lüfer"
+},
 "besiktas-teknik-tesisat-kombi-besiktas": {
 "c": "İstanbul",
 "f": "Beşiktaş Teknik Tesisat Kombi",
@@ -314,10 +334,25 @@
 "f": "Buca Kombi Klima Servisi",
 "s": "Buca"
 },
+"bugi-pilates-ni-lufer": {
+"c": "Bursa",
+"f": "Bugi Pilates",
+"s": "Ni̇lüfer"
+},
 "bulut-teknik-beyaz-esya-kombi-menderes": {
 "c": "İzmir",
 "f": "Bulut Teknik Beyaz Eşya Kombi",
 "s": "Menderes"
+},
+"bursa-pilates-ni-lufer": {
+"c": "Bursa",
+"f": "Bursa Pilates",
+"s": "Ni̇lüfer"
+},
+"buse-nurluoglu-yilik-pilates-osmangazi": {
+"c": "Bursa",
+"f": "Buse Nurluoğlu Yılık Pilates",
+"s": "Osmangazi̇"
 },
 "busra-dogan-pilates-studyo-kagithane": {
 "c": "İstanbul",
@@ -398,6 +433,11 @@
 "c": "İstanbul",
 "f": "Core Pilates",
 "s": "Kadıköy"
+},
+"d-pilates-studio-ni-lufer": {
+"c": "Bursa",
+"f": "D' Pilates Studio",
+"s": "Ni̇lüfer"
 },
 "dd-pilates-studio-karabaglar": {
 "c": "İzmir",
@@ -659,6 +699,11 @@
 "f": "Fitpower & Pilates",
 "s": "Fatih"
 },
+"fitstop-personal-training-balcova": {
+"c": "İzmir",
+"f": "Fitstop Personal Training",
+"s": "Balçova"
+},
 "fizyoflex-pilates-studio-yenimahalle": {
 "c": "Ankara",
 "f": "Fizyoflex Pilates Studio",
@@ -699,6 +744,11 @@
 "f": "Flex Pilates",
 "s": "Ataşehir"
 },
+"flex-point-pilates-studio-urla": {
+"c": "İzmir",
+"f": "Flex Point Pilates Studio",
+"s": "Urla"
+},
 "flextime-pilates-studio-sultangazi": {
 "c": "İstanbul",
 "f": "Flextime Pilates Studio",
@@ -723,6 +773,11 @@
 "c": "Ankara",
 "f": "Formlife Sports Center",
 "s": "Yenimahalle"
+},
+"fsa-pilates-studio-menderes": {
+"c": "İzmir",
+"f": "FSA Pilates Studio",
+"s": "Menderes"
 },
 "furkan-tesisat-mamak": {
 "c": "Ankara",
@@ -774,6 +829,11 @@
 "f": "Gep Pilates Stüdyo",
 "s": "Üsküdar"
 },
+"gizem-sever-pilates-studio-osmangazi": {
+"c": "Bursa",
+"f": "Gizem Sever Pilates Studio",
+"s": "Osmangazi̇"
+},
 "glow-pilates-fatih": {
 "c": "İstanbul",
 "f": "Glow Pilates",
@@ -819,10 +879,20 @@
 "f": "Güler Teknik Kombi",
 "s": "Beşiktaş"
 },
+"gulhan-ceren-pilates-aliaga": {
+"c": "İzmir",
+"f": "Gülhan Ceren Pilates",
+"s": "Aliağa"
+},
 "gulsah-dogan-pilates-studio-avcilar": {
 "c": "İstanbul",
 "f": "Gülşah Doğan Pilates Studio",
 "s": "Avcılar"
+},
+"gunnur-baykoz-pilates-studio-inegol": {
+"c": "Bursa",
+"f": "Günnur Baykoz Pilates Studio",
+"s": "İnegöl"
 },
 "guven-teknik-servis-beyaz-esya-kucukcekmece": {
 "c": "İstanbul",
@@ -899,6 +969,11 @@
 "f": "İlke&ısıtma Kombi Kart Tamiri",
 "s": "Üsküdar"
 },
+"ilknur-pilates-reformer-urla": {
+"c": "İzmir",
+"f": "İlknur Pilates Reformer",
+"s": "Urla"
+},
 "ilknur-ugur-cigli": {
 "c": "İzmir",
 "f": "İlknur Uğur",
@@ -918,6 +993,11 @@
 "c": "İstanbul",
 "f": "İstiklal Kombi Teknik Servisi",
 "s": "Ümraniye"
+},
+"izfit-pt-studio-menderes": {
+"c": "İzmir",
+"f": "İzfit Pt Studio",
+"s": "Menderes"
 },
 "izmir-b-m-klima-kombi-teknik-bayrakli": {
 "c": "İzmir",
@@ -1154,6 +1234,11 @@
 "f": "Luna Pilates Studio",
 "s": "Buca"
 },
+"maestro-pilates-performance-osmangazi": {
+"c": "Bursa",
+"f": "Maestro Pilates & Performance",
+"s": "Osmangazi̇"
+},
 "maltepe-beyazesya-klima-kombi-maltepe": {
 "c": "İstanbul",
 "f": "Maltepe Beyazeşya Klima Kombi",
@@ -1219,6 +1304,11 @@
 "f": "Menderes Elektrik",
 "s": "Menderes"
 },
+"menderes-pilates-menderes": {
+"c": "İzmir",
+"f": "Menderes Pilates",
+"s": "Menderes"
+},
 "merifiz-pilates-golbasi": {
 "c": "Ankara",
 "f": "Merifiz Pilates",
@@ -1233,6 +1323,11 @@
 "c": "İzmir",
 "f": "Mind Pilates Stüdyo",
 "s": "Buca"
+},
+"mind-soul-pilates-guzelbahce": {
+"c": "İzmir",
+"f": "Mind & Soul Pilates",
+"s": "Güzelbahçe"
 },
 "mir-teknik-bursa-kombi-klima-osmangazi": {
 "c": "Bursa",
@@ -1333,6 +1428,16 @@
 "c": "İstanbul",
 "f": "New Pilates İstanbul",
 "s": "Üsküdar"
+},
+"nihan-pilates-studio-ni-lufer": {
+"c": "Bursa",
+"f": "Nihan Pilates Studio",
+"s": "Ni̇lüfer"
+},
+"niss-pilates-training-studio-yildirim": {
+"c": "Bursa",
+"f": "Niss Pilates Training Studio",
+"s": "Yıldırım"
 },
 "no-4-pilates-studio-mamak": {
 "c": "Ankara",
@@ -1484,6 +1589,11 @@
 "f": "Peony Pilates Studio",
 "s": "Çankaya"
 },
+"pera-pilates-studio-mudanya": {
+"c": "Bursa",
+"f": "Pera Pilates Studio",
+"s": "Mudanya"
+},
 "pera-point-pilates-umraniye": {
 "c": "İstanbul",
 "f": "Pera Point Pilates",
@@ -1514,10 +1624,25 @@
 "f": "Pia Pilates Stüdyo",
 "s": "Altındağ"
 },
+"pilates-by-tugce-erdinc-ni-lufer": {
+"c": "Bursa",
+"f": "Pilates By Tuğçe Erdinç",
+"s": "Ni̇lüfer"
+},
+"pilates-by-tugcenur-sen-ni-lufer": {
+"c": "Bursa",
+"f": "Pilates By Tuğçenur Şen",
+"s": "Ni̇lüfer"
+},
 "pilates-elif-gonulalan-uskudar": {
 "c": "İstanbul",
 "f": "Pilates Elif Gönülalan",
 "s": "Üsküdar"
+},
+"pilates-fascia-mudanya": {
+"c": "Bursa",
+"f": "Pilates & Fascia",
+"s": "Mudanya"
 },
 "pilates-house-cankaya": {
 "c": "Ankara",
@@ -1533,6 +1658,21 @@
 "c": "İstanbul",
 "f": "Pilates Öyküm",
 "s": "Arnavutköy"
+},
+"pilates-studio-222-menderes": {
+"c": "İzmir",
+"f": "Pilates Studio 222",
+"s": "Menderes"
+},
+"pilates-studio-by-dilek-ates-mudanya": {
+"c": "Bursa",
+"f": "Pilates Studio By Dilek Ateş",
+"s": "Mudanya"
+},
+"pilates-studio-by-rumeysa-ni-lufer": {
+"c": "Bursa",
+"f": "Pılates Studıo BY Rümeysa",
+"s": "Ni̇lüfer"
 },
 "pilates-studio-ozlem-aydin-bahcelievler": {
 "c": "İstanbul",
@@ -1558,6 +1698,11 @@
 "c": "İstanbul",
 "f": "Pilatesemy",
 "s": "Bayrampaşa"
+},
+"pilatesium-aliaga-aliaga": {
+"c": "İzmir",
+"f": "Pilatesium Aliağa",
+"s": "Aliağa"
 },
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
@@ -1619,6 +1764,11 @@
 "f": "Reform Pilates Studio",
 "s": "Kartal"
 },
+"reform-pilates-yildirim": {
+"c": "Bursa",
+"f": "Reform Pilates",
+"s": "Yıldırım"
+},
 "reformer-pilates-atakent-karsiyaka": {
 "c": "İzmir",
 "f": "Reformer Pilates Atakent",
@@ -1633,6 +1783,11 @@
 "c": "Ankara",
 "f": "Reviva Pilates Studio",
 "s": "Gölbaşı"
+},
+"root-pilates-studio-balcova": {
+"c": "İzmir",
+"f": "Root Pilates Studio",
+"s": "Balçova"
 },
 "ror-and-pilates-bayrakli": {
 "c": "İzmir",
@@ -1668,6 +1823,11 @@
 "c": "İstanbul",
 "f": "Şahin Tesisat Petek Temizleme",
 "s": "Şişli"
+},
+"sai-dans-ve-spor-merkezi-yildirim": {
+"c": "Bursa",
+"f": "SAİ Dans ve Spor Merkezi",
+"s": "Yıldırım"
 },
 "sakura-pilates-besiktas-besiktas": {
 "c": "İstanbul",
@@ -1719,6 +1879,11 @@
 "f": "Sea Pilates Studio Çekmeköy",
 "s": "Çekmeköy"
 },
+"seal-pilates-studio-balcova": {
+"c": "İzmir",
+"f": "Seal Pilates Studio",
+"s": "Balçova"
+},
 "sefa-kombi-darica": {
 "c": "Kocaeli",
 "f": "Sefa Kombi",
@@ -1734,6 +1899,11 @@
 "f": "Seferihisar Klima-Kombi",
 "s": "Seferihisar"
 },
+"selma-kilic-reformer-pilates-urla": {
+"c": "İzmir",
+"f": "Selma Kılıç Reformer Pilates",
+"s": "Urla"
+},
 "sendas-pilates-cankaya": {
 "c": "Ankara",
 "f": "Sendas Pilates",
@@ -1748,6 +1918,11 @@
 "c": "İzmir",
 "f": "Servisform Kombi-Klima Servisi",
 "s": "Karşıyaka"
+},
+"setbasi-pilates-salonu-tugba-osmangazi": {
+"c": "Bursa",
+"f": "Setbaşı Pilates Salonu Tuğba",
+"s": "Osmangazi̇"
 },
 "seven-training-pilates-studio-maltepe": {
 "c": "İstanbul",
@@ -1829,6 +2004,11 @@
 "f": "Soho Fizyoterapi & Pilates",
 "s": "Tuzla"
 },
+"sole-private-training-studio-narlidere": {
+"c": "İzmir",
+"f": "Sole Private Training Studio",
+"s": "Narlıdere"
+},
 "sonmez-isi-kombi-teknik-servis-yildirim": {
 "c": "Bursa",
 "f": "Sönmez Isı Kombi Teknik Servis",
@@ -1858,6 +2038,11 @@
 "c": "İzmir",
 "f": "Studio Aslıcan Özdim",
 "s": "Torbalı"
+},
+"studio-pilatesra-urla": {
+"c": "İzmir",
+"f": "Studio Pilatesra",
+"s": "Urla"
 },
 "studio-punto-pilates-gungoren": {
 "c": "İstanbul",
@@ -2048,6 +2233,11 @@
 "c": "İstanbul",
 "f": "Yıldız Teknik Esenyurt Kombi",
 "s": "Esenyurt"
+},
+"yin-urla-urla": {
+"c": "İzmir",
+"f": "Yin Urla",
+"s": "Urla"
 },
 "zafer-sihhi-tesisat-cankaya": {
 "c": "Ankara",
