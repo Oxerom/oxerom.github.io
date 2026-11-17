@@ -134,6 +134,11 @@
 "f": "Art'y Pilates Stüdyo",
 "s": "Çankaya"
 },
+"arti1-pilates-studio-talas": {
+"c": "Kayseri",
+"f": "Artı1 Pilates Studio",
+"s": "Talas"
+},
 "artpoint-pilates-studio-cekmekoy": {
 "c": "İstanbul",
 "f": "Artpoint Pilates Studio",
@@ -734,6 +739,11 @@
 "f": "Fitclub Reformer Pilates",
 "s": "Etimesgut"
 },
+"fitness-life-club-saglikli-kocasinan": {
+"c": "Kayseri",
+"f": "Fitness Life Club Sağlıklı",
+"s": "Kocasinan"
+},
 "fitpit-pilates-yenimahalle": {
 "c": "Ankara",
 "f": "Fitpit Pilates",
@@ -1104,6 +1114,11 @@
 "f": "Jüpi Pilates",
 "s": "İzmit"
 },
+"k-pilates-fizyoterapi-melikgazi": {
+"c": "Kayseri",
+"f": "K Pilates & Fizyoterapi",
+"s": "Melikgazi"
+},
 "k-pilates-studio-uskudar": {
 "c": "İstanbul",
 "f": "K-Pılates Studıo",
@@ -1259,6 +1274,11 @@
 "f": "Kuloğlu Kombi Bakımı",
 "s": "İzmit"
 },
+"l-toile-pilates-tepebasi": {
+"c": "Eskişehir",
+"f": "L’étoile Pilates",
+"s": "Tepebaşı"
+},
 "larisa-pilates-golcuk": {
 "c": "Kocaeli",
 "f": "Larisa Pilates",
@@ -1273,6 +1293,11 @@
 "c": "İstanbul",
 "f": "Leora Pilates Studio",
 "s": "Kartal"
+},
+"level-up-reformer-pilates-tepebasi": {
+"c": "Eskişehir",
+"f": "Level Up Reformer Pilates",
+"s": "Tepebaşı"
 },
 "life-form-aletli-pilates-gebze": {
 "c": "Kocaeli",
@@ -1404,6 +1429,11 @@
 "f": "Menderes Pilates",
 "s": "Menderes"
 },
+"meram-vip-pilates-ems-studio-meram": {
+"c": "Konya",
+"f": "Meram Vip Pilates & Ems Studio",
+"s": "Meram"
+},
 "merifiz-pilates-golbasi": {
 "c": "Ankara",
 "f": "Merifiz Pilates",
@@ -1534,6 +1564,11 @@
 "f": "Niss Pilates Training Studio",
 "s": "Yıldırım"
 },
+"nitya-yoga-pilates-studio-selcuklu": {
+"c": "Konya",
+"f": "Nitya Yoga Pilates Studio",
+"s": "Selçuklu"
+},
 "no-4-pilates-studio-mamak": {
 "c": "Ankara",
 "f": "No 4 Pilates Studio",
@@ -1623,6 +1658,16 @@
 "c": "Ankara",
 "f": "Onset Pilates",
 "s": "Keçiören"
+},
+"oops-pilates-studio-konya-selcuklu": {
+"c": "Konya",
+"f": "Oops Pilates Studio Konya",
+"s": "Selçuklu"
+},
+"orange-pilates-yoga-studio-meram": {
+"c": "Konya",
+"f": "Orange Pilates Yoga Studio",
+"s": "Meram"
 },
 "oz-er-teknik-beyaz-esya-kombi-golbasi": {
 "c": "Ankara",
@@ -1744,6 +1789,11 @@
 "f": "Pilates Elif Gönülalan",
 "s": "Üsküdar"
 },
+"pilates-evi-selcuklu": {
+"c": "Konya",
+"f": "Pilates Evi",
+"s": "Selçuklu"
+},
 "pilates-fascia-mudanya": {
 "c": "Bursa",
 "f": "Pilates & Fascia",
@@ -1813,6 +1863,11 @@
 "c": "İzmir",
 "f": "Pilatesium Aliağa",
 "s": "Aliağa"
+},
+"pilateslab-talas": {
+"c": "Kayseri",
+"f": "Pilateslab",
+"s": "Talas"
 },
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
@@ -1984,6 +2039,11 @@
 "f": "Sasa Teknik Servis Kombi",
 "s": "Yenimahalle"
 },
+"sc-pilates-studio-selcuklu": {
+"c": "Konya",
+"f": "SC Pilates Studio",
+"s": "Selçuklu"
+},
 "sea-pilates-studio-cekmekoy-cekmekoy": {
 "c": "İstanbul",
 "f": "Sea Pilates Studio Çekmeköy",
@@ -2064,6 +2124,11 @@
 "f": "Sihirli Çember Pilates",
 "s": "Çankaya"
 },
+"sila-pilates-reformer-studio-tepebasi": {
+"c": "Eskişehir",
+"f": "Sıla Pilates Reformer Studio",
+"s": "Tepebaşı"
+},
 "sila-yilmaz-pilates-cankaya": {
 "c": "Ankara",
 "f": "Sıla Yılmaz Pilates",
@@ -2128,6 +2193,11 @@
 "c": "Ankara",
 "f": "Soyer Soğutma",
 "s": "Mamak"
+},
+"sporlife-powerplate-reformer-meram": {
+"c": "Konya",
+"f": "Sporlife Powerplate Reformer",
+"s": "Meram"
 },
 "step-pilates-cankaya": {
 "c": "Ankara",
@@ -2223,6 +2293,11 @@
 "c": "İzmir",
 "f": "Today Sports Pilates Stüdyosu",
 "s": "Gaziemir"
+},
+"too-fit-studio-pilates-odunpazari": {
+"c": "Eskişehir",
+"f": "Too Fit Studio | Pilates",
+"s": "Odunpazarı"
 },
 "trio-pilates-yoga-studio-etimesgut": {
 "c": "Ankara",
