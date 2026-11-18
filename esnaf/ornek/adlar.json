@@ -114,6 +114,11 @@
 "f": "Ankyra Pilates",
 "s": "Etimesgut"
 },
+"ar-life-akyazi": {
+"c": "Sakarya",
+"f": "AR Lıfe",
+"s": "Akyazı"
+},
 "arena-fitness-golcuk-golcuk": {
 "c": "Kocaeli",
 "f": "Arena Fitness Gölcük",
@@ -288,6 +293,11 @@
 "c": "İstanbul",
 "f": "Beyaz Eşya | Kombi | Klima",
 "s": "Beykoz"
+},
+"beyaz-pilates-studio-ilkadim": {
+"c": "Samsun",
+"f": "Beyaz Pilates Studio",
+"s": "İlkadım"
 },
 "big-pilates-metropol-atasehir-atasehir": {
 "c": "İstanbul",
@@ -764,6 +774,11 @@
 "f": "Fizyoflex Pilates Studio",
 "s": "Yenimahalle"
 },
+"fizyoflex-saglikli-yasam-sahinbey": {
+"c": "Gaziantep",
+"f": "Fizyoflex Sağlıklı Yaşam",
+"s": "Şahinbey"
+},
 "fizyokaps-beylikduzu": {
 "c": "İstanbul",
 "f": "Fizyokaps",
@@ -793,6 +808,11 @@
 "c": "Ankara",
 "f": "Fizyoterapist Hilal Şahin",
 "s": "Pursaklar"
+},
+"fizyoterapist-serhat-akyuz-sahinbey": {
+"c": "Gaziantep",
+"f": "Fizyoterapist Serhat Akyüz |",
+"s": "Şahinbey"
 },
 "fizyova-fizyoterapi-diyetisyen-cayirova": {
 "c": "Kocaeli",
@@ -869,6 +889,16 @@
 "f": "Gatto Pilates & Yoga Studio",
 "s": "Tuzla"
 },
+"gaziantep-fizyomer-reformer-sehitkamil": {
+"c": "Gaziantep",
+"f": "Gaziantep Fizyomer Reformer",
+"s": "Şehitkamil"
+},
+"gaziantep-reformer-sehitkamil": {
+"c": "Gaziantep",
+"f": "Gaziantep Reformer",
+"s": "Şehitkamil"
+},
 "gaziemir-sarnic-kombi-servisi-gaziemir": {
 "c": "İzmir",
 "f": "Gaziemir Sarnıç Kombi Servisi",
@@ -939,6 +969,11 @@
 "f": "Gonca Deniz Pilates Stüdyo",
 "s": "Pendik"
 },
+"gozde-pilates-studio-serdivan": {
+"c": "Sakarya",
+"f": "Gözde Pilates Studio",
+"s": "Serdivan"
+},
 "green-pilates-studio-izmit": {
 "c": "Kocaeli",
 "f": "Green Pilates Studio",
@@ -948,6 +983,11 @@
 "c": "Kocaeli",
 "f": "Gua Pılates Studıo",
 "s": "Darıca"
+},
+"gulcan-cinar-pilates-studyosu-atakum": {
+"c": "Samsun",
+"f": "Gülcan Çınar Pilates Stüdyosu",
+"s": "Atakum"
 },
 "gulec-teknik-kombi-klima-sultanbeyli": {
 "c": "İstanbul",
@@ -1003,6 +1043,11 @@
 "c": "Ankara",
 "f": "Has Doğalgaz Altındağ Kombi",
 "s": "Altındağ"
+},
+"hazal-pilates-studio-atakum": {
+"c": "Samsun",
+"f": "Hazal Pilates Studio",
+"s": "Atakum"
 },
 "heda-pilates-studyo-yenimahalle": {
 "c": "Ankara",
@@ -1063,6 +1108,11 @@
 "c": "İzmir",
 "f": "İlknur Uğur",
 "s": "Çiğli"
+},
+"ipek-life-pilates-studio-serdivan": {
+"c": "Sakarya",
+"f": "İpek Life Pilates Studio",
+"s": "Serdivan"
 },
 "is-teknik-kombi-servisi": {
 "c": "İstanbul",
@@ -1409,6 +1459,11 @@
 "f": "Mega Pilates Studio",
 "s": "Yenimahalle"
 },
+"melisa-dizdar-pilates-ems-ilkadim": {
+"c": "Samsun",
+"f": "Melisa Dizdar Pilates-Ems",
+"s": "İlkadım"
+},
 "melsa-pilates-studio-menemen": {
 "c": "İzmir",
 "f": "Melsa Pılates Studıo",
@@ -1438,6 +1493,11 @@
 "c": "Ankara",
 "f": "Merifiz Pilates",
 "s": "Gölbaşı"
+},
+"merve-koc-pilates-studio-carsamba": {
+"c": "Samsun",
+"f": "Merve Koç Pilates Studio",
+"s": "Çarşamba"
 },
 "mifit-fatih-pilates-kiztasi": {
 "c": "İstanbul",
@@ -1609,6 +1669,11 @@
 "f": "Nova Pilates Veysel Karani",
 "s": "Eyüpsultan"
 },
+"novelty-pilates-atakum": {
+"c": "Samsun",
+"f": "Novelty Pilates",
+"s": "Atakum"
+},
 "nua-reformer-pilates-studyosu-buca": {
 "c": "İzmir",
 "f": "Nua Reformer Pilates Stüdyosu",
@@ -1688,6 +1753,11 @@
 "c": "İzmir",
 "f": "Özgün Teknik-Kombi",
 "s": "Karşıyaka"
+},
+"ozlem-yigit-studio-bafra": {
+"c": "Samsun",
+"f": "Özlem Yiğit Studio",
+"s": "Bafra"
 },
 "ozturk-servis-buca": {
 "c": "İzmir",
@@ -1908,6 +1978,11 @@
 "c": "Ankara",
 "f": "Pump Statıon Gym Pilates Gop",
 "s": "Çankaya"
+},
+"queen-fitness-pilates-atakum": {
+"c": "Samsun",
+"f": "Queen Fitness&pilates",
+"s": "Atakum"
 },
 "rabia-yildirim-pilates-studyo-pendik": {
 "c": "İstanbul",
@@ -2144,6 +2219,11 @@
 "f": "Silivri Kombi Servis Tamir",
 "s": "Silivri"
 },
+"sim-therapy-pilates-studio-sokak-no-14": {
+"c": "Gaziantep",
+"f": "Sim Therapy Pilates Studio",
+"s": "Sokak No: 14"
+},
 "sincan-ata-teknik-kombi-sincan": {
 "c": "Ankara",
 "f": "Sincan Ata Teknik Kombi",
@@ -2168,6 +2248,11 @@
 "c": "İzmir",
 "f": "Slimlife Gaziemir",
 "s": "Gaziemir"
+},
+"soar-pilates-studio-serdivan-serdivan": {
+"c": "Sakarya",
+"f": "Soar Pilates Studio | Serdivan",
+"s": "Serdivan"
 },
 "social-lab-pt-studio-bahcelievler": {
 "c": "İstanbul",
@@ -2324,6 +2409,11 @@
 "f": "Ulusoy Teknik Beyaz Eşya Kombi",
 "s": "Çankaya"
 },
+"unique-pilates-ilkadim": {
+"c": "Samsun",
+"f": "Unique Pilates",
+"s": "İlkadım"
+},
 "unique-pilates-studio-gaziosmanpasa": {
 "c": "İstanbul",
 "f": "Unique Pilates Studio",
@@ -2333,6 +2423,11 @@
 "c": "İstanbul",
 "f": "Üsküdar Kombi",
 "s": "Üsküdar"
+},
+"uzm-fzt-eda-kocabas-fzt-carsamba": {
+"c": "Samsun",
+"f": "Uzm.fzt. Eda Kocabaş | Fzt.",
+"s": "Çarşamba"
 },
 "uzman-kombi-klima-cekmekoy": {
 "c": "İstanbul",
