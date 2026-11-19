@@ -239,6 +239,11 @@
 "f": "B.c.s İzmir Teknik Klima",
 "s": "Balçova"
 },
+"b-fit-malatya-fahrikayahan-yesilyurt": {
+"c": "Malatya",
+"f": "B-Fit Malatya Fahrikayahan",
+"s": "Yeşilyurt"
+},
 "bakirkoy-pilates-bakirkoy": {
 "c": "İstanbul",
 "f": "Bakırköy Pilates",
@@ -359,6 +364,11 @@
 "f": "Boyar Teknik Kombi Bakım",
 "s": "Beypazarı"
 },
+"boyut-yasam-pilates-denizli-merkezefendi": {
+"c": "Denizli",
+"f": "Boyut Yaşam Pilates",
+"s": "Denizli Merkezefendi"
+},
 "bozkurt-kombi-klima-servis-eyupsultan": {
 "c": "İstanbul",
 "f": "Bozkurt Kombi Klima Servis",
@@ -388,6 +398,11 @@
 "c": "Bursa",
 "f": "Bursa Pilates",
 "s": "Ni̇lüfer"
+},
+"buse-kara-pilates-studyo-denizli-merkezefendi": {
+"c": "Denizli",
+"f": "Buse Kara Pilates Stüdyo",
+"s": "Denizli Merkezefendi"
 },
 "buse-nurluoglu-yilik-pilates-osmangazi": {
 "c": "Bursa",
@@ -478,6 +493,11 @@
 "c": "İstanbul",
 "f": "Core Pilates",
 "s": "Kadıköy"
+},
+"corlu-luva-pilates-studio-corlu": {
+"c": "Tekirdağ",
+"f": "Çorlu Luva Pilates Studio",
+"s": "Çorlu"
 },
 "d-pilates-studio-ni-lufer": {
 "c": "Bursa",
@@ -608,6 +628,11 @@
 "c": "İstanbul",
 "f": "Elia Pilates Stüdyo",
 "s": "Avcılar"
+},
+"elif-gurcu-pilates-corlu": {
+"c": "Tekirdağ",
+"f": "Elif Gürcü Pilates",
+"s": "Çorlu"
 },
 "elif-ilhan-pilates-studio-altindag": {
 "c": "Ankara",
@@ -1129,6 +1154,11 @@
 "f": "İstiklal Kombi Teknik Servisi",
 "s": "Ümraniye"
 },
+"ixir-pilates-saglikli-yasam-corlu": {
+"c": "Tekirdağ",
+"f": "İxir Pilates Sağlıklı Yaşam",
+"s": "Çorlu"
+},
 "izfit-pt-studio-menderes": {
 "c": "İzmir",
 "f": "İzfit Pt Studio",
@@ -1604,6 +1634,11 @@
 "f": "Nefes Pilates",
 "s": "Beşiktaş"
 },
+"ness-pilates-pamukkale": {
+"c": "Denizli",
+"f": "Ness Pilates",
+"s": "Pamukkale"
+},
 "new-body-pilates-studio-cankaya": {
 "c": "Ankara",
 "f": "New Body Pilates Studio",
@@ -1939,6 +1974,11 @@
 "f": "Pilateslab",
 "s": "Talas"
 },
+"pilatesli-hayat-corlu": {
+"c": "Tekirdağ",
+"f": "Pilatesli Hayat",
+"s": "Çorlu"
+},
 "platen-kombi-servis-etimesgut": {
 "c": "Ankara",
 "f": "Platen Kombi Servis",
@@ -2149,6 +2189,11 @@
 "f": "Selma Kılıç Reformer Pilates",
 "s": "Urla"
 },
+"sem-fit-pilates-studyosu-yesilyurt": {
+"c": "Malatya",
+"f": "Sem Fit Pilates Stüdyosu",
+"s": "Yeşilyurt"
+},
 "sendas-pilates-cankaya": {
 "c": "Ankara",
 "f": "Sendas Pilates",
@@ -2173,6 +2218,11 @@
 "c": "İstanbul",
 "f": "Seven Training Pilates Studio",
 "s": "Maltepe"
+},
+"sevinc-pilates-studio-corlu": {
+"c": "Tekirdağ",
+"f": "Sevinç Pilates Studio",
+"s": "Çorlu"
 },
 "seymen-teknik-kombi-servisi-sisli": {
 "c": "İstanbul",
@@ -2269,6 +2319,11 @@
 "f": "Sole Private Training Studio",
 "s": "Narlıdere"
 },
+"solis-pilates-studio-pamukkale": {
+"c": "Denizli",
+"f": "Solis Pilates Studio",
+"s": "Pamukkale"
+},
 "sonmez-isi-kombi-teknik-servis-yildirim": {
 "c": "Bursa",
 "f": "Sönmez Isı Kombi Teknik Servis",
@@ -2329,6 +2384,16 @@
 "f": "Studio Z",
 "s": "Çiğli"
 },
+"sukha-yoga-yesilyurt": {
+"c": "Malatya",
+"f": "Sukha Yoga",
+"s": "Yeşilyurt"
+},
+"sword-eye-studio-merkez": {
+"c": "Malatya",
+"f": "Sword Eye Studio",
+"s": "Merkez"
+},
 "teaser-pilates-umraniye": {
 "c": "İstanbul",
 "f": "Teaser Pilates",
@@ -2338,6 +2403,16 @@
 "c": "İstanbul",
 "f": "Tepe Klima Kombi Servisi",
 "s": "Bayrampaşa"
+},
+"tg-pilates-corlu": {
+"c": "Tekirdağ",
+"f": "Tg Pilates",
+"s": "Çorlu"
+},
+"the-doors-fitness-pilates-yesilyurt": {
+"c": "Malatya",
+"f": "The Doors Fitness & Pilates",
+"s": "Yeşilyurt"
 },
 "the-movement-cihangir-beyoglu": {
 "c": "İstanbul",
@@ -2523,6 +2598,11 @@
 "c": "İzmir",
 "f": "Yin Urla",
 "s": "Urla"
+},
+"yin-yang-pilates-ve-yoga-corlu": {
+"c": "Tekirdağ",
+"f": "Yin Yang Pilates ve Yoga",
+"s": "Çorlu"
 },
 "zafer-sihhi-tesisat-cankaya": {
 "c": "Ankara",
